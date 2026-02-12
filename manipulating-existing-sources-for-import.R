@@ -158,11 +158,11 @@ for (i in seq_len(nrow(traits))) {
 # align to bionet names - get actual bionet csv from jose
 
 # read in bionet species (from https://atlas.bionet.nsw.gov.au/UI_Modules/ATLAS_/atlasreport.aspx)
-bionet_species <- read_csv('data/bionet_species_list.csv')
+bionet_species <- read_csv('data/bionet_species_exported120226.csv')
 
 # run bionet species through APC align to get APC name as suggested_name
 bionet_species_aligned <- bionet_species %>%
-  pull(`Scientific Name`) %>%
+  pull(`currentScientificName`) %>%
   create_taxonomic_update_lookup() %>%
   distinct()
 
@@ -170,9 +170,9 @@ bionet_species_aligned <- bionet_species %>%
 bionet_species <- bionet_species_aligned %>%
   select(c('original_name', 'suggested_name', 'taxon_rank')) %>%
   right_join(bionet_species,
-             by = c('original_name' = 'Scientific Name')) %>%
+             by = c('original_name' = 'currentScientificName')) %>%
   rename(bionet_name = original_name) %>%
-  rename(species_code = `Species Code`) %>%
+  rename(species_code = currentScientificNameCode) %>%
   relocate(c(bionet_name, species_code), .before = 1)
 
 # apply bionet name and species code for species for original name matches bionet name
@@ -185,7 +185,8 @@ data_exact_match <- data %>%
     original_name,
     NA)
   ) %>%
-  relocate(c(bionet_name, species_code), .before = 1)
+  relocate(c(bionet_name, species_code), .before = 1) %>%
+  distinct()
 
 # for names that do not match exactly, match by suggested name from APC align
 data_suggested_match <- data_exact_match %>%
@@ -193,7 +194,8 @@ data_suggested_match <- data_exact_match %>%
   select(-c(species_code, bionet_name)) %>%
   left_join(bionet_species[ , c('suggested_name', 'bionet_name', 'species_code')],
             by = 'suggested_name') %>%
-  relocate(c(bionet_name, species_code), .before = 1)
+  relocate(c(bionet_name, species_code), .before = 1) %>%
+  distinct()
 
 data <- data_exact_match %>%
   filter(!is.na(species_code)) %>%
@@ -204,7 +206,7 @@ data <- data_exact_match %>%
 # Thysanotus juncea --> Thysanotus juncifolius?
 
 data$reference <- 'Keith, D. A. (1991). Coexistence and species diversity in upland swamp vegetation: the roles of an environmental gradient and recurring fires. PhD thesis, University of Sydney'
-data$ref_code <- 'Keith 1991'
+data$original_source <- 'Keith 1991'
 
 # get trait columns
 trait_cols <- data %>%
@@ -287,9 +289,11 @@ data_long_surv4 <-
     }) %>%
   ungroup()
 
+# bind surv4
 data_long_cat <- data_long_cat %>%
   bind_rows(data_long_surv4)
 
+# numerical traits
 data_long_num <- data_long %>%
   filter(trait_type == 'numerical') %>%
   rowwise() %>%
@@ -305,20 +309,23 @@ data_long_num <- data_long %>%
       paste0("{",src, ",", val, "}")}) %>%
   ungroup()
 
-
+# combine categorical and numerical traits
 data_long <- data_long_num %>% bind_rows(data_long_cat)
 
+# add notes to match firetraits process
 data_long <- data_long %>%
   mutate(notes =
            if_else(bionet_name != original_name,
                    paste0('Original name:', original_name),
                    NA))
 
-
+# create vector of traits
 traits <- unique(data_long$trait_code)
 
+# create list for records
 records <- list()
 
+# add records to list, row by row to match python dict() set up
 for (trait in traits) {
 
   df <- data_long %>%
@@ -326,11 +333,11 @@ for (trait in traits) {
 
   if (unique(df$trait_type) == 'categorical'){
     df <- df %>%
-      select(bionet_name, species_code, ref_code, trait_code, trait_values, raw_value)
+      select(bionet_name, species_code, original_source, trait_code, trait_values, raw_value)
   }
   else if (unique(df$trait_type) == 'numerical'){
     df <- df %>%
-      select(bionet_name, species_code, ref_code, trait_code, best, lower, upper, raw_value)
+      select(bionet_name, species_code, original_source, trait_code, best, lower, upper, raw_value)
 
   }
 
@@ -339,4 +346,5 @@ for (trait in traits) {
   records[[trait]] <- apply(df, 1, function(row) as.list(row))
 
 }
+
 
