@@ -25,7 +25,7 @@
 #    See TRAIT_LOGIC.md open question #1 on the "root stock" interpretation.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Williams Ashton 1988/williams_ashton_1988.csv')

@@ -45,7 +45,7 @@
 #   Block 4 Unheated=56.68 >> Heated=10.00; ANOVA heat P=0.002. ***
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # ── surv1 ─────────────────────────────────────────────────────────────────────
 

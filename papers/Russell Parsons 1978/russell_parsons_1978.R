@@ -36,7 +36,7 @@
 #    approved. No surv5 records are produced.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Russell Parsons 1978/russell_parsons_1978_data.csv')

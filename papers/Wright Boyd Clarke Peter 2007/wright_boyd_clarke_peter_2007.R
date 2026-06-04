@@ -8,7 +8,7 @@
 # All data is taken directly from the mapping.md exceptions table.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Build exceptions tibble directly from mapping.md
 # surv4 — Regenerative organ

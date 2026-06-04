@@ -1,5 +1,5 @@
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # combine.R
 # Aggregates outputs across all processed papers into single files:

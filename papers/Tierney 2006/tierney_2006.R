@@ -6,7 +6,7 @@
 # No transcription issues.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 # No CSV — germ8 is exceptions-only (single species from text).

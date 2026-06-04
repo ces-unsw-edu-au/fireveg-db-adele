@@ -26,7 +26,7 @@
 #    will identify these for retirement.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Auld 1991/auld_1991_fire_response.csv',

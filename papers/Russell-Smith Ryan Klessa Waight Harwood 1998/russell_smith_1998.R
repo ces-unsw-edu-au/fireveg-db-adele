@@ -76,7 +76,7 @@
 #    asterisk is not a superscript code 1–5, no repr3 value is assigned.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 data <- read.csv('papers/Russell-Smith Ryan Klessa Waight Harwood 1998/russell_smith_1998_data.csv',
                  na.strings = c("", "NA"))

@@ -22,7 +22,7 @@
 #    where neither serotinous fruits nor conspicuous post-fire germination occurred.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Bradstock Tozer Keith 1997/function_group_table.csv')

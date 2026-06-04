@@ -1,5 +1,5 @@
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # read data
 data <- read.csv('papers/Clarke Knox 2002/clarke_2002.csv',

@@ -30,7 +30,7 @@
 #    basis for All; annual/ephemeral life form is the basis for None.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 6a. Build germ8 records from mapping.md exceptions table
 germ8_exceptions <- tibble(

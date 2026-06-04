@@ -18,7 +18,7 @@
 #    additional species not in the mapping.md exceptions table — check both lists match.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # Read data
 data <- read.csv('papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_data.csv',

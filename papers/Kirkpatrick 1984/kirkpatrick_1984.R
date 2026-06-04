@@ -26,7 +26,7 @@
 #    rect2 has no existing records for this source.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Kirkpatrick 1984/kirkpatrick_1984_data.csv',

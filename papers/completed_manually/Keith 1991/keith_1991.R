@@ -1,7 +1,7 @@
 # load libraries
 library(tidyverse)
 library(APCalign)
-source('funx.R')
+source('R/funx.R')
 
 # read data
 data <- read.csv('papers/completed_manually/Keith 1991/dharawal_84_89.csv',

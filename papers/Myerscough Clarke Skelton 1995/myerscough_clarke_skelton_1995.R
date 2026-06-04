@@ -31,7 +31,7 @@
 #    syndrome but will not match Bionet and will be filtered out.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Myerscough Clarke Skelton 1995/myerscough_clarke_skelton_1995_data.csv')

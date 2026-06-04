@@ -6,7 +6,7 @@
 # No transcription issues.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Build hardcoded tibble from mapping.md exceptions table
 # No CSV exists or is needed — all data is in the mapping.md exceptions table.

@@ -24,7 +24,7 @@
 #    produce a surv1 = All record but no surv4 or repr3a record.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 data <- read.csv('papers/Wark 1997/wark_1997_data.csv', na.strings = c("", "NA"))
 

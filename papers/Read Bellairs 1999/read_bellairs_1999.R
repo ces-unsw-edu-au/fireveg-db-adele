@@ -52,7 +52,7 @@
 #   Cymbopogon refractus, Eriochloa pseudoacrotricha (Discussion p.571-572).
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Build exceptions tibble directly from paper
 # germ8 — Seed dormancy type

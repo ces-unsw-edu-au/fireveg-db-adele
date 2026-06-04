@@ -22,7 +22,7 @@
 #    10–15 m), making it the approved proxy for full canopy scorch (surv1).
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Morrison Renwick 2000/morrison_renwick_2000_data.csv')

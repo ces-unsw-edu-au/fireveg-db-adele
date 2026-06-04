@@ -17,7 +17,7 @@
 #    omitted from the CSV as there is no approved norm_value mapping for this class.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 data <- read.csv('papers/Purdie 1977/purdie_1977_data.csv', na.strings = c("", "NA"))
 

@@ -20,7 +20,7 @@
 # ALL GOOD
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 data <- read.csv('papers/Rice Westoby 1981/rice_westoby_1981_data.csv',
                  na.strings = c("", "NA"))

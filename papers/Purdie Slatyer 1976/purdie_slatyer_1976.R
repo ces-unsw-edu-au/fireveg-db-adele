@@ -33,7 +33,7 @@
 #    included in surv1/surv4 records as their class assignment is not in doubt.
 
 library(tidyverse)
-source('funx.R')
+source('R/funx.R')
 
 # 1. Read data
 data <- read.csv('papers/Purdie Slatyer 1976/purdie_slatyer_1976_data.csv')
