@@ -190,7 +190,7 @@ records <- records %>%
 write_csv(records, 'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_records.csv')
 
 # Flag duplicates
-#database <- read.csv('database.csv')
+#database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write_csv(dupes$exact_partial, 'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_dupes_exact_partial.csv')
 write_csv(dupes$possible,      'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_dupes_possible.csv')

@@ -98,7 +98,7 @@ clarke_knox_records <- clarke_knox_records %>%
 write.csv(clarke_knox_records, 'papers/Clarke Knox 2002/clarke_knox_records.csv', row.names = FALSE)
 
 # flag duplicates against database export
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(clarke_knox_records, database)
 write.csv(dupes$exact_partial, 'papers/Clarke Knox 2002/clarke_knox_dupes_exact_partial.csv', row.names = FALSE)
 write.csv(dupes$possible,      'papers/Clarke Knox 2002/clarke_knox_dupes_possible.csv',      row.names = FALSE)

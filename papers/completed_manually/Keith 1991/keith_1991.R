@@ -281,7 +281,7 @@ dharawal_records <- data_long %>%
 write_csv(dharawal_records, 'papers/completed_manually/Keith 1991/keith_1991_records.csv')
 
 # 7. Flag duplicates
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(dharawal_records, database)
 
 # exact/partial: db columns only + match_type (for batch weight update)

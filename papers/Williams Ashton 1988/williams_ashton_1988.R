@@ -121,7 +121,7 @@ records <- records %>% filter(!is.na(species_code))
 
 write_csv(records, 'papers/Williams Ashton 1988/williams_ashton_1988_records.csv')
 
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 
 write_csv(dupes$exact_partial, 'papers/Williams Ashton 1988/williams_ashton_1988_dupes_exact_partial.csv')

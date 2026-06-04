@@ -163,7 +163,7 @@ records <- records %>%
 write.csv(records,
           'papers/Russell-Smith Ryan Klessa Waight Harwood 1998/russell_smith_1998_records.csv',
           row.names = FALSE)
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write.csv(dupes$exact_partial,
           'papers/Russell-Smith Ryan Klessa Waight Harwood 1998/russell_smith_1998_dupes_exact_partial.csv',

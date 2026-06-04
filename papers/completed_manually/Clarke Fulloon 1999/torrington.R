@@ -123,7 +123,7 @@ torrington_records <- torrington_long %>%
   )
 
 write_csv(torrington_records, 'papers/completed_manually/Clarke Fulloon 1999/clarke_fulloon_1999_records.csv')
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(torrington_records, database)
 write_csv(dupes$exact_partial, 'papers/completed_manually/Clarke Fulloon 1999/clarke_fulloon_1999_dupes_exact_partial.csv')
 write_csv(dupes$possible,      'papers/completed_manually/Clarke Fulloon 1999/clarke_fulloon_1999_dupes_possible.csv')

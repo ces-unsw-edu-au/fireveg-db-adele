@@ -68,7 +68,7 @@ records <- data_long %>%
 
 # Save and flag duplicates
 write.csv(records, 'papers/Rice Westoby 1981/rice_westoby_1981_records.csv', row.names = FALSE)
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write.csv(dupes$exact_partial, 'papers/Rice Westoby 1981/rice_westoby_1981_dupes_exact_partial.csv', row.names = FALSE)
 write.csv(dupes$possible,      'papers/Rice Westoby 1981/rice_westoby_1981_dupes_possible.csv',      row.names = FALSE)

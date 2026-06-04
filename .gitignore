@@ -13,5 +13,5 @@ records_to_be_retired.R
 to_ingest.csv
 data/*
 !data/bionet_species_with_apcalign_suggested_name.csv
-database.csv
+data/database.csv
 workflow_two.html

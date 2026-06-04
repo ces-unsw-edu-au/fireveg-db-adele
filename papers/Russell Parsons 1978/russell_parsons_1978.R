@@ -164,7 +164,7 @@ records <- records %>%
 write_csv(records, 'papers/Russell Parsons 1978/russell_parsons_1978_records.csv')
 
 # Flag duplicates
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 
 write_csv(dupes$exact_partial, 'papers/Russell Parsons 1978/russell_parsons_1978_dupes_exact_partial.csv')

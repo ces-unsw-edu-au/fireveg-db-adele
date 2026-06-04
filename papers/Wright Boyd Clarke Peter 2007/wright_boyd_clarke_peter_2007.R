@@ -93,7 +93,7 @@ records <- records %>%
 write_csv(records, 'papers/Wright Boyd Clarke Peter 2007/wright_boyd_clarke_peter_2007_records.csv')
 
 # 7. Flag duplicates
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 
 # exact/partial: db columns only + match_type (for batch weight update)

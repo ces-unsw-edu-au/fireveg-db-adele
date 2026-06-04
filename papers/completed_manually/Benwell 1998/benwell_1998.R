@@ -92,7 +92,7 @@ mutate(
 # write records
 write_csv(benwell_records, 'papers/completed_manually/Benwell 1998/benwell_1998_records.csv')
 
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 
 dupes <- flag_duplicates(benwell_records, database)
 # exact/partial: db columns only + match_type (for batch weight update)

@@ -52,5 +52,5 @@ database <- bind_rows(cat_tables, num_tables) %>%
 
 dbDisconnect(con)
 
-write.csv(database, 'database.csv', row.names = FALSE)
+write.csv(database, 'data/database.csv', row.names = FALSE)
 message('Exported ', nrow(database), ' records to database.csv')

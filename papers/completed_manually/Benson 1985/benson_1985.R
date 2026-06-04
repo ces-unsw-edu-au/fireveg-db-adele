@@ -118,7 +118,7 @@ benson_85_records <- benson_85_data_long %>%
 # write records
 write_csv(benson_85_records, 'papers/completed_manually/Benson 1985/benson_1985_records.csv')
 
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 
 dupes <- flag_duplicates(benson_85_records, database)
 # exact/partial: db columns only + match_type (for batch weight update)

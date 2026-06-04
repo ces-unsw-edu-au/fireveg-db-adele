@@ -168,16 +168,38 @@ fireveg-db-adele/
 
 ## Adding a new paper
 
-See `PIPELINE.md` for the full step-by-step process. In brief:
+The full process is documented in `PIPELINE.md`. This pipeline is designed to be run with the assistance of a Claude AI agent (Claude Pro or API), which handles PDF reading, CSV transcription, and R script generation. A human reviews and approves each step.
 
-1. Create `papers/Author Year/` folder
-2. Run `update_mapping_db_counts.R` to check existing records for this source
-3. Create `mapping.md` — review the PDF, propose value mappings, note species exceptions
-4. Set trait status to `approved` or `skip` in `mapping.md`
-5. Transcribe source data to CSV; review against paper
-6. Generate R processing script
-7. Review `TRAIT_LOGIC.md` for interpretation consistency
-8. Run `run_all.R`, then `combine.R`
+### Overview
+
+1. **Create the paper folder** — `papers/Author Year/`
+
+2. **Run `update_mapping_db_counts.R`** — populates a record count table in the mapping.md header so you can see what's already in the database for this source before starting.
+
+3. **Create `mapping.md`** using Claude — ask Claude to read the paper PDF and propose:
+   - Which priority traits are extractable
+   - How source values map to the fireveg vocabulary
+   - Any species-level exceptions
+   - Set each trait status to `approved` or `skip`
+   
+   See `PIPELINE.md` for the mapping.md template and the trait vocabulary in `data/fireveg-trait-records-model.xlsx`.
+
+4. **Transcribe source data to CSV** using Claude — ask Claude to read the PDF and transcribe the relevant table. Cross-check every cell against the paper yourself before proceeding.
+
+5. **Generate the R processing script** using Claude — once mapping.md is approved and the CSV exists, ask Claude to write the script following the template in `PIPELINE.md`. Existing scripts in `papers/` are good examples.
+
+6. **Review `TRAIT_LOGIC.md`** — before running scripts, check that interpretation decisions are consistent across all papers.
+
+7. **Run scripts** — `source('run_all.R')` or run individual paper scripts.
+
+8. **Aggregate** — `source('combine.R')` validates records and writes the upload files to `outputs/`.
+
+### Prompting Claude effectively
+
+- Share the paper PDF and mapping.md template together when creating a new mapping
+- Ask Claude to flag any ambiguous mappings with `???` rather than guessing
+- Always verify transcribed CSVs against the paper — Claude can make errors, especially with complex tables
+- Use `TRAIT_LOGIC.md` as context when asking Claude to map a trait it has seen before across other papers
 
 ---
 

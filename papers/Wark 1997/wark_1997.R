@@ -162,7 +162,7 @@ records <- bind_rows(
 
 # Save and flag duplicates
 write_csv(records, 'papers/Wark 1997/wark_1997_records.csv')
-database <- read.csv('database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write_csv(dupes$exact_partial, 'papers/Wark 1997/wark_1997_dupes_exact_partial.csv')
 write_csv(dupes$possible,      'papers/Wark 1997/wark_1997_dupes_possible.csv')

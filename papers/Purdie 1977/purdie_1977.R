@@ -130,7 +130,7 @@ records <- records %>%
 
 # Save records and flag duplicates against database export
 write.csv(records, 'papers/Purdie 1977/purdie_1977_records.csv', row.names = FALSE)
-#database <- read.csv('database.csv')
+#database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write.csv(dupes$exact_partial, 'papers/Purdie 1977/purdie_1977_dupes_exact_partial.csv', row.names = FALSE)
 write.csv(dupes$possible,      'papers/Purdie 1977/purdie_1977_dupes_possible.csv',      row.names = FALSE)
