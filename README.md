@@ -2,23 +2,17 @@
 
 A reproducible pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database (`litrev` schema).
 
+The pipeline uses a Claude AI agent to assist with reading PDFs, transcribing tables, and automate writing R scripts — but every decision is reviewed and approved by a human before any data is processed. 
+
 ![Pipeline Workflow](workflow.png)
 
 For an interactive version open [workflow.html](workflow.html) in a browser.
 
 ---
 
-## What on earth is this?
-
-A pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database (`litrev` schema). 
+## Repository structure
 
 This repository contains the **scripts, mapping files, and output records** for all papers processed so far. The intended use is ongoing: as new papers are identified, they can be added using the same workflow.
-
-The pipeline uses a Claude AI agent to assist with reading PDFs, transcribing tables, and writing R scripts — but every decision is reviewed and approved by a human before any data is processed. 
-
----
-
-## Repository structure
 
 ```
 fireveg-db-adele/
