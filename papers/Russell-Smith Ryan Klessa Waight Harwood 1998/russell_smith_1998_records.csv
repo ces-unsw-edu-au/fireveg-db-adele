@@ -1,0 +1,25 @@
+"bionet_name","species_code","original_source","trait_code","norm_value","best","lower","upper","raw_value","notes"
+"Acacia aulacocarpa","7581","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Trees — Vegetative resprouter",NA
+"Drypetes deplanchei","11864","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Trees — Vegetative resprouter",NA
+"Polyalthia nitidissima","1088","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Trees — Vegetative resprouter",NA
+"Sterculia quadrifida","7343","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Trees — Vegetative resprouter",NA
+"Acacia torulosa","13914","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","None",NA,NA,NA,"Appendix Woodland/heath Trees — Obligate seeder",NA
+"Acacia torulosa","13914","Russell-Smith Ryan Klessa Waight Harwood 1998","repr3","4",4,NA,NA,"Appendix repr3 code, 4",NA
+"Alphitonia excelsa","7686","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Woodland/heath Trees — Vegetative resprouter",NA
+"Breynia cernua","10696","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Shrubs — Vegetative resprouter",NA
+"Flueggea virosa","7235","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Shrubs — Vegetative resprouter",NA
+"Litsea glutinosa","13172","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Shrubs — Vegetative resprouter",NA
+"Alyxia ruscifolia","1167","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","None",NA,NA,NA,"Appendix Rain forest Shrubs — Obligate seeder",NA
+"Alyxia ruscifolia","1167","Russell-Smith Ryan Klessa Waight Harwood 1998","repr3","4",4,NA,NA,"Appendix repr3 code, 4",NA
+"Psychotria daphnoides","5705","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","None",NA,NA,NA,"Appendix Rain forest Shrubs — Obligate seeder",NA
+"Psychotria daphnoides","5705","Russell-Smith Ryan Klessa Waight Harwood 1998","repr3","5",5,NA,NA,"Appendix repr3 code, 5",NA
+"Petalostigma pubescens","6396","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Woodland/heath Shrubs — Vegetative resprouter",NA
+"Phyllanthus virgatus","6751","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Woodland/heath Shrubs — Vegetative resprouter",NA
+"Exocarpos latifolius","6383","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Shrubs — Vegetative resprouter",NA
+"Notelaea microcarpa","4319","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Rain forest Shrubs — Vegetative resprouter",NA
+"Calytrix achaeta","13240","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Woodland/heath Shrubs — Vegetative resprouter",NA
+"Phyllanthus carpentariae","10561","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","None",NA,NA,NA,"Appendix Woodland/heath Shrubs — Obligate seeder",NA
+"Phyllanthus carpentariae","10561","Russell-Smith Ryan Klessa Waight Harwood 1998","repr3","1",1,NA,NA,"Appendix repr3 code, 1",NA
+"Clerodendrum floribundum var. floribundum","12201","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","All",NA,NA,NA,"Appendix Woodland/heath Shrubs — Vegetative resprouter","original name: Clerodendrum floribundum"
+"Trema tomentosa var. aspera","6761","Russell-Smith Ryan Klessa Waight Harwood 1998","surv1","None",NA,NA,NA,"Appendix Rain forest Shrubs — Obligate seeder","original name: Trema tomentosa"
+"Trema tomentosa var. aspera","6761","Russell-Smith Ryan Klessa Waight Harwood 1998","repr3","3",3,NA,NA,"Appendix repr3 code, 3","original name: Trema tomentosa"

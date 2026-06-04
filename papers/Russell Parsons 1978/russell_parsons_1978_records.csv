@@ -1,0 +1,18 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Persoonia juniperina,5459,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Banksia marginata,5344,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Hakea sericea,5425,Russell Parsons 1978,surv1,None,NA,NA,NA,"regeneration_mode, establishing only from seeds after fire",NA
+Hakea teretifolia,5427,Russell Parsons 1978,surv1,Unknown,NA,NA,NA,"regeneration_mode, status uncertain",NA
+Hakea ulicina,5429,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Acacia myrtifolia,3834,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Dillwynia sericea,2851,Russell Parsons 1978,surv1,None,NA,NA,NA,"regeneration_mode, establishing only from seeds after fire",NA
+Dillwynia glaberrima,2844,Russell Parsons 1978,surv1,None,NA,NA,NA,"regeneration_mode, establishing only from seeds after fire",NA
+Pimelea humilis,6179,Russell Parsons 1978,surv1,Unknown,NA,NA,NA,"regeneration_mode, status uncertain",NA
+Leptospermum myrsinoides,4229,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Leptospermum juniperinum,4221,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Epacris impressa,2597,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Leucopogon virgatus,2639,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Allocasuarina paludosa,2015,Russell Parsons 1978,surv1,All,NA,NA,NA,"regeneration_mode, re-established from rootstocks",NA
+Rhytidosporum procumbens,8623,Russell Parsons 1978,surv1,None,NA,NA,NA,"regeneration_mode, establishing only from seeds after fire",NA
+Laxmannia sessiliflora,3557,Russell Parsons 1978,rect2,Intolerant,NA,NA,NA,"Text p. 56, restricted to three youngest stands, may disappear in long-unburnt heath",NA
+Acrotriche serrulata,2583,Russell Parsons 1978,rect2,Intolerant,NA,NA,NA,"Text p. 56, restricted to three youngest stands, may disappear in long-unburnt heath",NA

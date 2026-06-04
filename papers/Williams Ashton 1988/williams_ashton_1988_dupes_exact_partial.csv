@@ -1,0 +1,3 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+NA,5826,Phebalium squamulosum,surv5,NSWFFRDv2.1,"{""Williams Ashton 1988""}",NA,NA,30,47,exact
+NA,5730,Asterolasia trymalioides,surv5,NSWFFRDv2.1,"{""Williams Ashton 1988""}",NA,NA,40,NA,exact

@@ -1,0 +1,13 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156530,3717,Acacia binervia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+157289,3846,Acacia parramattensis,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+173777,5425,Hakea sericea,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+2845,3792,Acacia implexa,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3678,2892,Jacksonia scoparia,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3744,8486,Leptospermum trinervium,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+3743,8486,Leptospermum trinervium,surv4,NSWFFRDv2.1,NA,Lignotuber,NA,NA,NA,possible
+3937,5463,Persoonia linearis,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+3938,5463,Persoonia linearis,surv4,NSWFFRDv2.1,NA,Lignotuber,NA,NA,NA,possible
+2922,2017,Allocasuarina torulosa,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+2921,2017,Allocasuarina torulosa,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+15871,5425,Hakea sericea,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible

@@ -1,0 +1,33 @@
+﻿Code,Name,Values,Maps to (Ferrer et al. 2024),Interpretation (see traits tab at http://fireecologyplants.net/traits/summary) 
+VR,VR - vegetative recovery,"o- obligate seeder, r- resprouter",surv1,"If VR = 'o' then surv1 =  'none' except 'few' for Acacrubi, Pimelini & Vimijunc; if VR = 'r' then surv1`='most' for woody spp, 'all' for rhizomatous non-woody spp "
+FA,FA - fire avoidance,"a- avoider, n- non avoider",surv2,"If FA = 'a' then surv2 = 'Stem survival & no resprouting'', and surv3 = 'few', If FA = 'n' then surv2 =  'Stem mortality & no resprouting' and surv3 = 'none' where VR='o', otherwise NA"
+VS,VS - vegetative spread,"i- increaser, cd- clonal decreaser, nd- non-clonal decreaser",surv4,If VS = 'increaser' then surv4 = 'Long rhizome or root sucker'; if VS= 'clonal decreaser' then surv4 = 'short rhizome or tiller'
+BL,BL - bud location,"e- epicormic, s- subterranean",surv4,If BL = 'epicormic' then surv4 = 'Epicormic'
+BT,BT - bud type,"a- active, d- dormant",surv4,If BT = 'active' then surv4 = 'Apical'
+PD,PD - propagule dispersal,"l- local, w- wide",disp1,If PD = 'w' then disp1 = wind-hairs/ animal injestion/ animal cohesion/
+PS,PS - propagule storage,"c- canopy, s- soil, n- no storage",germ1,
+DM,DM - dormancy mechanism ,"f- fire related, n- not fire related","germ4 for all spp, also to germ2 for Fabaceae, Rhamnaceae & Sapindacese",If DM = 'f' then germ4 = 'Either'
+HR,HR - heat response ,"l- min. temperature for max. germinationó <60oC, 
+h - min. temperature for max. germination >60oC,
+where different heat responses were recorded from different populations, the highest minimum temperature was recorded",germ2,"If HR = 'h' then germ2 = 'yes', if HR = 'l' then germ2 = 'n'"
+NF,NF - non dormant seed fraction, % of total seed crop,germ8,If NF >90% then germ8 = 'Non-dormant'
+SR,SR - spontaneous release of seed,"c- continuous release and complete turnover of stored seed without fire, 
+v- variable rate of continuous release but complete turnover of seed bank only when parent branch dies [senescence or fire], 
+l- limited spontaneous release and complete 
+				turnover of seed bank only after fire)",germ10,Ig SR = 'v' then germ10 = 'Exhausted when ground fuel partially consumed'
+FP,FP - fruit production ,"e- exclusive pulse in first 2-3 postfire reproductive seasons,
+f- facultative pulse in first 2-3 postfire reproductive seasons,
+n- no pulse",repr2,
+CS,CS - competitive stratum,"g- ground, m- mid, e- emergent",,
+PJ,PJ - primary juvenile period,years: medians with range in parentheses are from tagged cohorts; a single figure indicates anecdotal observation; ? indicates max. period >5 years,repr3,use min value
+SJ,SJ - secondary juvenile period,years: medians with range in parentheses are from tagged cohorts; a single figure indicates anecdotal observation; ? indicates max. period >5 years,repr3a,use median value
+PL,PL - plant longevity ," Categorical 1: <5 years, 2: 5-20 years, 3: 21-60 years, 4: > 60 years, 5: indefinite",surv5,use range
+TR,TR - timing of recruitment,f- mainly after fire,rect2,Intolerant/ Intolerant-Tolerant/ Tolerant/ Tolerant-Requiring/ Requiring
+,,,,
+,For all attributes:,,,
+,x - attribute not applicable,,,
+,. - no data available,,,
+,Full names of species are given in Appendix 1,,,
+,,,,
+,APPENDIX 2: Fire Response Attributes of Upland Swamp Flora,,,
+,"See http://fireecologyplants.net/traits/summary for corresponding trait list in Fire Ecology Database blue – currently operation, white - planned",,,

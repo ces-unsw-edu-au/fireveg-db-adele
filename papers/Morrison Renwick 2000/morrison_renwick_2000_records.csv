@@ -1,0 +1,20 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Acacia binervia,3717,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Acacia implexa,3792,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Acacia parramattensis,3846,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Hakea sericea,5425,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Jacksonia scoparia,2892,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Leptospermum trinervium,8486,Morrison Renwick 2000,surv1,Few,NA,NA,NA,"Stem survival (%) — High-intensity, 19.7",NA
+Persoonia linearis,5463,Morrison Renwick 2000,surv1,Few,NA,NA,NA,"Stem survival (%) — High-intensity, 27.3",NA
+Allocasuarina littoralis,2012,Morrison Renwick 2000,surv1,None,NA,NA,NA,"Stem survival (%) — High-intensity, 0",NA
+Allocasuarina torulosa,2017,Morrison Renwick 2000,surv1,Few,NA,NA,NA,"Stem survival (%) — High-intensity, 26.4",NA
+Acacia implexa,3792,Morrison Renwick 2000,surv4,Long rhizome or root sucker,NA,NA,NA,"Stem aerial buds, —; Stem basal buds, —; Root buds, suckers",NA
+Jacksonia scoparia,2892,Morrison Renwick 2000,surv4,Basal,NA,NA,NA,"Stem aerial buds, —; Stem basal buds, stem base; Root buds, suckers",NA
+Jacksonia scoparia,2892,Morrison Renwick 2000,surv4,Long rhizome or root sucker,NA,NA,NA,"Stem aerial buds, —; Stem basal buds, stem base; Root buds, suckers",NA
+Leptospermum trinervium,8486,Morrison Renwick 2000,surv4,Epicormic,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, lignotuber; Root buds, —",NA
+Leptospermum trinervium,8486,Morrison Renwick 2000,surv4,Lignotuber,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, lignotuber; Root buds, —",NA
+Persoonia linearis,5463,Morrison Renwick 2000,surv4,Epicormic,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, lignotuber; Root buds, —",NA
+Persoonia linearis,5463,Morrison Renwick 2000,surv4,Lignotuber,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, lignotuber; Root buds, —",NA
+Allocasuarina torulosa,2017,Morrison Renwick 2000,surv4,Epicormic,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, stem base; Root buds, —",NA
+Allocasuarina torulosa,2017,Morrison Renwick 2000,surv4,Basal,NA,NA,NA,"Stem aerial buds, epicormic; Stem basal buds, stem base; Root buds, —",NA
+Hakea sericea,5425,Morrison Renwick 2000,germ1,Canopy,NA,NA,NA,qualitative description in text: serotinous canopy-stored seedbank,NA

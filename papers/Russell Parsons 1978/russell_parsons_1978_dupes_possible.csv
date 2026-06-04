@@ -1,0 +1,6 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+160188,5344,Banksia marginata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+173777,5425,Hakea sericea,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+177058,4229,Leptospermum myrsinoides,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+177530,2639,Leucopogon virgatus,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+158176,2015,Allocasuarina paludosa,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible

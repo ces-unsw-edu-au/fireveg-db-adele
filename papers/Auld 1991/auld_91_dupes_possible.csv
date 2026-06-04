@@ -1,0 +1,16 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156977,3814,Acacia linifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+157023,3817,Acacia longissima,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+157585,3893,Acacia ulicifolia,surv1,NSWFFRDv2.1,NA,Few,NA,NA,NA,possible
+160988,2784,Bossiaea obcordata,surv1,NSWFFRDv2.1,NA,Most,NA,NA,NA,possible
+166751,2843,Dillwynia floribunda,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182726,2985,Pultenaea daphnoides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182753,2993,Pultenaea flexilis,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182763,2995,Pultenaea glabra,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182772,3002,Pultenaea linophylla,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182795,3011,Pultenaea polifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182831,3018,Pultenaea stipularis,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+183594,3033,Sphaerolobium vimineum,surv1,NSWFFRDv2.1,NA,Few,NA,NA,NA,possible
+184297,3105,Viminaria juncea,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+178854,2936,Mirbelia platylobioides,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+158245,8365,Almaleea incurvata,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible

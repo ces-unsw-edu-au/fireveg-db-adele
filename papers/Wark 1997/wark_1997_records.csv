@@ -1,0 +1,484 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Acacia dealbata,3758,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia mearnsii,3823,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia pycnantha,3861,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia pycnantha,3861,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Pomaderris aspera,5571,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pomaderris elachophylla,9484,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pomaderris elachophylla,9484,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Pomaderris ferruginea,5579,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Prostanthera lasianthos,3415,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Asterella drummondii,14776,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Asterella drummondii,14776,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Cephaloziella exiliflora,15455,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Cephaloziella exiliflora,15455,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Lethocolea pansa,14794,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Lethocolea pansa,14794,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Marchantia polymorpha,15410,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Marchantia polymorpha,15410,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Barbula calycina,15404,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Barbula calycina,15404,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Breutelia affinis,15453,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Breutelia affinis,15453,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Campylopus introflexus,14781,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Campylopus introflexus,14781,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Campylopus pyriformis,15610,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Campylopus pyriformis,15610,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Ceratodon purpureus,13900,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Ceratodon purpureus,13900,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Funaria hygrometrica,13738,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Funaria hygrometrica,13738,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Polytrichum juniperinum,14782,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Polytrichum juniperinum,14782,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Wijkia extenuata,14768,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Wijkia extenuata,14768,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Aira caryophyllea,4730,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Aira caryophyllea,4730,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Briza minor,4801,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Briza minor,4801,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Echinopogon ovatus,4934,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Echinopogon ovatus,4934,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Vulpia myuros,5242,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Vulpia myuros,5242,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Acacia acinacea,3699,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia acinacea,3699,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Acacia genistifolia,3781,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia genistifolia,3781,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Acacia verniciflua,3895,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia verniciflua,3895,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Correa reflexa,5772,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Correa reflexa,5772,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Epacris impressa,2597,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Epacris impressa,2597,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Goodenia ovata,3192,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Goodenia ovata,3192,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Ozothamnus ferrugineus,8885,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Ozothamnus ferrugineus,8885,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Indigofera australis,2882,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Indigofera australis,2882,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Olearia lirata,1598,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Olearia lirata,1598,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Olearia phlogopappa,1607,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Olearia phlogopappa,1607,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Olearia ramulosa,1611,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Olearia ramulosa,1611,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Pultenaea daphnoides,2985,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pultenaea daphnoides,2985,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Pultenaea scabra,3016,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pultenaea scabra,3016,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Pimelea humilis,6179,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pimelea humilis,6179,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Pimelea linifolia,6182,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Pimelea linifolia,6182,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Leptospermum continentale,7970,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Leptospermum continentale,7970,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Solanum laciniatum,6087,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Solanum laciniatum,6087,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Spyridium parvifolium,5600,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Spyridium parvifolium,5600,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Acaena novae-zelandiae,5604,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acaena novae-zelandiae,5604,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Asperula scoparia,5659,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Asperula scoparia,5659,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Aster subulatus,1280,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Aster subulatus,1280,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Cirsium vulgare,1400,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Cirsium vulgare,1400,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Dichondra repens,2222,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Dichondra repens,2222,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Geranium solanderi,3156,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Geranium solanderi,3156,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Euchiton involucratus,9904,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Euchiton involucratus,9904,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Euchiton sphaericus,9690,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Euchiton sphaericus,9690,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Gonocarpus tetragynus,3247,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Gonocarpus tetragynus,3247,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Galium binifolium,5681,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Galium binifolium,5681,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Hydrocotyle callicarpa,1124,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Hydrocotyle callicarpa,1124,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Hydrocotyle hirta,8461,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Hydrocotyle hirta,8461,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Hydrocotyle laxiflora,1128,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Hydrocotyle laxiflora,1128,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Hypericum gramineum,7240,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Hypericum gramineum,7240,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Opercularia varia,5701,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Opercularia varia,5701,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Phyllanthus gunnii,2746,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Phyllanthus gunnii,2746,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Poranthera microphylla,7395,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Poranthera microphylla,7395,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Rorippa dictyosperma,1842,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Rorippa dictyosperma,1842,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Senecio velleioides,1680,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Senecio velleioides,1680,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Stellaria flaccida,2004,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Stellaria flaccida,2004,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Stellaria pungens,2008,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Stellaria pungens,2008,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Stellaria media,2006,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Stellaria media,2006,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Viola hederacea,6272,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Viola hederacea,6272,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Viola cleistogamoides,9499,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Viola cleistogamoides,9499,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Wahlenbergia gracilenta,1933,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Wahlenbergia gracilenta,1933,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Wahlenbergia stricta,1938,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Wahlenbergia stricta,1938,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Billardiera scandens,4671,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Billardiera scandens,4671,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Cassytha glabella,3467,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Cassytha glabella,3467,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Cassytha melantha,3468,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Cassytha melantha,3468,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Clematis aristata,5493,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Comesperma volubile,5257,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Comesperma volubile,5257,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Glycine clandestina,2860,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Glycine clandestina,2860,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Kennedia prostrata,2896,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Kennedia prostrata,2896,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Eucalyptus baxteri,4053,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus baxteri,4053,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Eucalyptus cypellocarpa,4075,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus globulus,4098,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus obliqua,4140,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus obliqua,4140,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Eucalyptus ovata,4146,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus tricarpa,9304,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus tricarpa,9304,Wark 1997,repr3a,3,3,NA,NA,"First flowering, F3",NA
+Eucalyptus viminalis,4197,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Acacia melanoxylon,3824,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Exocarpos cupressiformis,5860,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Adiantum aethiopicum,7997,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Adiantum aethiopicum,7997,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Blechnum cartilagineum,8052,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Blechnum cartilagineum,8052,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Blechnum nudum,8058,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Cyathea australis,8074,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Cyathea australis,8074,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Gleichenia microphylla,6708,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Gleichenia microphylla,6708,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Hymenophyllum cupressiforme,8107,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Hypolepis rugosula,7653,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Hypolepis rugosula,7653,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Pteridium esculentum,6403,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Pteridium esculentum,6403,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Todea barbara,8151,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Todea barbara,8151,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Anthoxanthum odoratum,4750,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Anthoxanthum odoratum,4750,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Austrostipa rudis,10396,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Austrostipa rudis,10396,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Austrostipa semibarbata,10394,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Austrostipa semibarbata,10394,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Deyeuxia densa,13423,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Deyeuxia densa,13423,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Deyeuxia quadriseta,4891,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Deyeuxia quadriseta,4891,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Dichelachne rara,4899,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Dichelachne rara,4899,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Holcus lanatus,5005,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Holcus lanatus,5005,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Microlaena stipoides,5037,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Microlaena stipoides,5037,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Tetrarrhena juncea,5217,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Tetrarrhena juncea,5217,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Poa sieberiana,5141,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Poa sieberiana,5141,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Poa tenera,5142,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Poa tenera,5142,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Acrotriche serrulata,2583,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Acrotriche serrulata,2583,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Astroloma humifusum,2584,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Astroloma humifusum,2584,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Bursaria spinosa,4674,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Bursaria spinosa,4674,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Coprosma quadrifida,5675,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Hibbertia riparia,2545,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Hibbertia riparia,2545,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Lissanthe strigosa,2642,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Lissanthe strigosa,2642,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Lomatia ilicifolia,5443,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Lomatia ilicifolia,5443,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Melaleuca squarrosa,4263,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Melaleuca squarrosa,4263,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Olearia argophylla,1580,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Olearia argophylla,1580,Wark 1997,repr3a,3,3,NA,NA,"First flowering, F3",NA
+Brunonia australis,1863,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Brunonia australis,1863,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Goodenia lanata,13799,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Goodenia lanata,13799,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Helichrysum leucopsideum,1494,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Helichrysum leucopsideum,1494,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Lagenifera stipitata,1551,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Lagenifera stipitata,1551,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Leptorhynchos squamatus,1557,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Leptorhynchos squamatus,1557,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Oxalis corniculata,4613,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Oxalis corniculata,4613,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Pelargonium australe,3157,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Pelargonium australe,3157,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Plantago varia,4705,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Plantago varia,4705,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Sonchus oleraceus,1690,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Sonchus oleraceus,1690,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Veronica calycina,6003,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Veronica calycina,6003,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Veronica derwentiana,14262,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Veronica derwentiana,14262,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Gahnia radula,2441,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Gahnia radula,2441,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Gahnia sieberiana,2442,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Gahnia sieberiana,2442,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Isolepis hystrix,2453,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Isolepis hystrix,2453,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Isolepis marginata,2455,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Isolepis marginata,2455,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Juncus pauciflorus,3339,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Juncus pauciflorus,3339,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Juncus planifolius,3340,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Juncus planifolius,3340,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Lepidosperma elatius,8379,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Lepidosperma elatius,8379,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Luzula meridionalis,3359,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Luzula meridionalis,3359,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Schoenus apogon,2491,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Schoenus apogon,2491,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Acianthus caudatus,4351,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Acianthus caudatus,4351,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Acianthus pusillus,9088,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Acianthus pusillus,9088,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Caladenia cardiochila,12289,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Caladenia cardiochila,12289,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Caladenia catenata,6703,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Caladenia catenata,6703,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Caladenia tentaculata,9593,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Caladenia tentaculata,9593,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Cyrtostylis reniformis,6889,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Cyrtostylis reniformis,6889,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Dipodium punctatum,7887,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Dipodium punctatum,7887,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Eriochilus cucullatus,4460,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Eriochilus cucullatus,4460,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Prasophyllum odoratum,4516,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Prasophyllum odoratum,4516,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Pterostylis longifolia,4559,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Pterostylis longifolia,4559,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Pterostylis nutans,4562,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Pterostylis nutans,4562,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Pterostylis nana,4561,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Pterostylis nana,4561,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Pterostylis parviflora,4566,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Pterostylis parviflora,4566,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thelymitra flexuosa,4595,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thelymitra flexuosa,4595,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thelymitra pauciflora,4602,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thelymitra pauciflora,4602,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thelymitra rubra,10277,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thelymitra rubra,10277,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Burchardia umbellata,3533,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Burchardia umbellata,3533,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Dianella revoluta,3542,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Dianella revoluta,3542,Wark 1997,repr3a,2,2,NA,NA,"First flowering, F2",NA
+Lomandra filiformis,6302,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Lomandra filiformis,6302,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thysanotus juncifolius,3572,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thysanotus juncifolius,3572,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thysanotus tuberosus,3574,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thysanotus tuberosus,3574,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Thysanotus patersonii,3573,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Thysanotus patersonii,3573,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Lobelia gibbosa,1917,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Lobelia gibbosa,1917,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Amyema pendula,3607,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Lachnagrostis filiformis,11388,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Lachnagrostis filiformis,11388,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma indutum,14310,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma indutum,14310,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma pilosum,14316,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma pilosum,14316,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma indutum,14310,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma indutum,14310,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma setaceum,14322,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma setaceum,14322,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma pallidum,14314,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma pallidum,14314,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Rytidosperma semiannulare,14321,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Rytidosperma semiannulare,14321,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Carduus tenuiflorus,1355,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Carduus tenuiflorus,1355,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Hackelia suaveolens,14935,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Hackelia suaveolens,14935,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Coronidium scorpioides,13836,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Coronidium scorpioides,13836,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Lagenophora gracilis,11959,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Lagenophora gracilis,11959,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Leptorhynchos squamatus,1557,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Leptorhynchos squamatus,1557,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Isolepis inundata,2454,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Isolepis inundata,2454,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Caesia parviflora,3535,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Caesia parviflora,3535,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Lomandra longifolia,6308,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Lomandra longifolia,6308,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Drosera auriculata,2556,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Drosera auriculata,2556,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Drosera peltata,2559,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Drosera peltata,2559,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Drosera peltata,2559,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Drosera peltata,2559,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Hypochaeris radicata,8788,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",NA
+Hypochaeris radicata,8788,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",NA
+Acacia spp.,ACAC,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Acacia spp.,ACAC,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Anthoceros spp.,15403,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Anthoceros spp.,15403,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Eucalyptus bicostata,8450,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus x vitrea,14166,Wark 1997,surv1,Most,NA,NA,NA,"Regeneration strategy, FRR",NA
+Eucalyptus x vitrea,14166,Wark 1997,repr3a,3,3,NA,NA,"First flowering, F3",NA
+Geranium spp.,GERA,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Geranium spp.,GERA,Wark 1997,repr3,2,2,NA,NA,"First flowering, F2",NA
+Rostraria spp.,11645,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Rostraria spp.,11645,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",NA
+Senecio spp.,SENE,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",NA
+Senecio spp.,SENE,Wark 1997,repr3,1,1,NA,NA,"First flowering, F1",NA
+Acacia mucronata subsp. mucronata,6731,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",original name: Acacia mucronata
+Acacia mucronata subsp. mucronata,6731,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",original name: Acacia mucronata
+Acacia verticillata subsp. verticillata,11245,Wark 1997,surv1,None,NA,NA,NA,"Regeneration strategy, OSR",original name: Acacia verticillata
+Acacia verticillata subsp. verticillata,11245,Wark 1997,repr3,3,3,NA,NA,"First flowering, F3",original name: Acacia verticillata
+Lomandra micrantha subsp. tuberculata,9082,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",original name: Lomandra micrantha
+Lomandra micrantha subsp. tuberculata,9082,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",original name: Lomandra micrantha
+Lomandra multiflora subsp. multiflora,8802,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",original name: Lomandra multiflora
+Lomandra multiflora subsp. multiflora,8802,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",original name: Lomandra multiflora
+Thelymitra ixioides var. ixioides,8968,Wark 1997,surv1,All,NA,NA,NA,"Regeneration strategy, ORR",original name: Thelymitra ixioides
+Thelymitra ixioides var. ixioides,8968,Wark 1997,repr3a,1,1,NA,NA,"First flowering, F1",original name: Thelymitra ixioides
+Eucalyptus baxteri,4053,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus baxteri,4053,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus cypellocarpa,4075,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus cypellocarpa,4075,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus globulus,4098,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus globulus,4098,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus obliqua,4140,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus obliqua,4140,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus ovata,4146,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus ovata,4146,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus tricarpa,9304,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus tricarpa,9304,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus viminalis,4197,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus viminalis,4197,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Acacia melanoxylon,3824,Wark 1997,surv4,Long rhizome or root sucker,NA,NA,NA,"Regeneration strategy organ codes, Rsk1",NA
+Acacia melanoxylon,3824,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Exocarpos cupressiformis,5860,Wark 1997,surv4,Long rhizome or root sucker,NA,NA,NA,"Regeneration strategy organ codes, Rsk1",NA
+Exocarpos cupressiformis,5860,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Adiantum aethiopicum,7997,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Blechnum cartilagineum,8052,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Blechnum nudum,8058,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Cyathea australis,8074,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Gleichenia microphylla,6708,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Hypolepis rugosula,7653,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Pteridium esculentum,6403,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Todea barbara,8151,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Anthoxanthum odoratum,4750,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Austrostipa rudis,10396,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Austrostipa semibarbata,10394,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Deyeuxia densa,13423,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Deyeuxia quadriseta,4891,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Dichelachne rara,4899,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Holcus lanatus,5005,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Microlaena stipoides,5037,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Tetrarrhena juncea,5217,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Poa sieberiana,5141,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Poa tenera,5142,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Acrotriche serrulata,2583,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Astroloma humifusum,2584,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Bursaria spinosa,4674,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Coprosma quadrifida,5675,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Hibbertia riparia,2545,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Lissanthe strigosa,2642,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Lomatia ilicifolia,5443,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Melaleuca squarrosa,4263,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Olearia argophylla,1580,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Brunonia australis,1863,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Goodenia lanata,13799,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Helichrysum leucopsideum,1494,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Lagenifera stipitata,1551,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Leptorhynchos squamatus,1557,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Oxalis corniculata,4613,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Pelargonium australe,3157,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Plantago varia,4705,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Sonchus oleraceus,1690,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Veronica calycina,6003,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Veronica derwentiana,14262,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Gahnia radula,2441,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Gahnia sieberiana,2442,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Isolepis hystrix,2453,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Isolepis marginata,2455,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Juncus pauciflorus,3339,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Juncus planifolius,3340,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Lepidosperma elatius,8379,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Luzula meridionalis,3359,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Schoenus apogon,2491,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Acianthus caudatus,4351,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Acianthus pusillus,9088,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Caladenia cardiochila,12289,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Caladenia catenata,6703,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Caladenia tentaculata,9593,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Cyrtostylis reniformis,6889,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Dipodium punctatum,7887,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Eriochilus cucullatus,4460,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Prasophyllum odoratum,4516,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Pterostylis longifolia,4559,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Pterostylis nutans,4562,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Pterostylis nana,4561,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Pterostylis parviflora,4566,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Thelymitra flexuosa,4595,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Thelymitra pauciflora,4602,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Thelymitra rubra,10277,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+Burchardia umbellata,3533,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Dianella revoluta,3542,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Lomandra filiformis,6302,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Thysanotus juncifolius,3572,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Thysanotus tuberosus,3574,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Thysanotus patersonii,3573,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Lobelia gibbosa,1917,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Lachnagrostis filiformis,11388,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma indutum,14310,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma pilosum,14316,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma indutum,14310,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma setaceum,14322,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma pallidum,14314,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Rytidosperma semiannulare,14321,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Carduus tenuiflorus,1355,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Hackelia suaveolens,14935,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Coronidium scorpioides,13836,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Lagenophora gracilis,11959,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Leptorhynchos squamatus,1557,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Isolepis inundata,2454,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Caesia parviflora,3535,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Lomandra longifolia,6308,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Drosera auriculata,2556,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Drosera peltata,2559,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Drosera peltata,2559,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",NA
+Hypochaeris radicata,8788,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Eucalyptus bicostata,8450,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus bicostata,8450,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Eucalyptus x vitrea,14166,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+Eucalyptus x vitrea,14166,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+NA,NA,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+NA,NA,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+NA,NA,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+NA,NA,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+NA,NA,Wark 1997,surv4,Basal,NA,NA,NA,"Regeneration strategy organ codes, St1",NA
+NA,NA,Wark 1997,surv4,Lignotuber,NA,NA,NA,"Regeneration strategy organ codes, L1",NA
+Lomandra micrantha subsp. tuberculata,9082,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",original name: Lomandra micrantha
+Lomandra multiflora subsp. multiflora,8802,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, T1",original name: Lomandra multiflora
+NA,NA,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+NA,NA,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",NA
+NA,NA,Wark 1997,surv4,Short rhizome,NA,NA,NA,"Regeneration strategy organ codes, R1",NA
+Thelymitra ixioides var. ixioides,8968,Wark 1997,surv4,Tuber,NA,NA,NA,"Regeneration strategy organ codes, Tu1",original name: Thelymitra ixioides
+Prasophyllum odoratum,4516,Wark 1997,repr2,Facultative,NA,NA,NA,Text — fire-stimulated post-fire flowering,NA
+NA,NA,Wark 1997,repr2,Facultative,NA,NA,NA,Text — fire-stimulated post-fire flowering,NA

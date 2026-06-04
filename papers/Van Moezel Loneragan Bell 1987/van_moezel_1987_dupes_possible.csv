@@ -1,0 +1,10 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+162508,3533,Burchardia umbellata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+167040,4446,Diuris longifolia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+NA,4446,Diuris longifolia,repr3a,NSWFFRDv2.1,NA,NA,1,NA,NA,possible
+182655,4561,Pterostylis nana,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+158424,1268,Angianthus tomentosus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+159495,1273,Arctotheca calendula,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+163413,3469,Cassytha pubescens,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182253,1639,Podotheca angustifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+16023,2896,Kennedia prostrata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible

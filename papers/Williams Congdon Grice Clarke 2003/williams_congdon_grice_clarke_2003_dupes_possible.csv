@@ -1,0 +1,2 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+165692,12020,Crotalaria montana var. angustifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible

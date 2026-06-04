@@ -1,0 +1,14 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+158204,2017,Allocasuarina torulosa,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+158269,7686,Alphitonia excelsa,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+170810,4191,Eucalyptus tereticornis,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+178137,4243,Lophostemon suaveolens,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+168311,6036,Duboisia myoporoides,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+178628,3675,Melastoma affine,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+165562,9601,Corymbia intermedia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+158286,5553,Alphitonia petriei,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+165203,6129,Commersonia bartramia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3291,6036,Duboisia myoporoides,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+2921,2017,Allocasuarina torulosa,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+2925,7686,Alphitonia excelsa,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+3484,4191,Eucalyptus tereticornis,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible

@@ -1,0 +1,52 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Pentachondra pumila,2650,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Epacridaceae),NA
+Sprengelia incarnata,2654,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Epacridaceae),NA
+Olearia algida,1578,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Asteraceae),NA
+Bauera rubioides,2268,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Cunoniaceae),NA
+Coprosma nitida,8677,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Rubiaceae),NA
+Hierochloe redolens,5003,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Poaceae),NA
+Oreobolus pumilio,2480,Kirkpatrick 1984,surv1,Half,NA,NA,NA,RC3 (Cyperaceae),NA
+Carpha alpina,2338,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Cyperaceae),NA
+Oreobolus distichus,2478,Kirkpatrick 1984,surv1,All,NA,NA,NA,RC5 (Cyperaceae),NA
+Schoenus calyptratus,2494,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Cyperaceae),NA
+Empodisma minus,5532,Kirkpatrick 1984,surv1,Half,NA,NA,NA,RC3 (Restionaceae),NA
+Celmisia longifolia,1377,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Asteraceae),NA
+Senecio leptocarpus,10172,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Asteraceae),NA
+Senecio gunnii,1663,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Asteraceae),NA
+Drosera arcturi,2555,Kirkpatrick 1984,surv1,Half,NA,NA,NA,RC3 (Droseraceae),NA
+Lycopodium fastigiatum,8133,Kirkpatrick 1984,surv1,All,NA,NA,NA,RC5 (Lycopodiaceae),NA
+Gonocarpus montanus,3244,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Haloragaceae),NA
+Gentianella diemensis,3136,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Gentianaceae),NA
+Acaena novae-zelandiae,5604,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Rosaceae),NA
+Histiopteris incisa,7271,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Pteridaceae),NA
+Podocarpus lawrencei,5247,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC1 (Podocarpaceae),NA
+Acrothamnus montanus,12059,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Epacridaceae),NA
+Ozothamnus hookeri,10156,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Asteraceae),NA
+Tasmannia lanceolata,6291,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Winteraceae),NA
+Agrostis spp.,AGRO,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Poaceae),NA
+Deyeuxia spp.,DEYE,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Poaceae),NA
+Epilobium spp.,EPIL,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Onagraceae),NA
+Leucopogon ericoides,2616,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC2 (Epacridaceae),NA
+Luzula spp.,LUZU,Kirkpatrick 1984,surv1,None,NA,NA,NA,RC4 (Juncaceae),NA
+Astelia alpina var. novae-hollandiae,7534,Kirkpatrick 1984,surv1,All,NA,NA,NA,RC5 (Asteliaceae),original name: Astelia alpina
+Senecio pectinatus var. major,11033,Kirkpatrick 1984,surv1,All,NA,NA,NA,RC5 (Asteraceae),original name: Senecio pectinatus
+Olearia algida,1578,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Asteraceae),NA
+Bauera rubioides,2268,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Cunoniaceae),NA
+Hierochloe redolens,5003,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Poaceae),NA
+Carpha alpina,2338,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Cyperaceae),NA
+Oreobolus distichus,2478,Kirkpatrick 1984,rect2,Tolerant,NA,NA,NA,RC5 (Cyperaceae),NA
+Schoenus calyptratus,2494,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Cyperaceae),NA
+Senecio leptocarpus,10172,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Asteraceae),NA
+Senecio gunnii,1663,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Asteraceae),NA
+Lycopodium fastigiatum,8133,Kirkpatrick 1984,rect2,Tolerant,NA,NA,NA,RC5 (Lycopodiaceae),NA
+Gonocarpus montanus,3244,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Haloragaceae),NA
+Gentianella diemensis,3136,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Gentianaceae),NA
+Acaena novae-zelandiae,5604,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Rosaceae),NA
+Histiopteris incisa,7271,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Pteridaceae),NA
+Ozothamnus hookeri,10156,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Asteraceae),NA
+Agrostis spp.,AGRO,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Poaceae),NA
+Deyeuxia spp.,DEYE,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Poaceae),NA
+Epilobium spp.,EPIL,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Onagraceae),NA
+Luzula spp.,LUZU,Kirkpatrick 1984,rect2,Intolerant,NA,NA,NA,RC4 (Juncaceae),NA
+Astelia alpina var. novae-hollandiae,7534,Kirkpatrick 1984,rect2,Tolerant,NA,NA,NA,RC5 (Asteliaceae),original name: Astelia alpina
+Senecio pectinatus var. major,11033,Kirkpatrick 1984,rect2,Tolerant,NA,NA,NA,RC5 (Asteraceae),original name: Senecio pectinatus

@@ -42,8 +42,6 @@ data <- data %>%
 data <- match_bionet_taxonomy(data, 'species')
 # Baumea gunnii --> Machaerina gunnii according to plantNet
 # Lepidosperma flexuosa   ---> grouped with Lepidosperma filiforme according to plantNet
-# Patersona sp. aff. fragilis --> should be just make this fragilis, or just patersona genus?
-# Thysanotus juncea --> Thysanotus juncifolius?
 
 # add family column data as some interpretations depend on family
 data <- data %>%
@@ -93,11 +91,11 @@ data <- data %>%
     repr3 = as.numeric(str_extract(primary_juvenile_period, "(?<=\\()\\d+(?=-)")), # extract min value from median (min - max)
     repr3a = secondary_juvenile_period, # notes say use median, only one value is listed?
     surv5 = case_when(
-      plant_longevity == 1 ~ '1 - 5 years',
-      plant_longevity == 2 ~ '5 - 20 years',
-      plant_longevity == 3 ~ '21 - 60 years',
-      plant_longevity == 4 ~ '>60 years',
-      plant_longevity == 5 ~ 'indefinite'
+      plant_longevity == 1 ~ '1-5',
+      plant_longevity == 2 ~ '5-20',
+      plant_longevity == 3 ~ '21-60',
+      plant_longevity == 4 ~ '>60',
+      plant_longevity == 5 ~ NA_character_  # indefinite — no numerical value assignable
     )
   ) %>%
   # mutate surv4, several applicable values, must do rowwise
@@ -105,7 +103,7 @@ data <- data %>%
   mutate(
     surv4 = list(c(
       if (!is.na(vegetative_spread) && vegetative_spread == "i")  "Long rhizome or root sucker",
-      if (!is.na(vegetative_spread) && vegetative_spread == "cd") "Short rhizome or tiller",
+      if (!is.na(vegetative_spread) && vegetative_spread == "cd") "Short rhizome",
       if (!is.na(bud_location) && bud_location == "e")  "Epicormic",
       if (!is.na(bud_type) && bud_type == "a")  "Apical"
     ))
@@ -206,23 +204,23 @@ data_long_surv4 <-
   rowwise %>%
   mutate(
     raw_value = {
-      if (norm_value %in% c('Long rhizome or root sucker','Short rhizome or tiller')) {
+      if (norm_value %in% c('Long rhizome or root sucker','Short rhizome')) {
         src <- raw_source_col[[1]]
         val <- cur_data()[[src]]
 
-        paste0(src, ",",val)
+        paste0("{", src, ",",val, "}")
       }
       else if (norm_value == 'Epicormic') {
         src <- raw_source_col[[2]]
         val <- cur_data()[[src]]
 
-        paste0(src, ",",val)
+        paste0("{", src, ",",val, "}")
       }
       else if (norm_value == 'Apical') {
         src <- raw_source_col[[3]]
         val <- cur_data()[[src]]
 
-        paste0(src, ",",val)
+        paste0("{", src, ",",val, "}")
 
 
       }
@@ -242,7 +240,9 @@ data_long_num <- data_long %>%
     lower = if (str_detect(norm_value, '^\\d+\\s*-\\s*\\d+')) str_extract(norm_value, '^\\d+')
     else if (str_detect(norm_value, '^>\\d+')) str_extract(norm_value, '\\d+')
     else NA,
-    upper = if (str_detect(norm_value, '^\\d+\\s*-\\s*\\d+')) str_extract(norm_value, '(?<=-\\s)\\d+') else NA,
+    upper = if (str_detect(norm_value, '^\\d+\\s*-\\s*\\d+')) str_extract(norm_value, '\\d+$')
+    else if (str_detect(norm_value, '^<\\d+')) str_extract(norm_value, '\\d+')
+    else NA,
     raw_value = {
       src <- raw_source_col
       val <- norm_value
@@ -273,11 +273,20 @@ dharawal_records <- data_long %>%
   select(
     bionet_name, species_code, original_source, trait_code,
     norm_value, best, lower, upper, raw_value
-  ) %>% filter(!is.na(species_code))
+  ) %>%
+  filter(!is.na(species_code)) %>%
+  distinct()  # removes duplicates caused by unnest(surv4) creating multiple rows per species
 
-write_csv(dharawal_records, 'papers/Keith 1991/keith_1991_records.csv')
+# 6. Save records so combine.R can aggregate across all papers
+write_csv(dharawal_records, 'papers/completed_manually/Keith 1991/keith_1991_records.csv')
+
+# 7. Flag duplicates
 database <- read.csv('database.csv')
 dupes <- flag_duplicates(dharawal_records, database)
-write_csv(dupes$exact_partial, 'papers/Keith 1991/keith_1991_dupes_exact_partial.csv')
-write_csv(dupes$possible,      'papers/Keith 1991/keith_1991_dupes_possible.csv')
+
+# exact/partial: db columns only + match_type (for batch weight update)
+write_csv(dupes$exact_partial, 'papers/completed_manually/Keith 1991/keith_1991_dupes_exact_partial.csv')
+
+# possible: db + new columns + match_type (for manual review)
+write_csv(dupes$possible,      'papers/completed_manually/Keith 1991/keith_1991_dupes_possible.csv')
 

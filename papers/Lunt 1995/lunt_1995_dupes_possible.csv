@@ -1,0 +1,2 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+13683,8559,Chrysocephalum apiculatum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible

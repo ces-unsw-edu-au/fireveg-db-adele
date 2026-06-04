@@ -1,3 +1,7 @@
 secrets/
 .Renviron
 .Rproj.user
+*.pdf
+.RData
+.Rhistory
+.claude/

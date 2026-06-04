@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fireveg Trait Import Pipeline</title>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<style>
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  }
+  h1 {
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 4px;
+  }
+  .subtitle {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 32px;
+  }
+  .legend {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+    padding: 14px 18px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    font-size: 0.88em;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+  .dot-human   { background: #3498db; }
+  .dot-claude  { background: #8e44ad; }
+  .dot-auto    { background: #27ae60; }
+  .dot-db      { background: #e67e22; }
+  .mermaid-wrap {
+    overflow-x: auto;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Fireveg Trait Import Pipeline</h1>
+  <p class="subtitle">Workflow for extracting plant fire-response traits from literature and importing into the fireveg PostgreSQL database</p>
+
+  <div class="legend">
+    <strong style="align-self:center">Key:</strong>
+    <div class="legend-item"><div class="dot dot-human"></div> Human decision / review</div>
+    <div class="legend-item"><div class="dot dot-claude"></div> Claude (AI-assisted)</div>
+    <div class="legend-item"><div class="dot dot-auto"></div> Automated / scripted</div>
+    <div class="legend-item"><div class="dot dot-db"></div> Database management</div>
+  </div>
+
+  <div class="mermaid-wrap">
+  <div class="mermaid">
+flowchart TD
+
+  subgraph IN["INPUTS"]
+    direction TB
+    A1["Literature PDFs"]
+    A2["Source list\n(to_ingest.csv)"]
+  end
+
+  subgraph SETUP["SETUP  —  once per paper"]
+    direction TB
+    B1["Create paper folder\npapers/Author Year/"]
+    B2["Create mapping.md\nReview PDF · identify extractable traits\nPropose value mappings · note species exceptions"]
+    B3["update_mapping_db_counts.R\nInsert existing database record counts\ninto mapping.md header"]
+  end
+
+  subgraph REVIEW["REVIEW  —  human"]
+    direction TB
+    D1{{"Set status per trait:\napproved  /  skip"}}
+    D2["Paper complete —\nno script needed"]
+  end
+
+  subgraph EXTRACT["DATA EXTRACTION  —  Claude reads PDF"]
+    direction TB
+    E1{{"Does approved trait\nhave data in a table?"}}
+    E2["Transcribe source table\nto CSV file"]
+    E3["Species-level exceptions\nalready captured in mapping.md"]
+    E4["Write R processing script"]
+  end
+
+  subgraph PROCESS["PROCESSING  —  user runs R script"]
+    direction TB
+    F1["Read CSV + mapping.md exceptions"]
+    F2["Align species names\nto Bionet via match_bionet_taxonomy()"]
+    F3["Apply value mappings\n(exceptions take priority over class mapping)"]
+    F4["Flag duplicates against\ndatabase.csv snapshot"]
+  end
+
+  subgraph OUT["PER-PAPER OUTPUTS"]
+    direction LR
+    G1["records CSV\nnew trait records"]
+    G2["dupes_exact_partial CSV\nclear duplicates"]
+    G3["dupes_possible CSV\nfor manual review"]
+  end
+
+  subgraph COMBINE["AGGREGATION  —  combine.R"]
+    direction LR
+    H1["all_records.csv"]
+    H2["all_dupes_exact_partial.csv"]
+  end
+
+  subgraph DB["DATABASE MANAGEMENT"]
+    direction TB
+    I1["Upload new records\nto litrev schema\n(PostgreSQL)"]
+    I2["Set weight = 0\nfor duplicate records"]
+    I3["Manual review of\npossible duplicates"]
+  end
+
+  A1 & A2 --> B1
+  B1 --> B2
+  B2 --> B3
+  B3 --> D1
+
+  D1 -- "all skip" --> D2
+  D1 -- "some approved" --> E1
+
+  E1 -- "yes — table data" --> E2
+  E1 -- "no — exceptions only" --> E3
+  E2 & E3 --> E4
+
+  E4 --> F1
+  F1 --> F2
+  F2 --> F3
+  F3 --> F4
+
+  F4 --> G1 & G2 & G3
+
+  G1 --> H1
+  G2 --> H2
+
+  H1 --> I1
+  H2 --> I2
+  G3 --> I3
+
+  style IN       fill:#eaf2fb,stroke:#aed6f1,color:#1a252f
+  style SETUP    fill:#f0eef8,stroke:#c4a9e0,color:#1a252f
+  style REVIEW   fill:#ebf5fb,stroke:#85c1e9,color:#1a252f
+  style EXTRACT  fill:#f4ecf7,stroke:#c39bd3,color:#1a252f
+  style PROCESS  fill:#eafaf1,stroke:#82e0aa,color:#1a252f
+  style OUT      fill:#fef9e7,stroke:#f7dc6f,color:#1a252f
+  style COMBINE  fill:#fdf2e9,stroke:#f0a27a,color:#1a252f
+  style DB       fill:#fef5e7,stroke:#e59866,color:#1a252f
+
+  style D1 fill:#3498db,color:#fff,stroke:#2980b9
+  style E1 fill:#8e44ad,color:#fff,stroke:#7d3c98
+  style D2 fill:#bdc3c7,color:#2c3e50,stroke:#95a5a6
+
+  </div>
+  </div>
+
+  <div style="margin-top:32px; padding:16px 20px; background:#f8f9fa; border-radius:8px; font-size:0.85em; color:#555;">
+    <strong>Key files:</strong>
+    <code>funx.R</code> — shared functions (taxonomy matching, duplicate flagging) &nbsp;·&nbsp;
+    <code>database.csv</code> — snapshot export of litrev database for duplicate detection &nbsp;·&nbsp;
+    <code>fireveg-trait-records-model.xlsx</code> — authoritative trait vocabulary &nbsp;·&nbsp;
+    <code>combine.R</code> — aggregates outputs across all papers
+  </div>
+</div>
+<script>mermaid.initialize({ startOnLoad: true, theme: 'default', flowchart: { curve: 'basis' } });</script>
+</body>
+</html>

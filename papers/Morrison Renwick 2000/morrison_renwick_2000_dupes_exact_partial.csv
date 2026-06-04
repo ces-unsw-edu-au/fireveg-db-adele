@@ -1,0 +1,10 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156538,3717,Acacia binervia,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",None,NA,NA,NA,exact
+156889,3792,Acacia implexa,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",All,NA,NA,NA,partial
+157303,3846,Acacia parramattensis,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",None,NA,NA,NA,exact
+173799,5425,Hakea sericea,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",None,NA,NA,NA,exact
+175094,2892,Jacksonia scoparia,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",All,NA,NA,NA,partial
+177218,8486,Leptospermum trinervium,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",All,NA,NA,NA,partial
+181208,5463,Persoonia linearis,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",All,NA,NA,NA,partial
+158155,2012,Allocasuarina littoralis,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",None,NA,NA,NA,exact
+158217,2017,Allocasuarina torulosa,surv1,NSWFFRDv2.1,"{""Morrison Renwick 2000""}",All,NA,NA,NA,partial

@@ -1,0 +1,260 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156676,3758,Acacia dealbata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+157084,3823,Acacia mearnsii,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+157365,3861,Acacia pycnantha,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+182310,5571,Pomaderris aspera,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+182337,9484,Pomaderris elachophylla,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,9484,Pomaderris elachophylla,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,3,NA,NA,exact
+182345,5579,Pomaderris ferruginea,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+182487,3415,Prostanthera lasianthos,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+158017,4730,Aira caryophyllea,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+162416,4801,Briza minor,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,4801,Briza minor,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Department Natural Resources Environment "",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+168348,4934,Echinopogon ovatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,4934,Echinopogon ovatus,repr3,NSWFFRDv2.1,"{""Department Natural Resources Environment "",""Wark 1997""}",NA,1,NA,NA,exact
+184361,5242,Vulpia myuros,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+156455,3699,Acacia acinacea,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,3699,Acacia acinacea,repr3,NSWFFRDv2.1,"{""Department Natural Resources Environment "",""Wark 1997""}",NA,3,NA,NA,exact
+156810,3781,Acacia genistifolia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,3781,Acacia genistifolia,repr3,NSWFFRDv2.1,"{""Department Natural Resources Environment "",""Wark 1997"",""Purdie Slatyer 1976""}",NA,3,NA,NA,exact
+157644,3895,Acacia verniciflua,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+165489,5772,Correa reflexa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,5772,Correa reflexa,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+168600,2597,Epacris impressa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2597,Epacris impressa,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+171903,3192,Goodenia ovata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,3192,Goodenia ovata,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+180691,8885,Ozothamnus ferrugineus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,8885,Ozothamnus ferrugineus,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+174940,2882,Indigofera australis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2882,Indigofera australis,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+180346,1607,Olearia phlogopappa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,1607,Olearia phlogopappa,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+180370,1611,Olearia ramulosa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,1611,Olearia ramulosa,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+182732,2985,Pultenaea daphnoides,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+182824,3016,Pultenaea scabra,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+181948,6179,Pimelea humilis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,6179,Pimelea humilis,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+181973,6182,Pimelea linifolia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,6182,Pimelea linifolia,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,2,NA,NA,exact
+176917,7970,Leptospermum continentale,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+183507,6087,Solanum laciniatum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,6087,Solanum laciniatum,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+183657,5600,Spyridium parvifolium,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+157719,5604,Acaena novae-zelandiae,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+159627,5659,Asperula scoparia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+159673,1280,Aster subulatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+163887,1400,Cirsium vulgare,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+166675,2222,Dichondra repens,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+171409,3156,Geranium solanderi,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,3156,Geranium solanderi,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+170878,9904,Euchiton involucratus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+170892,9690,Euchiton sphaericus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,9690,Euchiton sphaericus,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Department Natural Resources Environment "",""Wark 1997""}",NA,1,NA,NA,partial
+171751,3247,Gonocarpus tetragynus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+171247,5681,Galium binifolium,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,5681,Galium binifolium,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+174680,1124,Hydrocotyle callicarpa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+174696,8461,Hydrocotyle hirta,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+174708,1128,Hydrocotyle laxiflora,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,1128,Hydrocotyle laxiflora,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+174748,7240,Hypericum gramineum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+180483,5701,Opercularia varia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,5701,Opercularia varia,repr3,NSWFFRDv2.1,"{""Keith David pers. comm."",""Department Natural Resources Environment "",""Wark 1997""}",NA,2,NA,NA,partial
+182400,7395,Poranthera microphylla,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+182981,1842,Rorippa dictyosperma,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,1842,Rorippa dictyosperma,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+183391,1680,Senecio velleioides,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+183698,2004,Stellaria flaccida,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2004,Stellaria flaccida,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+183714,2008,Stellaria pungens,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2008,Stellaria pungens,repr3,NSWFFRDv2.1,"{""Wark 1997"",""Wahren Papst Williams 1999""}",NA,1,NA,NA,partial
+183705,2006,Stellaria media,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+184325,6272,Viola hederacea,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,6272,Viola hederacea,repr3,NSWFFRDv2.1,"{""Wark 1997"",""Wahren Papst Williams 1999""}",NA,1,NA,NA,exact
+184315,9499,Viola cleistogamoides,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,9499,Viola cleistogamoides,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+184379,1933,Wahlenbergia gracilenta,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,1933,Wahlenbergia gracilenta,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Department Natural Resources Environment "",""Wark 1997""}",NA,1,NA,NA,exact
+160608,4671,Billardiera scandens,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,4671,Billardiera scandens,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+163379,3467,Cassytha glabella,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+163409,3468,Cassytha melantha,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,3468,Cassytha melantha,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+163940,5493,Clematis aristata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+164071,5257,Comesperma volubile,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+171507,2860,Glycine clandestina,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2860,Glycine clandestina,repr3,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+175199,2896,Kennedia prostrata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+NA,2896,Kennedia prostrata,repr3,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""EcoGIS 2002"",""Department Natural Resources Environment ""}",NA,1,NA,NA,exact
+169016,4053,Eucalyptus baxteri,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4053,Eucalyptus baxteri,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+169195,4075,Eucalyptus cypellocarpa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+169542,4140,Eucalyptus obliqua,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4140,Eucalyptus obliqua,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+169592,4146,Eucalyptus ovata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+170822,9304,Eucalyptus tricarpa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,9304,Eucalyptus tricarpa,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,3,NA,NA,exact
+170838,4197,Eucalyptus viminalis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+157117,3824,Acacia melanoxylon,surv1,NSWFFRDv2.1,"{""Wark 1997""}",Most,NA,NA,NA,exact
+171056,5860,Exocarpos cupressiformis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",Most,NA,NA,NA,exact
+157956,7997,Adiantum aethiopicum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+160656,8052,Blechnum cartilagineum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+160684,8058,Blechnum nudum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+165895,8074,Cyathea australis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,8074,Cyathea australis,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+171443,6708,Gleichenia microphylla,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,6708,Gleichenia microphylla,repr3a,NSWFFRDv2.1,"{""Department Natural Resources Environment "",""Wark 1997""}",NA,2,NA,NA,exact
+174872,7653,Hypolepis rugosula,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,7653,Hypolepis rugosula,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+182587,6403,Pteridium esculentum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+184102,8151,Todea barbara,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,8151,Todea barbara,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+159390,4750,Anthoxanthum odoratum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+159893,10394,Austrostipa semibarbata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,10394,Austrostipa semibarbata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+166470,4891,Deyeuxia quadriseta,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4891,Deyeuxia quadriseta,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Morgan Lunt 1999""}",NA,1,NA,NA,exact
+166659,4899,Dichelachne rara,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4899,Dichelachne rara,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+174471,5005,Holcus lanatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+183913,5217,Tetrarrhena juncea,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,5217,Tetrarrhena juncea,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+182209,5142,Poa tenera,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+157869,2583,Acrotriche serrulata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,2583,Acrotriche serrulata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+159705,2584,Astroloma humifusum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,2584,Astroloma humifusum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+162578,4674,Bursaria spinosa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4674,Bursaria spinosa,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+165393,5675,Coprosma quadrifida,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+174287,2545,Hibbertia riparia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+178081,5443,Lomatia ilicifolia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,5443,Lomatia ilicifolia,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""EcoGIS 2002"",""Blombery Maloney 1992""}",NA,1,NA,NA,exact
+178574,4263,Melaleuca squarrosa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+180267,1580,Olearia argophylla,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,1580,Olearia argophylla,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,3,NA,NA,exact
+162450,1863,Brunonia australis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,1863,Brunonia australis,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+173993,1494,Helichrysum leucopsideum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,1494,Helichrysum leucopsideum,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+176863,1557,Leptorhynchos squamatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,1557,Leptorhynchos squamatus,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Morgan 1996"",""Wark 1997"",""Morgan Lunt 1999""}",NA,1,NA,NA,exact
+180595,4613,Oxalis corniculata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+180971,3157,Pelargonium australe,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,3157,Pelargonium australe,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+182079,4705,Plantago varia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,4705,Plantago varia,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+183561,1690,Sonchus oleraceus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+184278,6003,Veronica calycina,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,6003,Veronica calycina,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+171203,2441,Gahnia radula,surv1,NSWFFRDv2.1,"{""Wark 1997""}",Most,NA,NA,NA,partial
+NA,2441,Gahnia radula,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+171221,2442,Gahnia sieberiana,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,2442,Gahnia sieberiana,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+174976,2453,Isolepis hystrix,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+174992,2455,Isolepis marginata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",Most,NA,NA,NA,partial
+NA,2455,Isolepis marginata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+175160,3339,Juncus pauciflorus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,3339,Juncus pauciflorus,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,2,NA,NA,exact
+175168,3340,Juncus planifolius,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+176626,8379,Lepidosperma elatius,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,8379,Lepidosperma elatius,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,2,NA,NA,exact
+178165,3359,Luzula meridionalis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,3359,Luzula meridionalis,repr3a,NSWFFRDv2.1,"{""Wark 1997""}",NA,1,NA,NA,exact
+183203,2491,Schoenus apogon,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+157743,4351,Acianthus caudatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4351,Acianthus caudatus,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+157769,9088,Acianthus pusillus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+162697,6703,Caladenia catenata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+166992,7887,Dipodium punctatum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+168899,4460,Eriochilus cucullatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4460,Eriochilus cucullatus,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+182444,4516,Prasophyllum odoratum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4516,Prasophyllum odoratum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+182645,4559,Pterostylis longifolia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4559,Pterostylis longifolia,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+182666,4562,Pterostylis nutans,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4562,Pterostylis nutans,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+182661,4561,Pterostylis nana,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+182675,4566,Pterostylis parviflora,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4566,Pterostylis parviflora,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+183987,4595,Thelymitra flexuosa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+184010,4602,Thelymitra pauciflora,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,4602,Thelymitra pauciflora,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+184017,10277,Thelymitra rubra,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+162539,3533,Burchardia umbellata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+166579,3542,Dianella revoluta,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+177855,6302,Lomandra filiformis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,6302,Lomandra filiformis,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Bewick 1994"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+184054,3572,Thysanotus juncifolius,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+184070,3573,Thysanotus patersonii,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,3573,Thysanotus patersonii,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+177717,1917,Lobelia gibbosa,surv1,NSWFFRDv2.1,"{""Wark 1997""}",Most,NA,NA,NA,partial
+175344,11388,Lachnagrostis filiformis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,11388,Lachnagrostis filiformis,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+183036,14310,Rytidosperma indutum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,14310,Rytidosperma indutum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+183057,14316,Rytidosperma pilosum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,14316,Rytidosperma pilosum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+183036,14310,Rytidosperma indutum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,14310,Rytidosperma indutum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+183074,14322,Rytidosperma setaceum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,14322,Rytidosperma setaceum,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Morgan 1996"",""Wark 1997"",""Morgan Lunt 1999""}",NA,1,NA,NA,exact
+183049,14314,Rytidosperma pallidum,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+183068,14321,Rytidosperma semiannulare,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,14321,Rytidosperma semiannulare,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+163165,1355,Carduus tenuiflorus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+165436,13836,Coronidium scorpioides,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+175354,11959,Lagenophora gracilis,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,11959,Lagenophora gracilis,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""EcoGIS 2002""}",NA,1,NA,NA,exact
+176863,1557,Leptorhynchos squamatus,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+NA,1557,Leptorhynchos squamatus,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Morgan 1996"",""Wark 1997"",""Morgan Lunt 1999""}",NA,1,NA,NA,exact
+174982,2454,Isolepis inundata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,2454,Isolepis inundata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+162631,3535,Caesia parviflora,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,3535,Caesia parviflora,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+177958,6308,Lomandra longifolia,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,6308,Lomandra longifolia,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+168214,2559,Drosera peltata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+168214,2559,Drosera peltata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+174806,8788,Hypochaeris radicata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+169046,8450,Eucalyptus bicostata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,partial
+157665,11245,Acacia verticillata subsp. verticillata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",None,NA,NA,NA,exact
+177999,9082,Lomandra micrantha subsp. tuberculata,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,9082,Lomandra micrantha subsp. tuberculata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",NA,1,NA,NA,exact
+178017,8802,Lomandra multiflora subsp. multiflora,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+NA,8802,Lomandra multiflora subsp. multiflora,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""EcoGIS 2002"",""Purdie Slatyer 1976""}",NA,1,NA,NA,exact
+183990,8968,Thelymitra ixioides var. ixioides,surv1,NSWFFRDv2.1,"{""Wark 1997""}",All,NA,NA,NA,exact
+2856,3824,Acacia melanoxylon,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Lignotuber,NA,NA,NA,partial
+2857,3824,Acacia melanoxylon,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Long rhizome or root sucker,NA,NA,NA,exact
+2856,3824,Acacia melanoxylon,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Lignotuber,NA,NA,NA,exact
+2857,3824,Acacia melanoxylon,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Long rhizome or root sucker,NA,NA,NA,partial
+2902,7997,Adiantum aethiopicum,surv4,NSWFFRDv2.1,"{""Benson McDougall Ecology Sydney Plant Species Cunn"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+4179,8151,Todea barbara,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+2901,2583,Acrotriche serrulata,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Lignotuber,NA,NA,NA,exact
+3069,4674,Bursaria spinosa,surv4,NSWFFRDv2.1,"{""Wark 1997""}",Lignotuber,NA,NA,NA,exact
+3920,3157,Pelargonium australe,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+3975,4705,Plantago varia,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+4094,2491,Schoenus apogon,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+2885,4351,Acianthus caudatus,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3325,4460,Eriochilus cucullatus,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4042,4559,Pterostylis longifolia,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4047,4562,Pterostylis nutans,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4046,4561,Pterostylis nana,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4048,4566,Pterostylis parviflora,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4170,4602,Thelymitra pauciflora,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3067,3533,Burchardia umbellata,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Bewick 1994""}",Tuber,NA,NA,NA,exact
+3243,3542,Dianella revoluta,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4175,3572,Thysanotus juncifolius,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4176,3573,Thysanotus patersonii,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3694,11388,Lachnagrostis filiformis,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+4082,14321,Rytidosperma semiannulare,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Short rhizome,NA,NA,NA,exact
+3074,3535,Caesia parviflora,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3286,2559,Drosera peltata,surv4,NSWFFRDv2.1,"{""Benson McDougall Ecology Sydney Plant Species Cunn"",""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3286,2559,Drosera peltata,surv4,NSWFFRDv2.1,"{""Benson McDougall Ecology Sydney Plant Species Cunn"",""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3781,9082,Lomandra micrantha subsp. tuberculata,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+3782,8802,Lomandra multiflora subsp. multiflora,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997""}",Tuber,NA,NA,NA,exact
+4165,8968,Thelymitra ixioides var. ixioides,surv4,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Bewick 1994""}",Tuber,NA,NA,NA,exact
+2535,4516,Prasophyllum odoratum,repr2,NSWFFRDv2.1,"{""Wark 1997""}",Facultative,NA,NA,NA,exact

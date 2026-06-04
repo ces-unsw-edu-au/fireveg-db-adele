@@ -1,0 +1,70 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Acacia elongata,3769,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia linifolia,3814,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia longifolia,3816,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia longissima,3817,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia myrtifolia,3834,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia suaveolens,3881,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia terminalis,3885,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia ulicifolia,3893,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, FS;R?",NA
+Aotus ericoides,2770,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Bossiaea heterophylla,2780,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, FS;R?",NA
+Bossiaea obcordata,2784,Auld 1991,surv1,Most,NA,NA,NA,"Probable fire response, FS;R",NA
+Bossiaea rhombifolia,2787,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, R?",NA
+Bossiaea stephensonii,2791,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, R?",NA
+Daviesia alata,2831,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, R?",NA
+Dillwynia floribunda,2843,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Dillwynia retorta,2850,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Glycine clandestina,2860,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Gompholobium glabratum,2864,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Gompholobium grandiflorum,2865,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, FS;R?",NA
+Gompholobium minus,2867,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Hardenbergia violacea,2873,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Kennedia rubicunda,2898,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Phyllota phylicoides,2958,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Pultenaea daphnoides,2985,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Pultenaea flexilis,2993,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Pultenaea glabra,2995,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Pultenaea linophylla,3002,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Pultenaea polifolia,3011,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Pultenaea stipularis,3018,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Sphaerolobium vimineum,3033,Auld 1991,surv1,Few,NA,NA,NA,"Probable fire response, FS;R?",NA
+Viminaria juncea,3105,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Mirbelia platylobioides,2936,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Platylobium formosum,2961,Auld 1991,surv1,All,NA,NA,NA,"Probable fire response, R",NA
+Almaleea incurvata,8365,Auld 1991,surv1,None,NA,NA,NA,"Probable fire response, FS",NA
+Acacia elongata,3769,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia linifolia,3814,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia longifolia,3816,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia longissima,3817,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia myrtifolia,3834,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia suaveolens,3881,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia terminalis,3885,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Acacia ulicifolia,3893,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Aotus ericoides,2770,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Bossiaea heterophylla,2780,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Bossiaea obcordata,2784,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Bossiaea rhombifolia,2787,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Bossiaea stephensonii,2791,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Daviesia alata,2831,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Dillwynia brunioides,7556,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Dillwynia floribunda,2843,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Dillwynia retorta,2850,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Glycine clandestina,2860,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Gompholobium glabratum,2864,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Gompholobium grandiflorum,2865,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Gompholobium minus,2867,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Hardenbergia violacea,2873,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Kennedia rubicunda,2898,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Phyllota phylicoides,2958,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea daphnoides,2985,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea flexilis,2993,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea glabra,2995,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea linophylla,3002,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea polifolia,3011,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Pultenaea stipularis,3018,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Sphaerolobium vimineum,3033,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Viminaria juncea,3105,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Mirbelia platylobioides,2936,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Platylobium formosum,2961,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA
+Almaleea incurvata,8365,Auld 1991,germ8,PY,NA,NA,NA,Fabaceae; paper states all study species have hard seed coat physical dormancy broken by heat,NA

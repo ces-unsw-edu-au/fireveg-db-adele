@@ -1,0 +1,11 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+NA,3807,Acacia latisepala,surv5,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,NA,10,NA,exact
+NA,3807,Acacia latisepala,repr3,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,2,NA,NA,exact
+NA,9295,Brachyloma saxicola,surv5,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,NA,20,NA,exact
+NA,9295,Brachyloma saxicola,repr3,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,NA,2,3,exact
+NA,8293,Grevillea beadleana,repr3,NSWFFRDv2.1,"{""Watts Greg. pers. comm."",""Benson 1992"",""Clarke Fulloon 1999"",""RP Grevillea beadleana""}",NA,NA,2,5,partial
+NA,9602,Hakea macrorrhyncha,surv5,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,NA,NA,20,exact
+NA,2994,Pultenaea foliolosa,repr3,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",NA,2,NA,NA,exact
+12541,8865,Acacia venulosa,germ1,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",Soil-persistent,NA,NA,NA,exact
+12553,3899,Acacia viscidula,germ1,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",Soil-persistent,NA,NA,NA,exact
+12531,3888,Acacia torringtonensis,germ1,NSWFFRDv2.1,"{""Clarke Fulloon 1999""}",Soil-persistent,NA,NA,NA,exact

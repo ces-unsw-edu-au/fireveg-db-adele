@@ -1,0 +1,24 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+166079,3174,Dampiera stricta,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+174840,5533,Hypolaena fastigiata,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+176742,2471,Lepidosperma neesii,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+182694,8956,Ptilothrix deusta,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+159360,4749,Anisopogon avenaceus,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+165931,2347,Cyathochaeta diandra,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+168544,4947,Entolasia stricta,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+176612,8380,Lepidosperma concavum,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+177810,6298,Lomandra cylindrica,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+177858,6302,Lomandra filiformis,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+177915,6304,Lomandra glauca,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+184265,3219,Velleia spathulata,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+160276,5345,Banksia oblongifolia,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+158472,3972,Angophora hispida,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+162637,3535,Caesia parviflora,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+168222,2559,Drosera peltata,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+168256,2560,Drosera pygmaea,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+173605,6435,Haemodorum corymbosum,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+180949,3303,Patersonia sericea,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+183784,6159,Stylidium lineare,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+183970,6461,Thelionema umbellatum,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+184057,3572,Thysanotus juncifolius,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact
+174157,10863,Hibbertia empetrifolia subsp. empetrifolia,surv1,NSWFFRDv2.1,"{""Bradstock Tozer Keith 1997""}",All,NA,NA,NA,exact

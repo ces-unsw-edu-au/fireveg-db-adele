@@ -1,0 +1,138 @@
+species,headland_freq,dry_freq,moist_freq,wet_freq,fire_response,headland_d_m2,headland_s,dry_d_m2_1,dry_s_1,dry_d_m2_2,dry_s_2,moisr_d_m2,moist_s,wet_d_m2,wet_s
+Acacia baueri ssp. baueri,67,1,13,-,OSR-1,1.67 ± 0.58,90,0.03 ± 0.05,100,,,0.83 ± 0.52,62.5,,
+A. suaveolens,33,23,3,-,OSR-1,0.46 ± 0.36,90.9,0.81 ± 0.54,86.8,0.23 ± 0.15,76.9,0.03 ± 0.06,100,,
+A. lanigera,-,-,26,3,OSR-1,,,,,,,1.24 ± 1.33,34.2,0.05 ± 0.07,100
+Astroloma pinifolium (2 yr),4,-,-,-,OSR-1,0.13 ± 0.11,ND,,,,,,,,
+Baekea citriodora (WH 2 yr),-,-,35,3,OSR-1,,,,,,,6.09 ± 4.50,88.3,0.11 ± 0.18,ND
+Banksia ericifolia var. macrantha,4,5,70,92,OSR-2,0.04 ± 0.08,0,0.22 ± 0.23,50,0.08 ± 0.08,50.3,8.13 ± 5.07,51.5,40.96 ± 10.97,3.6
+Caustis recurvata,92,31,21,-,OSR-1,6.42 ± 2.37,72.1,1.45 ± 0.58,90.1,0.19 ± 0.12,81.8,0.34 ± 0.23,100,,
+Coleocarya gracilisA (T5),-,90,-,-,OSR-1,,,21.2 ± 6.79,63.4,,,,,,
+Crassocephalum crepidoidesD,4,-,-,-,OSR-3,0.04 ± 0.16,0,,,,,,,,
+Dillwynia floribunda,-,1,39,25,OSR-1,,,0.05 ± 0.09,0,,,4.51 ± 4.06,60.3,1.54 ± 0.76,53.3
+D. retorta,83,65,45,-,OSR-1,7.33 ± 5.33,38.6,2.39 ± 0.88,36.6,1.61 ± 0.52,51.9,2.62 ± 1. 61,40.8,,
+Drosera spp.,-,-,30,49,OSR-1,ND,,ND,,ND,,ND,,ND,
+Epacris obtusifolia B,-,-,30,52,OSR-1,,,,,,,23.2 ± 17.42,65.9,42.32 ± 20.49,31.8
+E. pulchella,-,-,85,-,OSR-1,,,,,0.04 ± 0.05,0,48.6 ± 20.09,60.5,,
+Goodenia stelligera,-,-,3,15,OSR-1,,,,,,,0.08 ± 0.10,0,0.77 ± 0.90,75.7
+Gompholobium virgatum,67,5,12,-,OSR-1,1.63 ± 0.81,89.7,0.18 ± 0.21,66.7,0.09 ± 0.12,80.6,0.18 ± 0.24,66.7,,
+Gonocarpus micranthus,-,-,11,81,OSR-1,,,,,,,14.97 ± 21.64,0.7,37.85 ± 24.35,63.8
+Hibbertia fasciculata,67,97,98,-,OSR-1,4.33 ± 2.28,50.4,20.92 ± 7.42,60.1,7.30 ± 1.53,65.4,23.22 ± 8.49,53.2,,
+H. linearis,-,29,17,-,OSR-1,,,0.84 ± 0.44,75.6,0.53 ± 0.28,66.7,0.06 ± 1.08,100,,
+H. obtusifolia,92,-,-,-,OSR-1,7.25 ± 3.15,84.9,,,,,,,,
+Hormoranthus virgatus,63,50,60,-,OSR-1,2.76 ± 1.46,80.6,2.3 ± 0.69,82.1,1.80 ± 1.62,64.5,3.16 ± 1.25,68.2,,
+Jacksonia stackhousiiA,17,-,-,-,OSR-1,0.71 ± 0.72,82.4,,,,,,,,
+Laxmannia gracilis,75,32,66,-,OSR-1,13.88 ± 7.33,ND,3.16 ± 2.34,76.8,1.65 ± 1.13,67.2,15.29 ± 11.37,66.4,,
+Leptomeria acida,50,47,38,-,OSR-1,1.63 ± 1.29,41.3,2.29 ± 1.11,8.9,1.14 ± 0.47,20.8,0.42 ± 0.30,7.1,,
+Leucopogon deformisB,71,57,-,-,OSR-1,7.76 ± 4.22,38.1,4.22 ± 1.70,62.3,2.31 ± 0.89,37.3,,,,
+L. ericoidesB,50,68,25,-,OSR-1,5.53 ± 2.27,35.2,10.63 ± 3.33,62.3,2.32 ± 1.12,22.7,1.71 ± 1.14,25.6,,
+L. lanceolatus var. gracilis,-,2,-,-,OSR-1,,,0.33 ± 0.62,100,,,,,,
+L. rodwayi,-,-,42,-,OSR-1,,,,,,,6.06 ± 5.26,66.8,,
+Macarthuria neocambricaC,58,26,8,-,OSR-1,8.79 ± 2.36,0,0.8 ± 0.35,0,0.33 ± 0.19,0,,,,
+M. squamea,-,-,-,37,OSR-2,,,,,,,,,33.6 ± 23.85,22.3
+Mirbelia rubiifolia,-,-,8,8,OSR-1,,,,,,,0.21 ± 0.15,28.6,0.12 ± 0.17,100
+Mitrasacme polymorphaA,-,-,43,-,OSR-1,,,,,,,4.94 ± 4.03,43.9,,
+Ochrosperma linearis,96,81,54,-,OSR-1,17.63 ± 8.67,60.8,22.86 ± 9.43,62.6,2.68 ± 1.00,43.6,7.73 ± 5.58,45.1,,
+Olax stricta,38,19,-,-,OSR-1,0.88 ± 0.56,33.3,1.23 ± 0.59,43.3,,,,,,
+Persoonia virgata,42,35,10,-,OSR-1,0.96 ± 0.54,82.6,0.69 ± 0.32,47.1,0.84 ± 0.40,43.9,0.15 ± 0.17,60.7,,
+Pimelea linifoliaA,96,59,93,-,OSR-1,9.63 ± 2.77,81.1,2.29 ± 0.83,43.6,1.02 ± 0.37,55.2,6.72 ± 3.26,66.4,,
+Pomax umbellata,-,3,-,-,OSR-1,,,0.74 ± 0.72,57.1,,,,,,
+Pseudanthus orientalisA,-,-,-,6,OSR-1,,,,,,,,,3.36 ± 2.02,85.1
+Schoenus turbinatus (2 yr),-,-,8,-,OSR-1,,,,,,,0.91 ± 0.61,ND,,
+Senecio vulgarisD,-,5,-,-,OSR-3,,,,,0.03 ± 0.05,0,,,,
+Sprengelia sprengelioides,-,-,12,75,OSR-1,,,,,,,2.33 ± 2.18,44.2,55.9 ± 34.83,36.2
+Styphelia viridis,-,3,-,-,OSR-1,,,0.34 ± 0.55,90.5,,,,,,
+Tetratheca thymifoliaA,-,15,-,-,OSR-1,,,0.75 ± 0.54,50.7,,,,,,
+Utricularia spp. (2 yr),-,-,13,54,OSR-1,,,,,,,"""high""",ND,"""very high""",ND
+Woollsia pungensB,71,34,-,-,OSR-1,19.25 ± 2.43,38.7,2.47 ± 2.05,51.2,3.91 ± 1.89,50.2,,,,
+Xanthosia pilosa,83,5,-,-,OSR-1,4.08 ± 1.37,51.5,0.63 ± 0.49,41.9,,,,,,
+A. ulicifolia,38,11,-,-,FR-4,0.38 ± 0.31,66.6,0.04 ± 0.10,50.3,0.04 ± 0.08,50.7,,,,
+Adrastaea salicifolia,-,-,8,33,FR-7?,,,,,,,0.12 ± 0.14,ND,1.42 ± 1.62,ND
+Allocasuarina littoralis,38,3,-,-,FR-8,0.07 ± 0.06,0,,,0.24 ± 0.26,33.3,,,,
+Amperea xiphoclada,-,26,-,-,OR-11,,,,,,,,,,
+Aotus ericoides (3 yr),-,1,5,-,FR-4,,,,,,,0.16 ± 0.20,ND,,
+Baekea imbricata (2 yr),-,-,20,14,FR-4,,,,,,,1.66 ± 1.42,ND,0.25 ± 0.44,ND
+B. stenophylla,-,-,56,52,FR-7,,,,,,,98.29 ± 51.09,0.1,6.47 ± 7.12,9.5
+Banksia aemula,63,83,59,-,FR-5,0.42 ± 0.35,50.1,0.16 ± 0.24,100,0.27 ± 0.14,78.1,0.28 ± 0.17,34.5,,
+B. oblongifolia,25,-,36,-,FR-5,0.08 ± 0.12,0,,,,,0.09 ± 0.16,33.3,,
+Bauera rubioides,-,-,5,4,FR-4,,,,,,,0.92 ± 1.44,44.7,+,
+Baumea muelleri (2 yr),-,-,-,50,FR-4,,,,,,,,,0.52 ± 0.39,ND
+Blandfordia nobilis (2 yr),-,-,10,64,FR-6,,,,,,,+,,0.08 ± 0.17,ND
+Boronia falcifoliaB,-,-,41,36,FR-4,,,,,,,1.15 ± 0.99,74,0.43 ± 0.37,69.2
+B. safroliferaB,88,-,22,-,FR-4,7.46 ± 4.18,28.5,,,,,1.83 ± 1.05,77.4,,
+Bossiaea ensata,50,10,-,-,FR-4,1.04 ± 1.04,24.8,0.03 ± 0.06,100,0.03 ± 0.06,100,,,,
+B. heterophylla,50,20,8,-,FR-4,1.81 ± 1.19,80.4,+,,0.04 ± 1.00,100,+,,,
+Brachyloma daphnoides (2 yr),38,32,-,-,FR-4,0.29 ± 0.32,ND,0.08 ± 0.14,ND,0.46 ± 0.35,ND,,,,
+Burchardia umbellata,-,-,-,39,R,,,,,,,,,+,
+Caesia parviflora,8,-,-,10,R,+,,,,,,,,+,
+Callistemon pachyphyllus,-,-,3,98,OR-11,,,,,,,,,,
+Calytrix tetragona (2 yr),-,-,3,-,FR-4,,,,,,,0.85 ± 1.41,ND,,
+Chorizema parviflora,-,1,40,20,FR-4,,,0.01 ± 0.05,0,,,4.04 ± 3.18,61.3,1.22 ± 1.06,58.2
+Coleocarya gracilisA (HH 2 yr),25,57,3,-,FR-7,1.02 ± 0.27,ND,1.04 ± 1.85,20.9,1.04 ± 1.85,13.8,,,,
+Comesperma defoliatum,-,-,-,4,R,,,,,,,,,+,
+Conospermum taxifolium,21,18,22,-,FR-4,1.00 ± 0.39,8.3,0.06 ± 0.09,33.3,0.43 ± 0.24,58.3,2.30 ± 2.40,63.8,,
+Damperia stricta,4,2,18,-,OR-11,,,,,,,,,,
+Entolasia stricta (HH 3 yr),17,19,49,42,FR-7,0.13 ± 1.20,ND,0.79 ± 0.64,12.5,0.31 ± 0.19,0,0.77 ± 0.95,15.9,0.36 ± 0.55,0
+Eriostemon australasius,79,10,-,-,FR-4,1.08 ± 0.64,73.2,0.02 ± 0.05,100,,,,,,
+Fimbrystylis dichotoma,4,-,-,-,R,+,,,,,,,,,
+Gahnia sieberana (MH 2 yr),-,-,3,3,FR-4,,,,,,,0.03 ± 0.07,ND,0.13 ± 0.26,0
+Gompholobium pinnatum,50,-,-,-,FR-4,1.13 ± 0.77,37.1,,,,,,,,
+Haemodorum teretifolium,4,-,-,14,R,+,,,,,,,,+,
+Hibbertia acicularis,33,67,11,-,FR-4,1.17 ± 1.09,92.9,1.61 ± 0.96,65.5,3.16 ± 1.24,55.7,0.84 ± 0.68,67.2,,
+H. vestita,13,-,-,-,FR-4,0.79 ± 1.35,26.2,,,,,,,,
+Hypolaena fastigiata,21,78,64,-,FR-7,+,,0.57 ± 0.60,7.4,0.43 ± 0.24,0.14,0.41 ± 0.52,14.8,,
+Jacksonia stackhousiiA (T3),-,3,8,-,OR-10 ?,,,,,,,,,,
+Leptocarpus tenax (2 yr),-,-,8,89,FR-7,,,,,,,+,,0.23 ± 0.14,ND
+Leptospermum juniperinum,-,-,-,10,FR-5,,,,,,,,,+,
+L. liversidgei,-,-,11,57,FR-5,,,,,,,4.26 ± 6.55,26.2,2.55 ± 2.02,24.1
+L. polygalifolium,-,12,91,-,FR-5,,,0.25 ± 0.29,16.7,0.09 ± 0.11,0,9.69 ± 8.71,5.7,,
+L. semibaccatum,-,83,20,-,FR-4,,,0.59 ± 0.42,13.7,0.58 ± 0.26,3.8,0.42 ± 0.39,0,,
+L. trinervium (T3 & 4 2 yr),50,2,30,-,FR-4,0.04 ± 0.06,,+,,0.28 ± 0.32,12.5,+,,,
+Lepyrodia interruptaB,-,-,63,75,FR-7,,,,,,,18.82 ± 9.62,7.7,20.19 ± 6.79,ND
+L. tenuiculmis (3 yr),-,-,7,-,FR-7,,,,,,,0.44 ± 0.50,ND,,
+Leucopogon leptospermoides (2 yr) 13,,44,40,-,FR-4,0.08 ± 0.24,ND,0.49 ± 0.67,ND,0.12 ± 0.16,ND,0.61 ± 0.93,ND,,
+L. pedicellatus (2 yr),-,-,45,-,FR-7,,,,,,,0.58 ± 1.04,ND,,
+L. virgatus (2 yr),42,18,3,-,FR-4,0.33 ± 0.46,ND,0.84 ± 0.64,ND,0.10 ± 0.09,ND,+,,,
+Lomandra elongata,58,17,4,-,FR-4,0.25 ± 0.31,0,0.32 ± 0.56,0,0.12 ± 0.15,14.3,0.06 ± 0.09,0,,
+L. longifolia,88,-,-,-,OR-11,,,,,,,,,,
+Melaleuca nodosa,25,12,65,29,FR-8,0.14 ± 0.18,0,0.08 ± 0.14,0,0.05 ± 0.07,0,1.25 ± 1.16,0,,
+M. sieberi,-,-,-,10,FR-4,,,,,,,,,1.34 ± 1.85,0
+M. thymifolia,-,-,-,8,R,,,,,,,,,+,
+M. quinquenervia,-,-,-,8,FR-5,,,,,,,,,+,
+Mitrasacme polymorphaA,8,-,-,-,FR-4,0.13 ± 0.23,100,,,,,,,,
+Monotoca scoparia (2 yr),29,42,32,-,FR-4,0.17 ± 0.27,ND,0.35 ± 0.53,ND,0.07 ± 0.11,ND,0.03 ± 0.08,ND,,
+Olax retusa,29,-,-,4,FR-4,0.54 ± 0.44,100,,,,,,,0.08 ± 0.18,100
+Pterostylis parviflora,17,7,-,-,FR-6/9?,,,,,,,,,,
+Caleana major,13,3,-,-,FR-6/9?,,,,,,,,,,
+Prasophyllum sp.,4,1,-,-,FR-6/9?,,,,,,,,,,
+Corybas fordhamii,-,-,-,8,FR-6/9?,,,,,,,,,,
+Caladenia carnea,4,1,3,-,FR-6/9?,,,,,,,,,,
+Thelymitra ixioides,-,-,3,-,FR-6/9?,,,,,,,,,,
+Diuris sp.,4,-,-,-,FR-6/9?,,,,,,,,,,
+Panicum simileA,42,1,-,-,FR-4,2.58 ± 1.41,60,,,,,,,,
+Patersonia fragilis,-,-,12,2,FR-4,,,,,,,0.15 ± 0.21,60.7,,
+P. glabrata,38,10,-,-,FR-4,0.46 ± 0.58,18.2,0.11 ± 0.09,0,0.28 ± 0.26,18.8,,,,
+P. sericea,25,4,-,-,FR-4,+,,+,,,,,,,
+Petrophile cannescens,21,8,3,-,FR-5,0.17 ± 0.19,25.8,0.21 ± 0.16,25.8,0.18 ± 0.13,40.4,0.08 ± 0.12,100,,
+Phyllanthus hirtellus,25,-,-,-,FR-7,3.33 ± 2.18,30,,,,,,,,
+Phyllota phylicoides,63,48,25,-,FR-7,0.13 ± 0.23,0,0.22 ± 0.14,36.4,0.25 ± 0.24,20.1,0.09 ± 1.12,0,,
+Pimelea linifoliaA,-,-,-,23,FR-4,,,,,,,,,0.45 ± 0.32,64.3
+"Platysace ericoides (2 yr DH, MH) ",25,50,39,-,FR-7,0.46 ± 0.57,18.1,0.30 ± 0.23,ND,1.03 ± 0.32,ND,0.45 ± 0.43,ND,,
+P. species A,-,-,24,-,FR-4,,,,,,,3.14 ± 2.27,35.2,,
+Pseudanthus orientalisA,42,31,67,-,FR-4,1.00 ± 0.54,41.6,0.51 ± 0.44,14.3,0.42 ± 0.28,50.7,1.79 ± 0.94,54.2,,
+Restio pallens (2 yr),-,-,6,54,FR-7,,,,,,,,,2.05 ± 1.61,ND
+Ricinocarpus pinifolius,58,54,9,-,FR-4,0.54 ± 0.51,92.4,0.27 ± 0.35,38.5,1.25 ± 0.63,53.6,+,,,
+Schoenus ericetorum,54,69,17,-,FR-4,0.26 ± 0.28,14.3,0.49 ± 0.27,16.7,0.14 ± 0.10,12.5,0.07 ± 1.05,0,,
+S. brevifolius (2 yr),-,-,-,29,FR-7,,,,,,,,,0.08 ± 0.22,ND
+Sowerbaea juncea,-,-,7,-,FR-4,,,,,,,0.38 ± 0.52,0,,
+Stackhousia nuda,4,13,-,-,FR-4,+,,,,0.54 ± 0.43,20.5,,,,
+Stylidium graminifolium,-,-,13,-,FR-4,,,,,,,0.96 ± 1.39,8.2,,
+S. ornatum (2 yr),-,-,8,4,FR-6?,,,,,,,,,0.08 ± 0.18,ND
+Tetratheca thymifoliaA,58,-,-,-,FR-7,1.92 ± 1.62,39.1,,,,,,,,
+Themeda australis (HH 2 yr),50,3,-,-,FR-4,0.13 ± 1.81,ND,0.03 ± 0.05,ND,,,,,,
+Thysanotus tuberosus,13,-,-,-,R,+,,+,,,,,,,
+Tricoryne elatior,38,-,-,-,R,+,,,,,,,,,
+Xanthorrhoea johnsonii (2 yr),79,82,35,-,FR-6,27.29 ± 15.56,22.6,0.75 ± 0.51,78.4,0.26 ± 0.17,60.9,+,,,
+X. fulva (2 yr),-,-,22,100,FR-6,,,,,,,,,0.42 ± 0.32,ND
+Xyris operculata,-,-,11,25,R,,,,,,,,,+,
+X. juncea,-,-,7,14,R,,,,,,,,,+,
+Zieria laevigata,79,94,39,-,FR-4,2.83 ± 1.61,61.8,3.38 ± 1.26,33.1,1.44 ± 0.36,36.6,0.46 ± 0.32,20,,

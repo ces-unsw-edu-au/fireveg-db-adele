@@ -1,0 +1,17 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+182382,2754,Poranthera ericifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+157903,1094,Actinotus helianthi,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+160971,2780,Bossiaea heterophylla,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+165738,5556,Cryptandra ericoides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+3981,1145,Platysace linearifolia,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+168925,5776,Eriostemon australasius,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+168927,5776,Eriostemon australasius,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+174222,2540,Hibbertia monogyna,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+177426,2629,Leucopogon microphyllus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+160883,5759,Boronia serrulata,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+168714,2605,Epacris pulchella,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+2999,5345,Banksia oblongifolia,surv4,NSWFFRDv2.1,NA,Lignotuber,NA,NA,NA,possible
+160254,5345,Banksia oblongifolia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3003,5348,Banksia serrata,surv4,NSWFFRDv2.1,NA,Lignotuber,NA,NA,NA,possible
+160327,5348,Banksia serrata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+156857,3790,Acacia hispidula,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible

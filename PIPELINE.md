@@ -1,0 +1,453 @@
+# Fireveg Trait Import Pipeline
+
+This document describes the end-to-end workflow for extracting fire trait data from literature sources and preparing it for import into the fireveg database.
+
+---
+
+## Folder structure
+
+```
+fireveg-db-adele/
+├── PIPELINE.md                       # this file
+├── TRAIT_LOGIC.md                    # interpretation record — mapping decisions across all papers
+├── funx.R                            # shared functions (match_bionet_taxonomy, flag_duplicates)
+├── combine.R                         # aggregates all paper outputs into upload-ready files
+├── run_all.R                         # batch runner — sources all paper scripts sequentially
+├── database.csv                      # snapshot export of the full litrev database
+├── all_records.csv                   # OUTPUT: all new trait records ready for database upload
+├── all_dupes_exact_partial.csv       # OUTPUT: records to retire (set weight = 0)
+├── all_dupes_possible.csv            # OUTPUT: possible duplicates for manual review
+├── data/                             # species lists, bionet exports, other shared data
+├── papers/                           # one subfolder per source paper, named "Author1 Author2 Year"
+│   ├── completed_manually/           # papers processed before the pipeline was formalised
+│   └── Clarke Knox 2002/
+│       ├── mapping.md                # trait extraction spec + approval record
+│       ├── clarke_2002.csv           # raw data transcribed from paper
+│       ├── clarke_knox_2002.pdf
+│       ├── clarke_knox_2002.R        # processing script (generated after mapping.md approval)
+│       ├── clarke_knox_records.csv           # OUTPUT: new trait records for this paper
+│       ├── clarke_knox_dupes_exact_partial.csv  # OUTPUT: clear duplicates
+│       └── clarke_knox_dupes_possible.csv       # OUTPUT: possible duplicates
+└── secrets/                          # database credentials (not committed)
+    └── Renviron.local
+```
+
+Some ref_codes bundle multiple papers (e.g. two papers sharing a ref_code). When papers have different data structures, use one CSV and one R script per paper — `combine.R` will pick up all `*_records.csv` files regardless. When data is compatible, a single CSV and script is fine, with `original_source` varying per row. `mapping.md` should document all papers in the folder.
+
+---
+
+## Priority traits
+
+| Trait | Name | Type | Vocabulary |
+|---|---|---|---|
+| surv1 | Resprouting - full canopy scorch | categorical | None, Few, Half, Most, All, Unknown |
+| surv4 | Regenerative organ | categorical | Epicormic, Apical, Lignotuber, Basal, Tuber, Tussock, Long rhizome or root sucker, Short rhizome, Stolon, None |
+| surv5 | Standing plant longevity (max) | numerical | years |
+| surv6 | Seedbank half-life | numerical | years |
+| surv7 | Seed longevity | numerical | years |
+| germ1 | Seedbank type | categorical | Canopy, Soil-persistent, Transient, Non-canopy |
+| germ8 | Seed dormancy type | categorical | PY, PD, PY-PD, MPD, MD, ND |
+| grow1 | Age to develop regenerative/resistance organs | numerical | years |
+| rect2 | Establishment pattern | categorical | Intolerant, Intolerant-Tolerant, Tolerant, Tolerant-Requiring, Requiring, Unknown |
+| repr2 | Post-fire flowering response | categorical | Exclusive, Facultative, Negligible, Unknown |
+| repr3 | Age at first flower production (from seed) | numerical | years |
+| repr3a | Time to first postfire reproduction (from resprouts) | numerical | years |
+| repr4 | Maturation age | numerical | years |
+| disp1 | Propagule dispersal mode | categorical | wind-hairs, wind-wing, wind-unspec., animal-ingestion, animal-cohesion, animal-unspec., ant, water, ballistic, passive, other |
+
+Categorical trait vocabularies and numerical trait definitions are in `data/fireveg-trait-records-model.xlsx`.
+
+---
+
+## Workflow
+
+### Step 1 — Create `mapping.md`
+
+Create `papers/{Author Year}/mapping.md` following the template below. For each priority trait:
+- State whether it can be extracted and why/why not
+- Propose the value mapping (raw source value → norm_value)
+- List any species-level exceptions
+- Set status to `skip` initially
+
+**Reference string format:** `Author Year` OR `Author1 Author2 Year` (no &, no +, no punctuation between authors)
+
+After creating mapping.md files, run `update_mapping_db_counts.R` from the project root to insert a current database record count table into the header of each mapping.md. Re-run any time `database.csv` is refreshed. The table shows how many records already exist in the database per trait for this source — useful for deciding what to prioritise when approving traits.
+
+### Step 2 — Review and approve traits
+
+Edit `mapping.md`:
+- Change status from `skip` to `approved` for traits you want to process
+- Fill in any `???` values in the mapping table
+- Add/remove species-level exception rows as needed
+- **Add an `**Evidence:**` line** to each approved trait section quoting the exact sentence or table cell from the paper that justifies the value mapping. This is the primary safeguard against misinterpretation.
+
+Example:
+```
+**Evidence:** "Grevillea australis is an obligate seed regenerator" (p. 616, Discussion)
+```
+or for a table-derived value:
+```
+**Evidence:** Table 3: Dormant buds = +, Root stock = – for this species
+```
+
+If all traits remain `skip`, no R script is needed for this paper.
+
+### Step 3 — Transcribe source data to CSV
+
+For each approved trait whose data comes from a structured table or appendix, transcribe the relevant rows and columns into `papers/{Author Year}/{author_year}_data.csv`. Include:
+- A `species` column (exactly as written in the paper)
+- One column per source column referenced in the approved trait sections of mapping.md
+
+**Only transcribe rows that will produce records.** If the R script will filter to a subset of species (e.g. only starred myrmecochores, only a particular life-form class), transcribe only that subset — do not include rows that will be filtered out. Check mapping.md's value mappings and exceptions to determine which rows are in scope before starting transcription.
+
+This step can be done by Claude reading the PDF directly. Claude will create the CSV after all traits for a paper are approved.
+
+**When a CSV is NOT needed:** some traits have data that is sparse or named in text rather than structured in a table. In these cases the species-level exceptions table in mapping.md IS the data — the R script reads the exceptions directly and no CSV transcription is required. Examples:
+- All species share one value (e.g. all Fabaceae → PY for germ8)
+- A handful of named species from a text discussion
+- A short list of dispersal-marked species from footnotes
+
+Mixed papers (some traits table-based, some exceptions-only) use a single CSV covering only the table-based traits.
+
+**Multi-community papers — flag conflicting species:** If a paper covers multiple vegetation communities and the same species appears in more than one community row with *different* trait values (e.g. classified as a resprouter in one community and an obligate seeder in another), note this explicitly in the TRANSCRIPTION NOTES block of the R script. These produce duplicate species+trait records with conflicting norm_values that require explicit resolution — the script will need a targeted case_when or post-processing step to decide the final value. Do not leave the conflict silently in the records CSV. Example: Clarke Knox 2002, where Ozothamnus obcordatus was classified as both `All` and `None` across different appendix entries — resolved to `Half`.
+
+### Step 4 — Write the R processing script
+
+Once `mapping.md` is approved and any required CSV exists, create `papers/{Author Year}/{author_year}.R`.
+
+**Transcription notes header:** Begin every R script with a commented header block listing any issues, ambiguities, or decisions made during CSV transcription that require review before the script is run:
+
+```r
+# Author Year
+# Traits: <comma-separated list of approved traits>
+#
+# TRANSCRIPTION NOTES — review before running:
+#
+# 1. <Issue description and affected species/rows>
+# 2. <Issue description>
+```
+
+If there are no issues, write `# No transcription issues.` under the header.
+
+The script body follows the numbered sections below. Not every section applies to every paper — skip sections 2, 8, and the `best/lower/upper` lines in section 9 where noted.
+
+```r
+library(tidyverse)
+source('funx.R')
+
+# 1. Read data
+data <- read.csv('papers/{Author Year}/{data}.csv')
+
+# 2. Rename source columns to R-friendly names  [skip if column names are already clean]
+# Check mapping.md for the "Source column" for each approved trait.
+# read.csv converts spaces to dots (e.g. "Fire response" -> "Fire.response").
+# Rename to a clean snake_case name for use in case_when, but keep the
+# original column name string (as written in mapping.md) for raw_value construction.
+data <- data %>%
+  rename(source_col = Original.Column.Name)   # replace with actual column names
+
+# 3. Clean species names for taxonomy matching
+# Remove parenthetical ecotype/form descriptions and qualifiers (s.l., aff., etc.)
+# that are not part of the formal name.
+data <- data %>%
+  mutate(
+    original_name = species_col %>%
+      str_remove("\\s*\\(.*\\)") %>%
+      str_remove("\\s+s\\.l\\.$") %>%
+      str_trim()
+  )
+
+# 4. Map values to trait vocabulary using case_when()
+# Species-level exceptions (from mapping.md exceptions table) go FIRST,
+# before the general value mapping, so they take priority.
+data <- data %>%
+  mutate(
+    trait_code = case_when(
+      species_col == 'Exception species name' ~ 'Exception norm_value',
+      source_col == 'Raw value A'             ~ 'norm_value A',
+      source_col == 'Raw value B'             ~ 'norm_value B',
+      TRUE ~ NA_character_
+    )
+  )
+
+# 5. Align taxonomy to Bionet
+data <- match_bionet_taxonomy(data, 'original_name')
+data$original_source <- '{Author Year}'
+
+# 6. Pivot to long format
+trait_cols <- c('trait_code_1', 'trait_code_2')  # approved traits only
+
+data_long <- data %>%
+  pivot_longer(cols = all_of(trait_cols),
+               names_to  = 'trait_code',
+               values_to = 'norm_value',
+               values_transform = as.character) %>%
+  filter(!is.na(norm_value))
+
+# IMPORTANT: do NOT add a select() call at the end of step 6 to trim columns.
+# report_unmatched() in step 9 requires original_name to still be in data_long.
+# The only select() that removes original_name should be the final one in step 9
+# when building the records data frame.
+
+# Multi-value traits: if a species can have MORE THAN ONE valid value for a trait
+# (e.g. surv4 with multiple regenerative organs, disp1 with multiple dispersal modes),
+# each value must become its own database row.
+# Do NOT use a single case_when — instead, create one column per possible value and
+# pivot them all together.
+#
+# Example for surv4 with a source table that has separate Y/N columns per organ:
+#   data <- data %>%
+#     mutate(
+#       surv4_epicormic = if_else(epicormic_col == "Y", "Epicormic", NA_character_),
+#       surv4_basal     = if_else(basal_col     == "Y", "Basal",     NA_character_),
+#       surv4_root      = if_else(root_col      == "Y", "Root",      NA_character_)
+#     )
+#   data_long_surv4 <- data %>%
+#     pivot_longer(cols = c(surv4_epicormic, surv4_basal, surv4_root),
+#                  names_to = NULL, values_to = 'norm_value') %>%
+#     filter(!is.na(norm_value)) %>%
+#     mutate(trait_code = 'surv4')
+#   # bind to data_long from other single-value traits before constructing raw_value
+
+# 7. Construct raw_value
+# Use the SOURCE COLUMN NAME as written in mapping.md (not the R variable name),
+# combined with the actual value from that column.
+data_long <- data_long %>%
+  mutate(
+    raw_value = paste0('Source column name from mapping.md, ', source_col)
+  )
+
+# 8. Parse numerical norm_values into best / lower / upper
+# Skip this section entirely if all approved traits are categorical.
+#
+# norm_value conventions for numerical traits:
+#   "4"    → point estimate:  best = 4, lower = NA, upper = NA
+#   "<4"   → upper bound:     best = NA, lower = NA, upper = 4
+#   ">4"   → lower bound:     best = NA, lower = 4,  upper = NA
+#   "2-4"  → range:           best = NA, lower = 2,  upper = 4
+#
+# best is ONLY for exact point estimates (pure integers/decimals).
+# For bounds and ranges, lower/upper carry the information; best is NA.
+# Always preserve < and > in norm_value — do NOT collapse "<4" to "4".
+# ≤ and ≥ from source papers are normalised to < and > in norm_value.
+
+data_long <- data_long %>%
+  mutate(
+    best = case_when(
+      trait_code %in% c('trait_a', 'trait_b') & str_detect(norm_value, "^[0-9.]+$") ~
+        as.numeric(norm_value),
+      TRUE ~ NA_real_
+    ),
+    lower = case_when(
+      trait_code %in% c('trait_a', 'trait_b') & str_detect(norm_value, "^>") ~
+        as.numeric(str_extract(norm_value, "[0-9.]+")),
+      trait_code %in% c('trait_a', 'trait_b') & str_detect(norm_value, "-") ~
+        as.numeric(str_extract(norm_value, "^[0-9.]+")),
+      TRUE ~ NA_real_
+    ),
+    upper = case_when(
+      trait_code %in% c('trait_a', 'trait_b') & str_detect(norm_value, "^<") ~
+        as.numeric(str_extract(norm_value, "[0-9.]+")),
+      trait_code %in% c('trait_a', 'trait_b') & str_detect(norm_value, "-") ~
+        as.numeric(str_extract(norm_value, "[0-9.]+$")),
+      TRUE ~ NA_real_
+    )
+  )
+
+# 9. Select final columns
+# First report any species that failed Bionet matching — they will be dropped in step 10.
+# Call this BEFORE select() so that original_name is still in scope.
+report_unmatched(data_long)
+
+# Use coalesce(notes, NA_character_) to preserve notes added by match_bionet_taxonomy
+# (e.g. "original name: X" when a species was matched via the subspecies prefix fallback).
+#
+# Categorical-only papers: add best = NA_real_, lower = NA_real_, upper = NA_real_
+#   to the mutate() — section 8 was skipped so these columns don't exist yet.
+# Papers with numerical traits: omit those lines — section 8 already computed them.
+records <- data_long %>%
+  mutate(notes = coalesce(notes, NA_character_)) %>%
+  select(bionet_name, species_code, original_source, trait_code,
+         norm_value, best, lower, upper, raw_value, notes)
+
+# 10. Save records and flag duplicates
+
+# Remove rows where species could not be matched to Bionet — these cannot be imported.
+records <- records %>%
+  filter(!is.na(species_code))
+
+# Validation (check_records) runs in combine.R across all papers at once —
+# no need to call it here.
+
+# Save records so combine.R can aggregate across all papers
+write_csv(records, 'papers/{Author Year}/{author_year}_records.csv')
+
+# Flag duplicates — returns a named list with $exact_partial and $possible
+database <- read.csv('database.csv')
+dupes <- flag_duplicates(records, database)
+
+# exact/partial: db columns only + match_type (for batch weight update)
+write_csv(dupes$exact_partial, 'papers/{Author Year}/{author_year}_dupes_exact_partial.csv')
+
+# possible: db + new columns + match_type (for manual review)
+write_csv(dupes$possible,      'papers/{Author Year}/{author_year}_dupes_possible.csv')
+
+# SQL to set weight = 0 for exact/partial duplicate records
+# Requires record_id in the database export. Run only if authorised to write to the database.
+# library(DBI); library(RPostgres)
+# readRenviron('secrets/Renviron.local')
+# con <- dbConnect(Postgres(),
+#                  dbname   = Sys.getenv("DBNAME"), host     = Sys.getenv("DBHOST"),
+#                  port     = Sys.getenv("DBPORT"), user     = Sys.getenv("DBUSER"),
+#                  password = Sys.getenv("DBPASSWORD"), sslmode = 'require')
+# for (id in dupes$exact_partial$record_id) {
+#   dbExecute(con, paste0("UPDATE litrev.{trait} SET weight = 0 WHERE record_id = ", id))
+# }
+# dbDisconnect(con)
+```
+
+---
+
+## Updating a mapping decision
+
+When you discover an error or change your mind about a mapping after a script has been run, update in this order:
+
+1. **`mapping.md`** — the single source of truth. Change the value mapping or exceptions table and update the `**Evidence:**` line.
+2. **R script** — update the `case_when` logic or exceptions tibble to match.
+3. **Re-run the script** — this overwrites the `*_records.csv` and `*_dupes_*.csv` files.
+4. **`TRAIT_LOGIC.md`** — update the relevant row in the mappings table and any flag or note.
+
+`TRAIT_LOGIC.md` is a derived summary, not a source of truth. It is acceptable for it to lag mapping.md by a session. The script is what actually produces the records — if script and mapping.md agree, TRAIT_LOGIC.md can be updated later.
+
+**Never edit only the script or only the mapping.md.** Divergence between the two is the most common source of confusion on handover.
+
+---
+
+## Script patterns
+
+Three recurring patterns appear in the processing scripts. Every script is a combination of one or more of these.
+
+### Pattern A — CSV-based trait
+
+Use when the source data is a structured table transcribed to a CSV.
+
+```r
+# Read data, rename columns, map values
+data <- read.csv('papers/{Author Year}/{author_year}_data.csv')
+
+data <- data %>%
+  mutate(
+    trait_x = case_when(
+      species == 'Exception species' ~ 'Exception value',  # exceptions first
+      source_col == 'Raw value A'    ~ 'norm_value A',
+      source_col == 'Raw value B'    ~ 'norm_value B',
+      TRUE ~ NA_character_
+    )
+  )
+
+data <- match_bionet_taxonomy(data, 'species')
+data$original_source <- '{Author Year}'
+
+data_long_x <- data %>%
+  filter(!is.na(trait_x)) %>%
+  mutate(
+    trait_code = 'trait_x',
+    norm_value = trait_x,
+    raw_value  = paste0('Source column, ', source_col)
+  ) %>%
+  select(bionet_name, species_code, original_source,
+         trait_code, norm_value, raw_value, notes)
+```
+
+### Pattern B — Exceptions-only trait
+
+Use when the data is sparse, text-derived, or already fully specified in the mapping.md exceptions table. No CSV required.
+
+```r
+exceptions <- tibble(
+  original_name = c('Species A', 'Species B'),
+  norm_value    = c('Value A',   'Value B'),
+  raw_value     = c('exact quote or table cell from paper',
+                    'exact quote or table cell from paper')
+)
+
+matched <- match_bionet_taxonomy(exceptions, 'original_name')
+matched$original_source <- '{Author Year}'
+
+data_long_x <- matched %>%
+  mutate(trait_code = 'trait_x') %>%
+  select(bionet_name, species_code, original_source,
+         trait_code, norm_value, raw_value, notes)
+```
+
+### Pattern C — Mixed paper (multiple traits, different sources)
+
+Use when a paper contributes several traits, some from a CSV and some exceptions-only. Process each trait independently using Pattern A or B, then combine.
+
+```r
+# ... Pattern A for trait_1 -> data_long_trait1
+# ... Pattern B for trait_2 -> data_long_trait2
+
+data_long <- bind_rows(data_long_trait1, data_long_trait2)
+
+# Continue with section 8 (numerical parsing if needed), then sections 9-10 as normal.
+```
+
+---
+
+## Combining outputs across papers
+
+Once all paper scripts have been run, execute `combine.R` from the project root. It will:
+- Glob all `*_records.csv` files under `papers/` and bind into `all_records.csv` for upload
+- Glob all `*_dupes_exact_partial.csv` files under `papers/` and bind into `all_dupes_exact_partial.csv` for batch weight updates
+- Glob all `*_dupes_possible.csv` files under `papers/` and bind into `all_dupes_possible.csv` for manual review
+
+---
+
+## Database export
+
+The file `database.csv` is a manual export and must be refreshed before running duplicate checks. To export including `record_id` and `weight`, run the relevant section of `db_queries.R`:
+
+**Categorical traits:**
+```sql
+SELECT record_id, weight, species, species_code, main_source,
+       original_sources, raw_value, original_notes, norm_value::text AS norm_value
+FROM litrev.{trait}
+```
+
+**Numerical traits:**
+```sql
+SELECT record_id, weight, species, species_code, main_source,
+       original_sources, raw_value, original_notes, best, upper, lower
+FROM litrev.{trait}
+```
+
+Then bind all trait tables and write to `database.csv`. The `row_number` column is added manually after export for reference.
+
+---
+
+## Duplicate flagging
+
+`flag_duplicates(new_records, database)` in `funx.R` compares newly processed records against the database export and returns two dataframes:
+
+| match_type | Meaning |
+|---|---|
+| `exact` | Same species, trait, source, and value — clear duplicate |
+| `partial` | Same species, trait, and source but different value — data discrepancy |
+| `possible` | Same species, trait, and value; `original_sources` is NULL in the database, so origin is unknown — value match suggests overlap |
+
+`exact` and `partial` matches go into `{paper}_dupes_exact_partial.csv` for batch weight updates. `possible` matches go into `{paper}_dupes_possible.csv` for manual review. Both files require a database export that includes `record_id` to action any updates.
+
+---
+
+## Conventions
+
+- **Reference strings:** `Author1 Author2 Year` (no &, no +, no punctuation between authors)
+- **Species taxonomy:** always aligned to Bionet via `match_bionet_taxonomy()` in `funx.R`
+- **Unmatched species:** rows where `species_code` is NA after taxonomy matching are filtered out before saving the records CSV (`filter(!is.na(species_code))` in script section 10). Do not modify `funx.R` for this — the filter belongs in each paper's R script.
+- **Notes column:** always use `coalesce(notes, NA_character_)` when selecting final columns, to preserve any notes added by `match_bionet_taxonomy()` (e.g. "original name: X" for subspecies prefix matches).
+- **CSV output:** always use `write_csv()` (readr, loaded via tidyverse) — never `write.csv()`. Base R's `write.csv` formats whole numeric columns for alignment, so a column containing both `2.0` and `3.5` writes integer values as `"2.0"`. `write_csv` formats each number independently and never adds trailing zeros (`2` stays `"2"`, `3.5` stays `"3.5"`).
+- **Numerical norm_value format:** preserve bounds in norm_value — always write `"<4"` not `"4"`, `">2"` not `"2"`. ≤ and ≥ from source papers are normalised to < and >. See script section 8 for the full best/lower/upper parsing logic.
+- **Trait vocabularies:** defined in `data/fireveg-trait-records-model.xlsx` — always verify against this file before writing or approving norm_values.
+- **Multi-value traits** (surv4, disp1, etc.): use separate columns per value + `pivot_longer`, not `case_when`. See script section 6 for the pattern.
+- **Inferred values** (marked `*` in source): include in processing but flag in the notes column.

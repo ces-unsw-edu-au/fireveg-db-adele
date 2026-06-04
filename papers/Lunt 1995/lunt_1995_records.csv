@@ -1,0 +1,7 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Chrysocephalum apiculatum,8559,Lunt 1995,germ1,Soil-persistent,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Soil-persistent",NA
+Arthropodium strictum,15291,Lunt 1995,germ1,Transient,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Transient",NA
+Bulbine bulbosa,3531,Lunt 1995,germ1,Transient,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Transient",NA
+Burchardia umbellata,3533,Lunt 1995,germ1,Transient,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Transient",NA
+Craspedia variabilis,8634,Lunt 1995,germ1,Transient,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Transient",NA
+Leptorhynchos squamatus,1557,Lunt 1995,germ1,Transient,NA,NA,NA,"inference from viability data (Table 2) and Discussion, Transient",NA

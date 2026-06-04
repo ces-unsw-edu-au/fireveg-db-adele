@@ -1,0 +1,46 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+182385,2754,Poranthera ericifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+NA,1094,Actinotus helianthi,repr4,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,3,NA,partial
+157910,1094,Actinotus helianthi,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+NA,1094,Actinotus helianthi,repr4,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,3,NA,partial
+179855,3595,Mitrasacme polymorpha,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+171779,3248,Gonocarpus teucrioides,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+160951,2780,Bossiaea heterophylla,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+183932,6204,Tetratheca ericifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+NA,1145,Platysace linearifolia,repr4,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,NA,NA,partial
+NA,1145,Platysace linearifolia,repr4,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,NA,NA,partial
+184440,2664,Woollsia pungens,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+165242,5352,Conospermum taxifolium,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+168911,5776,Eriostemon australasius,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+173481,5401,Grevillea speciosa,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+174224,2540,Hibbertia monogyna,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+181965,6182,Pimelea linifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+160791,5744,Boronia ledifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+177434,2629,Leucopogon microphyllus,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+171571,2865,Gompholobium grandiflorum,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+173451,5399,Grevillea sericea,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+157464,3881,Acacia suaveolens,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+160887,5759,Boronia serrulata,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+184543,1163,Xanthosia tridentata,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+168718,2605,Epacris pulchella,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+173817,5427,Hakea teretifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+181385,5479,Petrophile pulchella,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+172094,5364,Grevillea buxifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+160258,5345,Banksia oblongifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",All,NA,NA,NA,exact
+160339,5348,Banksia serrata,surv1,NSWFFRDv2.1,"{""Benson 1985""}",All,NA,NA,NA,exact
+181497,10577,Philotheca buxifolia,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+156861,3790,Acacia hispidula,surv1,NSWFFRDv2.1,"{""Benson 1985""}",None,NA,NA,NA,exact
+NA,2754,Poranthera ericifolia,repr3,NSWFFRDv2.1,"{""Benson McDougall Ecology Sydney Plant Species Cunn"",""Benson 1985""}",NA,1,NA,NA,exact
+NA,3376,Hemigenia purpurea,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,2,NA,NA,exact
+NA,2780,Bossiaea heterophylla,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,3,NA,NA,exact
+NA,6204,Tetratheca ericifolia,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,3,NA,NA,exact
+NA,6204,Tetratheca ericifolia,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,3,NA,NA,exact
+NA,5352,Conospermum taxifolium,repr3,NSWFFRDv2.1,"{""Keith David pers. comm."",""Benson 1985""}",NA,4,NA,NA,exact
+NA,5776,Eriostemon australasius,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,NA,NA,exact
+NA,6182,Pimelea linifolia,repr3,NSWFFRDv2.1,"{""Keith David pers. comm."",""Benson 1985""}",NA,4,NA,NA,exact
+NA,5399,Grevillea sericea,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,NA,NA,exact
+NA,5399,Grevillea sericea,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,4,NA,NA,partial
+NA,5759,Boronia serrulata,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,5,NA,NA,exact
+NA,2605,Epacris pulchella,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,6,NA,NA,exact
+NA,5479,Petrophile pulchella,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,NA,6,NA,partial
+NA,10577,Philotheca buxifolia,repr3,NSWFFRDv2.1,"{""Benson 1985""}",NA,NA,4,NA,partial

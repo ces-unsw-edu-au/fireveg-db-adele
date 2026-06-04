@@ -1,0 +1,35 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Acacia flavescens,14347,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=98 (fire used: Dec 1997),NA
+Allocasuarina littoralis,2012,Williams 2000,surv1,Half,NA,NA,NA,Table 2: % resprouting=45 (fire used: Dec 1997),NA
+Allocasuarina torulosa,2017,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Alphitonia excelsa,7686,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Eucalyptus tereticornis,4191,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Dec 1997),NA
+Lophostemon suaveolens,4243,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Duboisia myoporoides,6036,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=500 (fire used: Dec 1997),NA
+Melastoma affine,3675,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Dec 1997),NA
+Corymbia intermedia,9601,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Dec 1997),NA
+Corymbia torelliana,12526,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Alphitonia petriei,5553,Williams 2000,surv1,None,NA,NA,NA,Table 2: % resprouting=0 (fire used: Dec 1997),NA
+Callicarpa pedunculata,6240,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Commersonia bartramia,6129,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),NA
+Glochidion spp.,GLOC,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Dec 1997),NA
+Trema tomentosa var. aspera,6761,Williams 2000,surv1,All,NA,NA,NA,Table 2: % resprouting=100 (fire used: Nov 1996),original name: Trema tomentosa
+Duboisia myoporoides,6036,Williams 2000,surv4,Long rhizome or root sucker,NA,NA,NA,Table 2/text: root suckering documented post-fire,NA
+Acacia flavescens,14347,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Allocasuarina torulosa,2017,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Alphitonia excelsa,7686,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Eucalyptus tereticornis,4191,Williams 2000,surv4,Epicormic,NA,NA,NA,text: sclerophyll tree >2 m — epicormic reshooting,NA
+Melastoma affine,3675,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Corymbia intermedia,9601,Williams 2000,surv4,Epicormic,NA,NA,NA,text: sclerophyll tree >2 m — epicormic reshooting,NA
+Corymbia torelliana,12526,Williams 2000,surv4,Epicormic,NA,NA,NA,text: sclerophyll tree >2 m — epicormic reshooting,NA
+Callicarpa pedunculata,6240,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Commersonia bartramia,6129,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Glochidion spp.,GLOC,Williams 2000,surv4,Basal,NA,NA,NA,text: rainforest pioneer — basal stem and root resprouting,NA
+Allocasuarina littoralis,2012,Williams 2000,rect2,Intolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0.01, Block4=0.12, Block5 (unburnt)=0 seedlings/m2",NA
+Allocasuarina torulosa,2017,Williams 2000,rect2,Intolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0.08, Block4=0.27, Block5 (unburnt)=0 seedlings/m2",NA
+Eucalyptus tereticornis,4191,Williams 2000,rect2,Intolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0, Block4=0.25, Block5 (unburnt)=0 seedlings/m2",NA
+Lophostemon suaveolens,4243,Williams 2000,rect2,Tolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0.02, Block4=0.13, Block5 (unburnt)=0.05 seedlings/m2",NA
+Melastoma affine,3675,Williams 2000,rect2,Tolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0.31, Block4=0.1, Block5 (unburnt)=0.06 seedlings/m2",NA
+Alphitonia petriei,5553,Williams 2000,rect2,Intolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=3.52, Block4=2.9, Block5 (unburnt)=0.02 seedlings/m2",NA
+Trema tomentosa var. aspera,6761,Williams 2000,rect2,Intolerant,NA,NA,NA,"Table 3 Oct 1998: Block2=0.16, Block4=0.02, Block5 (unburnt)=0 seedlings/m2",original name: Trema tomentosa
+Alphitonia petriei,5553,Williams 2000,germ8,PY,NA,NA,NA,"Table 4: Block2 heated=70.01, Block2 unheated=0, Block4 heated=30.01, Block4 unheated=0; ANOVA heat treatment p=<0.0001",NA

@@ -1,0 +1,66 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156795,3781,Acacia genistifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+163413,3469,Cassytha pubescens,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+166177,1109,Daucus glochidiatus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+175346,1550,Lactuca serriola,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+180809,5992,Parentucellia latifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+183377,1675,Senecio quadridentatus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+183512,6091,Solanum nigrum,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+158024,4731,Aira cupaniana,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+162408,4801,Briza minor,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+166005,2395,Cyperus sanguinolentus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+175128,3324,Juncus capitatus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+177758,5033,Lolium rigidum,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+184353,5239,Vulpia bromoides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+169229,4082,Eucalyptus dives,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+169441,4120,Eucalyptus macrorhyncha,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+169744,4172,Eucalyptus rossii,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+159691,2584,Astroloma humifusum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+159735,1203,Astrotricha ledifolia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+160590,4671,Billardiera scandens,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+174541,11015,Hovea heterophylla,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+174543,11015,Hovea heterophylla,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+177052,4228,Leptospermum multicaule,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+182800,3012,Pultenaea procumbens,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+159551,4770,Aristida ramosa,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+166462,4891,Deyeuxia quadriseta,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3500,5860,Exocarpos cupressiformis,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+2854,3823,Acacia mearnsii,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+166267,2824,Daviesia mimosoides,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3229,2824,Daviesia mimosoides,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3668,2882,Indigofera australis,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+2834,3727,Acacia buxifolia,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3637,2542,Hibbertia obtusifolia,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3897,4613,Oxalis corniculata,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+162677,4373,Caladenia carnea,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+162711,4376,Caladenia cucullata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+167050,4447,Diuris maculata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3269,4447,Diuris maculata,surv4,NSWFFRDv2.1,NA,Tuber,NA,NA,NA,possible
+3531,4465,Glossodia major,surv4,NSWFFRDv2.1,NA,Tuber,NA,NA,NA,possible
+178800,7622,Microtis parviflora,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+182422,4494,Prasophyllum brevilabre,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+4004,4494,Prasophyllum brevilabre,surv4,NSWFFRDv2.1,NA,Tuber,NA,NA,NA,possible
+182669,4566,Pterostylis parviflora,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+184005,4602,Thelymitra pauciflora,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+184062,3573,Thysanotus patersonii,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+166544,3542,Dianella revoluta,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+175176,3348,Juncus subsecundus,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+177830,6302,Lomandra filiformis,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+177940,6308,Lomandra longifolia,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+170872,9904,Euchiton involucratus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+174776,1540,Hypochaeris glabra,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+177588,5978,Linaria pelisseriana,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+162428,4807,Bromus hordeaceus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+169450,7827,Eucalyptus mannifera subsp. mannifera,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+4134,6157,Stylidium graminifolium,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+183033,14308,Rytidosperma erianthum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+183045,14314,Rytidosperma pallidum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+183054,14316,Rytidosperma pilosum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+166645,4898,Dichelachne micrantha,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3541,3247,Gonocarpus tetragynus,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3150,8562,Chrysocephalum semipapposum,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+165883,11228,Cyanicula caerulea,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+168746,7952,Epilobium billardiereanum subsp. cinereum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+171345,9201,Genoplesium rufum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+3521,9201,Genoplesium rufum,surv4,NSWFFRDv2.1,NA,Tuber,NA,NA,NA,possible
+178005,8802,Lomandra multiflora subsp. multiflora,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible

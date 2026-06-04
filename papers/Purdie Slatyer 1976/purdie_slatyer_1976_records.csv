@@ -1,0 +1,176 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Acacia genistifolia,3781,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Obligate seed regenerators — Fire-sensitive decreasers",NA
+Dillwynia retorta,2850,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Obligate seed regenerators — Fire-sensitive decreasers",NA
+Cassytha pubescens,3469,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Obligate seed regenerators — Fire-sensitive decreasers",NA
+Pimelea linifolia,6182,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Obligate seed regenerators — Fire-sensitive decreasers",NA
+Daucus glochidiatus,1109,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Daucus glochidiatus,1109,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Lactuca serriola,1550,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Lactuca serriola,1550,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Parentucellia latifolia,5992,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Parentucellia latifolia,5992,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Poranthera microphylla,7395,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Poranthera microphylla,7395,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Senecio quadridentatus,1675,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Senecio quadridentatus,1675,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Solanum nigrum,6091,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Solanum nigrum,6091,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Sonchus asper,1689,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Sonchus asper,1689,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Aira cupaniana,4731,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Aira cupaniana,4731,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Briza minor,4801,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Briza minor,4801,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Cyperus sanguinolentus,2395,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Cyperus sanguinolentus,2395,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Juncus capitatus,3324,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Juncus capitatus,3324,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Lolium rigidum,5033,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Lolium rigidum,5033,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Vulpia bromoides,5239,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Vulpia bromoides,5239,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Eucalyptus dives,4082,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Eucalyptus macrorhyncha,4120,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Eucalyptus rossii,4172,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Astroloma humifusum,2584,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Astroloma humifusum,2584,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Astrotricha ledifolia,1203,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Astrotricha ledifolia,1203,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Billardiera scandens,4671,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Billardiera scandens,4671,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Brachyloma daphnoides,2586,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Brachyloma daphnoides,2586,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Chondrilla juncea,1391,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Chondrilla juncea,1391,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Grevillea alpina,5357,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Grevillea alpina,5357,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hardenbergia violacea,2873,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hardenbergia violacea,2873,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hovea heterophylla,11015,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hovea heterophylla,11015,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hypericum gramineum,7240,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hypericum gramineum,7240,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Leptospermum multicaule,4228,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Leptospermum multicaule,4228,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Melichrus urceolatus,2646,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Melichrus urceolatus,2646,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Monotoca scoparia,2649,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Monotoca scoparia,2649,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Persoonia rigida,5471,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Persoonia rigida,5471,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Pultenaea procumbens,3012,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Pultenaea procumbens,3012,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Aristida ramosa,4770,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Aristida ramosa,4770,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Deyeuxia quadriseta,4891,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Deyeuxia quadriseta,4891,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Exocarpos cupressiformis,5860,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Exocarpos cupressiformis,5860,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Acacia mearnsii,3823,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Acacia mearnsii,3823,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Daviesia mimosoides,2824,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Daviesia mimosoides,2824,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Indigofera australis,2882,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Indigofera australis,2882,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Acacia buxifolia,3727,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Acacia buxifolia,3727,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Goodenia hederacea,3188,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Goodenia hederacea,3188,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Hibbertia obtusifolia,2542,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Hibbertia obtusifolia,2542,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Oxalis corniculata,4613,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Oxalis corniculata,4613,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Microlaena stipoides,5037,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Microlaena stipoides,5037,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Caladenia carnea,4373,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Caladenia carnea,4373,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Caladenia cucullata,4376,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Caladenia cucullata,4376,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Caladenia praecox,12068,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Caladenia praecox,12068,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Diuris maculata,4447,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Diuris maculata,4447,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Glossodia major,4465,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Glossodia major,4465,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Microtis parviflora,7622,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Microtis parviflora,7622,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Prasophyllum brevilabre,4494,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Prasophyllum brevilabre,4494,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Pterostylis parviflora,4566,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Pterostylis parviflora,4566,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thelymitra pauciflora,4602,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thelymitra pauciflora,4602,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thysanotus patersonii,3573,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thysanotus patersonii,3573,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thysanotus tuberosus,3574,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Thysanotus tuberosus,3574,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Dianella revoluta,3542,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Dianella revoluta,3542,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Juncus subsecundus,3348,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Juncus subsecundus,3348,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Lomandra filiformis,6302,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Lomandra filiformis,6302,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Lomandra longifolia,6308,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Lomandra longifolia,6308,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",NA
+Crassula sieberiana,2242,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Crassula sieberiana,2242,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Euchiton involucratus,9904,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Euchiton involucratus,9904,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Hypochaeris glabra,1540,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Hypochaeris glabra,1540,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Linaria pelisseriana,5978,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Linaria pelisseriana,5978,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Bromus hordeaceus,4807,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Bromus hordeaceus,4807,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Eucalyptus mannifera subsp. mannifera,7827,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Acacia gunnii,3785,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Acacia gunnii,3785,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hypochaeris radicata,8788,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Hypochaeris radicata,8788,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Stylidium graminifolium,6157,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Stylidium graminifolium,6157,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma erianthum,14308,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma erianthum,14308,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma pallidum,14314,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma pallidum,14314,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma pilosum,14316,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Rytidosperma pilosum,14316,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Dichelachne micrantha,4898,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Dichelachne micrantha,4898,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Gonocarpus tetragynus,3247,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Gonocarpus tetragynus,3247,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Chrysocephalum semipapposum,8562,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Chrysocephalum semipapposum,8562,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Cyanicula caerulea,11228,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Cyanicula caerulea,11228,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Conyza spp.,CONY,Purdie Slatyer 1976,surv1,None,NA,NA,NA,"Class, Therophytes",NA
+Conyza spp.,CONY,Purdie Slatyer 1976,surv4,None,NA,NA,NA,"Class, Therophytes",NA
+Epilobium billardierianum subsp. cinereum,7952,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Epilobium billardierianum subsp. cinereum,7952,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Helichrysum spp.,HELI,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Helichrysum spp.,HELI,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Leucopogon spp.,LEUC,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Leucopogon spp.,LEUC,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Poa spp.,POA,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Poa spp.,POA,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant decreasers",NA
+Genoplesium rufum,9201,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Genoplesium rufum,9201,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Prasophyllum spp.,PRAS,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Prasophyllum spp.,PRAS,Purdie Slatyer 1976,surv4,Tuber,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant decreasers",NA
+Wahlenbergia spp.,WAHL,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Wahlenbergia spp.,WAHL,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Facultative root resprouters — Fire-resistant increasers",NA
+Lomandra multiflora subsp. multiflora,8802,Purdie Slatyer 1976,surv1,All,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",original name: Lomandra multiflora
+Lomandra multiflora subsp. multiflora,8802,Purdie Slatyer 1976,surv4,Long rhizome or root sucker,NA,NA,NA,"Class, Obligate root resprouters — Fire-resistant increasers",original name: Lomandra multiflora
+Acacia genistifolia,3781,Purdie Slatyer 1976,germ8,PY,NA,NA,NA,"Text discussion, fire stimulates germination via heat-softening of hard seed coats",NA
+Dillwynia retorta,2850,Purdie Slatyer 1976,germ8,PY,NA,NA,NA,"Text discussion, fire stimulates germination via heat-softening of hard seed coats",NA
+Daviesia mimosoides,2824,Purdie Slatyer 1976,germ8,PY,NA,NA,NA,"Text discussion, fire stimulates germination via heat-softening of hard seed coats",NA
+Lactuca serriola,1550,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Senecio quadridentatus,1675,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Sonchus asper,1689,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Chondrilla juncea,1391,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Hardenbergia violacea,2873,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Exocarpos cupressiformis,5860,Purdie Slatyer 1976,disp1,animal-ingestion,NA,NA,NA,"Table 3 species footnote, +",NA
+Euchiton involucratus,9904,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Hypochaeris glabra,1540,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Hypochaeris radicata,8788,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA
+Helichrysum spp.,HELI,Purdie Slatyer 1976,disp1,wind-hairs,NA,NA,NA,"Table 3 species footnote, *",NA

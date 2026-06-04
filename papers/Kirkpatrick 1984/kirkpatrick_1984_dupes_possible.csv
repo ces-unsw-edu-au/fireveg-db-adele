@@ -1,0 +1,13 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+181005,2650,Pentachondra pumila,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+163229,2338,Carpha alpina,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+180508,2478,Oreobolus distichus,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+183218,2494,Schoenus calyptratus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+168434,5532,Empodisma minus,surv1,NSWFFRDv2.1,NA,Half,NA,NA,NA,possible
+163527,1377,Celmisia longifolia,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+183347,10172,Senecio leptocarpus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+178189,8133,Lycopodium fastigiatum,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+171714,3244,Gonocarpus montanus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182211,5247,Podocarpus lawrencei,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+159665,7534,Astelia alpina var. novae-hollandiae,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+183366,11033,Senecio pectinatus var. major,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible

@@ -1,0 +1,9 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+162512,3533,Burchardia umbellata,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",All,NA,NA,NA,exact
+NA,3533,Burchardia umbellata,repr3a,NSWFFRDv2.1,"{""Wark White Robertson Marriott 1987"",""Wark 1997"",""Bewick 1994"",""Van Moezel Loneragan Bell 1987""}",NA,NA,1,2,exact
+167046,4446,Diuris longifolia,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",All,NA,NA,NA,exact
+182659,4561,Pterostylis nana,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",All,NA,NA,NA,exact
+158426,1268,Angianthus tomentosus,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",None,NA,NA,NA,exact
+159499,1273,Arctotheca calendula,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",None,NA,NA,NA,exact
+163423,3469,Cassytha pubescens,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",None,NA,NA,NA,exact
+175186,2896,Kennedia prostrata,surv1,NSWFFRDv2.1,"{""Van Moezel Loneragan Bell 1987""}",None,NA,NA,NA,exact

@@ -1,0 +1,6 @@
+species,group,block2_heated,block2_unheated,block4_heated,block4_unheated,p_heat_treatment,heat_direction
+Acacia cincinnata,Rainforest pioneer,20.00,0.00,53.34,0.00,<0.0001,increases
+Alphitonia petrei,Rainforest pioneer,70.01,0.00,30.01,0.00,<0.0001,increases
+Melastoma affine,Rainforest pioneer,0.00,30.01,10.00,56.68,0.002,reduces
+Poaceae spp.,Sclerophyll,0.00,30.01,3.33,20.00,0.012,reduces
+Rhodomyrtus trineura,Rainforest pioneer,3.33,0.00,0.00,23.34,0.012,inconsistent

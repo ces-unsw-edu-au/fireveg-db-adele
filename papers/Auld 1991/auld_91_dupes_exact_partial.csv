@@ -1,0 +1,25 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+156726,3769,Acacia elongata,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+156978,3814,Acacia linifolia,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+157025,3817,Acacia longissima,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+157187,3834,Acacia myrtifolia,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+157468,3881,Acacia suaveolens,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+157523,3885,Acacia terminalis,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+159411,2770,Aotus ericoides,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+166760,2843,Dillwynia floribunda,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+171505,2860,Glycine clandestina,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+171549,2864,Gompholobium glabratum,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+171631,2867,Gompholobium minus,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+173913,2873,Hardenbergia violacea,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+175224,2898,Kennedia rubicunda,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+181899,2958,Phyllota phylicoides,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+182729,2985,Pultenaea daphnoides,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+182754,2993,Pultenaea flexilis,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+182764,2995,Pultenaea glabra,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+182774,3002,Pultenaea linophylla,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+182796,3011,Pultenaea polifolia,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+182833,3018,Pultenaea stipularis,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+184300,3105,Viminaria juncea,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact
+178856,2936,Mirbelia platylobioides,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+182087,2961,Platylobium formosum,surv1,NSWFFRDv2.1,"{""Auld 1991""}",All,NA,NA,NA,exact
+158247,8365,Almaleea incurvata,surv1,NSWFFRDv2.1,"{""Auld 1991""}",None,NA,NA,NA,exact

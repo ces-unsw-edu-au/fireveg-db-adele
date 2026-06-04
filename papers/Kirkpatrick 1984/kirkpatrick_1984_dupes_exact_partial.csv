@@ -1,0 +1,10 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+181007,2650,Pentachondra pumila,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact
+183629,2654,Sprengelia incarnata,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact
+160436,2268,Bauera rubioides,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",All,NA,NA,NA,partial
+165363,8677,Coprosma nitida,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact
+180518,2480,Oreobolus pumilio,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",All,NA,NA,NA,partial
+163231,2338,Carpha alpina,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact
+168440,5532,Empodisma minus,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",All,NA,NA,NA,partial
+163529,1377,Celmisia longifolia,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact
+183875,6291,Tasmannia lanceolata,surv1,NSWFFRDv2.1,"{""Kirkpatrick 1984""}",None,NA,NA,NA,exact

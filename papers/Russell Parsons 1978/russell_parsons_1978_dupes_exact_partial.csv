@@ -1,0 +1,11 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+181114,5459,Persoonia juniperina,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+160212,5344,Banksia marginata,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+173791,5425,Hakea sericea,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",None,NA,NA,NA,exact
+166938,2851,Dillwynia sericea,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",None,NA,NA,NA,exact
+166808,2844,Dillwynia glaberrima,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",None,NA,NA,NA,exact
+177078,4229,Leptospermum myrsinoides,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+176986,4221,Leptospermum juniperinum,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+168610,2597,Epacris impressa,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+177556,2639,Leucopogon virgatus,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact
+158190,2015,Allocasuarina paludosa,surv1,NSWFFRDv2.1,"{""Russell Parsons 1978""}",All,NA,NA,NA,exact

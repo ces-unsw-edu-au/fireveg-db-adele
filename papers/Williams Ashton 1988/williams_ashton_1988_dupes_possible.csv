@@ -1,0 +1,5 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+159687,5730,Asterolasia trymalioides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+175312,4209,Kunzea muelleri,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+182470,3403,Prostanthera cuneata,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible
+180545,5449,Orites lancifolius,surv1,NSWFFRDv2.1,NA,All,NA,NA,NA,possible

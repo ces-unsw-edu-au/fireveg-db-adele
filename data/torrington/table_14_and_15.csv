@@ -1,0 +1,85 @@
+"Growth Form","Species Name","Dormancy","Fire Response","Seedlings Present Post-Fire","Relative Frequency","Abundance","Distribution","Fire Fq Response Type"
+"Tree","Eucalyptus caleyi subsp. ovendenii","?","5,6",NA,"Infrequent","Sparse","Widespread","III"
+"Tree","Eucalyptus mckieana","?","5,6",NA,"Infrequent","Sparse","Restricted","III"
+"Tree","Eucalyptus youmanii","?","5,6",NA,"Infrequent","Sparse","Widespread","III"
+"Tail-shrub","Acacia burbidgeae","Yes","2","Y2","Infrequent","Dense","Widespread","II"
+"Tail-shrub","Acacia latisepala","Yes","2","Y1","Infrequent","Sparse","Widespread","II"
+"Tail-shrub","Acacia macnuttiana","Yes?","2?",NA,"Infrequent","Dense","Widespread","II"
+"Tail-shrub","Acacia pubifolia","Yes?","2?",NA,"Infrequent","Sparse","Restricted","X"
+"Tail-shrub","Acacia williamsiana","Yes?","2?",NA,"Infrequent","Dense","Widespread","II"
+"Tail-shrub","Brachyloma saxicola","Yes","2","Y1","Infrequent","Sparse","Widespread","II"
+"Tail-shrub","Callistemon pungens","No","5?",NA,"Infrequent","Dense","Widespread","III"
+"Tail-shrub","Callistemon sp. [Callistemon sp. aff. flavovirens]","No","5","N","Infrequent","Dense","Widespread","III"
+"Tail-shrub","Hakea macrorrhyncha","No","1",NA,"Infrequent","Sparse","Widespread","I"
+"Tail-shrub","Pomaderris queenslandica","?","?",NA,"Infrequent","Sparse","Restricted","X"
+"Med-shrub","Acacia brunioides subsp. granitica","Yes?","2?",NA,"Infrequent","Sparse","Restricted","X"
+"Med-shrub","Almaleea cambagei","Yes?","5?",NA,"Infrequent","Dense","Widespread","X"
+"Med-shrub","Babingtonia odontocalyx","No","2","Y3","Infrequent","Dense","Widespread","II"
+"Med-shrub","Grevillea beadleana","Yes","2","Y2","Infrequent","Dense","Restricted","II"
+"Med-shrub","Homoranthus sp. [Homoranthus sp. nov.]","No?","2","Y1","Infrequent","Sparse","Restricted","I"
+"Med-shrub","Kunzea bracteolata","No","2","Y2","Frequent","Dense","Widespread","II"
+"Med-shrub","Olearia gravis","Yes","2?",NA,"Infrequent","Sparse","Widespread","II"
+"Med-shrub","Persoonia terminalis subsp. terminalis","Yes","2","N","Infrequent","Sparse","Widespread","II"
+"Med-shrub","Phebalium ambiens","Yes?","2?",NA,"Infrequent","Dense","Restricted","I"
+"Med-shrub","Phebalium rotundifolium","Yes","2","Y2","Frequent","Dense","Widespread","II"
+"Med-shrub","Philotheca myoporoides subsp. epilosa","?","?",NA,"Infrequent","Sparse","Restricted","I"
+"Med-shrub","Prostanthera staurophylla","Yes","2,6","Y2","Frequent","Dense","Widespread","II"
+"Sub-shrub","Boronia granitica","Yes?","2","Y1","Frequent","Sparse","Widespread","II"
+"Sub-shrub","Boronia sp. [Boronia sp. aff. bipinnata]","Yes?","2?",NA,"Frequent","Sparse","Restricted","X"
+"Sub-shrub","Boronia sp. [Boronia sp. aff. microphylla]","Yes?","6","N","Infrequent","Sparse","Widespread","III"
+"Sub-shrub","Cryptandra lanosiflora","?","?",NA,"Infrequent","Sparse","Restricted","X"
+"Sub-shrub","Derwentia arenaria","?","?",NA,"Infrequent","Sparse","Restricted","X"
+"Sub-shrub","Dodonaea hirsuta","Yes","2","Y2","Frequent","Sparse","Widespread","II"
+"Sub-shrub","Hibbertia sp. B","Yes","2","Y1","Frequent","Sparse","Widespread","II"
+"Sub-shrub","Hibertia sp. nov.","Yes?","2?",NA,"Infrequent","Sparse","Restricted","X"
+"Sub-shrub","Homoranthus lunatus","?","2?",NA,"Infrequent","Sparse","Restricted","I"
+"Sub-shrub","Leucopogon confertus","Yes?","2?",NA,"Infrequent","Sparse","Restricted","X"
+"Sub-shrub","Macrozamia plurinervia","?","6?",NA,"Infrequent","Sparse","Widespread","III"
+"Sub-shrub","Phebalium glandulosum subsp. eglandulosum","Yes?","2,6","Y2","Infrequent","Sparse","Restricted","I"
+"Sub-shrub","Plectranthus sp. nov.","?","?",NA,"Infrequent","Sparse","Widespread","X"
+"Sub-shrub","Pseudanthus ovalifolius","?","?",NA,"Infrequent","Sparse","Restricted","X"
+"Sub-shrub","Pultenaea stuartiana","Yes","6","Y2","Frequent","Sparse","Widespread","IV"
+"Sub-shrub","Rulingia sp. [Rulingia sp. aff. daspylla]","?","?",NA,"Infrequent","Sparse","Widespread","X"
+"Herb","Monotaxis macrophylla","Yes","2#","Y3","Infrequent","Dense","Restricted","V"
+"Herb","Rutidosis heterogama","No","3?",NA,"Infrequent","Sparse","Widespread","X"
+"Herb","Thelionema grande","?","6?",NA,"Infrequent","Sparse","Restricted","X"
+"Tree","Callitris endlicheri","?","2","Y1","Frequent","Sparse",NA,NA
+"Med-shrub","Acacia buxifolia","Yes?","2","Y1","Frequent","Dense",NA,NA
+"Med-shrub","Acacia granitica","Yes?","2","Y1","Infrequent","Dense",NA,NA
+"Med-shrub","Acacia pruinosa","Yes?","6","N","Infrequent","Sparse",NA,NA
+"Med-shrub","Acacia terminalis","Yes?","2#","Y1","Infrequent","Sparse",NA,NA
+"Med-shrub","Acacia torringtonensis","Yes?","2","Y1","Frequent","Sparse",NA,NA
+"Med-shrub","Acacia venulosa","Yes?","2","N","Frequent","Sparse",NA,NA
+"Med-shrub","Acacia viscidula","Yes?","2","Y1","Frequent","Dense",NA,NA
+"Med-shrub","Babingtonia densifolia","No","6","N","Frequent","Dense",NA,NA
+"Med-shrub","Banksia cunninghamii subsp. A","No","5","N","Infrequent","Dense",NA,NA
+"Med-shrub","Bossiaea obcordata","Yes?","2,6","N","Frequent","Dense",NA,NA
+"Med-shrub","Brachyloma daphnoides","Yes?","6","N","Frequent","Dense",NA,NA
+"Med-shrub","Calytrix tetragona","?","2","Y1","Frequent","Dense",NA,NA
+"Med-shrub","Hakea dactyloides","No","6","Y1","Infrequent","Sparse",NA,NA
+"Med-shrub","Hovea beckeri","Yes?","2","Y2","Infrequent","Sparse",NA,NA
+"Med-shrub","Leptospermum novae-angliae","No","6","N","Frequent","Dense",NA,NA
+"Med-shrub","Leptospermum trinervium","No","5","N","Frequent","Dense",NA,NA
+"Med-shrub","Persoonia cornifolia","Yes?","6","N","Frequent","Sparse",NA,NA
+"Med-shrub","Styphelia triflora","Yes?","2","N","Frequent","Sparse",NA,NA
+"Sub-shrub","Correa reflexa","Yes?","2","Y1","Frequent","Sparse",NA,NA
+"Sub-shrub","Daviesia ulicifolia","Yes?","2","N","Infrequent","Dense",NA,NA
+"Sub-shrub","Dillwynia phylicoides","Yes?","2","?","Infrequent","Dense",NA,NA
+"Sub-shrub","Grevillea linearifolia","Yes?","2","N","Frequent","Sparse",NA,NA
+"Sub-shrub","Hibbertia obtusifolia","Yes?","6","N","Frequent","Dense",NA,NA
+"Sub-shrub","Hovea lanceolata","Yes?","2#","Y2","Frequent","Dense",NA,NA
+"Sub-shrub","Indigofera sp.","Yes?","2","Y1","-","-",NA,NA
+"Sub-shrub","Leucopogon biflorus","Yes?","2","N","Frequent","Sparse",NA,NA
+"Sub-shrub","Leucopogon melaleucoides","Yes?","6","N","Frequent","Sparse",NA,NA
+"Sub-shrub","Leucopogon neoanglicus","Yes?","2#","Y1","Frequent","Dense",NA,NA
+"Sub-shrub","Lomatia silaifolia","Yes?","6","N","Frequent","Dense",NA,NA
+"Sub-shrub","Melichrus erubescens","Yes?","6","N","Infrequent","Dense",NA,NA
+"Sub-shrub","Mirbelia pungens","Yes?","6","N","Infrequent","Sparse",NA,NA
+"Sub-shrub","Mirbelia speciosa","Yes?","2#, 6?","Y2","Frequent","Sparse",NA,NA
+"Sub-shrub","Persoonia tenuifolia","Yes?","6","N","Infrequent","Sparse",NA,NA
+"Sub-shrub","Petrophile canescens","No","6","Y1","Frequent","Dense",NA,NA
+"Sub-shrub","Zieria laevigata","?","2#, 6?","Y1","Frequent","Sparse",NA,NA
+"Herb","Actinotus helianthi","Yes?","2#","Y1","Frequent","Sparse",NA,NA
+"Herb","Gonocarpus tetragynus","Yes?","2","Y3","Frequent","Dense",NA,NA
+"Herb","Monotaxis macrophylla","Yes","2#","Y3","-","-",NA,NA
+"Herb","Stylidium laricifolium","Yes","2#","Y2","Frequent","Dense",NA,NA

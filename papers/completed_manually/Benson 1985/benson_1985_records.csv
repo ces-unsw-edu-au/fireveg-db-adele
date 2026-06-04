@@ -1,0 +1,146 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value
+Poranthera ericifolia,2754,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Poranthera ericifolia,2754,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Hemigenia purpurea,3376,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Hemigenia purpurea,3376,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Actinotus helianthi,1094,Benson 1985,repr2,Exclusive,NA,NA,NA,Based on figure 1 flowering response at location:BW
+Actinotus helianthi,1094,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Actinotus helianthi,1094,Benson 1985,repr4,NA,2,NA,NA,Based on figure 1 seed data at location: BW
+Actinotus helianthi,1094,Benson 1985,surv5,NA,5,NA,NA,Based on figure 1 longevity - location: BW
+Actinotus helianthi,1094,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Actinotus helianthi,1094,Benson 1985,repr2,Exclusive,NA,NA,NA,Based on figure 1 flowering response at location:G
+Actinotus helianthi,1094,Benson 1985,repr4,NA,2,NA,NA,Based on figure 1 seed data at location: G
+Actinotus helianthi,1094,Benson 1985,surv5,NA,5,NA,NA,Based on figure 1 longevity - location: G
+Actinotus minor,1095,Benson 1985,surv4,Basal,NA,NA,NA,fire susceptibility: r
+Mitrasacme polymorpha,3595,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Mitrasacme polymorpha,3595,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Gonocarpus teucrioides,3248,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Gonocarpus teucrioides,3248,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Bossiaea heterophylla,2780,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Bossiaea heterophylla,2780,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Cryptandra ericoides,5556,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Cryptandra ericoides,5556,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Hibbertia cistiflora,2530,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Hibbertia cistiflora,2530,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Tetratheca ericifolia,6204,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Tetratheca ericifolia,6204,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Tetratheca shiressii,6212,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Tetratheca shiressii,6212,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Platysace linearifolia,1145,Benson 1985,repr2,Negligible,NA,NA,NA,Based on figure 1 flowering response at location:BW
+Platysace linearifolia,1145,Benson 1985,surv4,Long rhizome or root sucker,NA,NA,NA,fire susceptibility: r
+Platysace linearifolia,1145,Benson 1985,repr4,NA,3,NA,NA,Based on figure 1 seed data at location: BW
+Platysace linearifolia,1145,Benson 1985,repr2,Negligible,NA,NA,NA,Based on figure 1 flowering response at location:G
+Platysace linearifolia,1145,Benson 1985,repr4,NA,3,NA,NA,Based on figure 1 seed data at location: G
+Woollsia pungens,2664,Benson 1985,repr2,Negligible,NA,NA,NA,Based on figure 1 flowering response at location:BW
+Woollsia pungens,2664,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Woollsia pungens,2664,Benson 1985,repr4,NA,4,NA,NA,Based on figure 1 seed data at location: BW
+Woollsia pungens,2664,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Conospermum taxifolium,5352,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Conospermum taxifolium,5352,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Eriostemon australasius,5776,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Eriostemon australasius,5776,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Goodenia bellidifolia,3175,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Goodenia bellidifolia,3175,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Grevillea speciosa,5401,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Grevillea speciosa,5401,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Hibbertia monogyna,2540,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Hibbertia monogyna,2540,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Pimelea linifolia,6182,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Pimelea linifolia,6182,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Boronia ledifolia,5744,Benson 1985,repr2,Negligible,NA,NA,NA,Based on figure 1 flowering response at location:BW
+Boronia ledifolia,5744,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Boronia ledifolia,5744,Benson 1985,repr4,NA,3,NA,NA,Based on figure 1 seed data at location: BW
+Boronia ledifolia,5744,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Leucopogon microphyllus,2629,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Leucopogon microphyllus,2629,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Gompholobium grandiflorum,2865,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Gompholobium grandiflorum,2865,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Grevillea sericea,5399,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Grevillea sericea,5399,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Acacia suaveolens,3881,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Acacia suaveolens,3881,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Boronia serrulata,5759,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Boronia serrulata,5759,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Dillwynia retorta,2850,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Dillwynia retorta,2850,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Philotheca salsolifolia,5831,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Philotheca salsolifolia,5831,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Xanthosia tridentata,1163,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Xanthosia tridentata,1163,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Epacris pulchella,2605,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Epacris pulchella,2605,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Hakea teretifolia,5427,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Hakea teretifolia,5427,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Petrophile pulchella,5479,Benson 1985,repr2,Negligible,NA,NA,NA,Based on figure 1 flowering response at location:G
+Petrophile pulchella,5479,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Petrophile pulchella,5479,Benson 1985,repr4,NA,8,NA,NA,Based on figure 1 seed data at location: G
+Petrophile pulchella,5479,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Banksia ericifolia,5342,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Banksia ericifolia,5342,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Grevillea buxifolia,5364,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Grevillea buxifolia,5364,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Banksia oblongifolia,5345,Benson 1985,surv4,Lignotuber,NA,NA,NA,fire susceptibility: r
+Banksia oblongifolia,5345,Benson 1985,surv1,All,NA,NA,NA,fire susceptibility: r
+Banksia serrata,5348,Benson 1985,surv4,Lignotuber,NA,NA,NA,fire susceptibility: r
+Banksia serrata,5348,Benson 1985,surv1,All,NA,NA,NA,fire susceptibility: r
+Philotheca buxifolia,10577,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: fs
+Philotheca buxifolia,10577,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: fs
+Acacia hispidula,3790,Benson 1985,surv4,None,NA,NA,NA,fire susceptibility: ?fs
+Acacia hispidula,3790,Benson 1985,surv1,None,NA,NA,NA,fire susceptibility: ?fs
+Poranthera ericifolia,2754,Benson 1985,repr3,NA,1,NA,NA,"year to first flower after fire, 1 at location: a_BW"
+Hemigenia purpurea,3376,Benson 1985,repr3,NA,2,NA,NA,"year to first flower after fire, 2 at location: b_BW"
+Actinotus helianthi,1094,Benson 1985,repr3,NA,3,2,NA,"year to first flower after fire, 2(3) at location: d_BW"
+Actinotus helianthi,1094,Benson 1985,repr3,NA,4,2,NA,"year to first flower after fire, 2(4) at location: a_G"
+Actinotus minor,1095,Benson 1985,repr3,NA,2,NA,NA,"year to first flower after fire, 2 at location: a_BW"
+Actinotus minor,1095,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: d_BW"
+Mitrasacme polymorpha,3595,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: a_BW"
+Mitrasacme polymorpha,3595,Benson 1985,repr3,NA,2,NA,NA,"year to first flower after fire, 2 at location: b_BW"
+Mitrasacme polymorpha,3595,Benson 1985,repr3,NA,2,NA,NA,"year to first flower after fire, 2 at location: d_BW"
+Gonocarpus teucrioides,3248,Benson 1985,repr3,NA,2,NA,NA,"year to first flower after fire, 2 at location: a_BW"
+Gonocarpus teucrioides,3248,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: c_BW"
+Bossiaea heterophylla,2780,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: d_BW"
+Cryptandra ericoides,5556,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: b_BW"
+Hibbertia cistiflora,2530,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: b_BW"
+Tetratheca ericifolia,6204,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: a_BW"
+Tetratheca ericifolia,6204,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: d_BW"
+Tetratheca shiressii,6212,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: a_BW"
+Tetratheca shiressii,6212,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: b_BW"
+Platysace linearifolia,1145,Benson 1985,repr3,NA,3,NA,NA,"year to first flower after fire, 3 at location: a_BW"
+Platysace linearifolia,1145,Benson 1985,repr3,NA,4,3,NA,"year to first flower after fire, 3(4) at location: d_BW"
+Platysace linearifolia,1145,Benson 1985,repr3,NA,4,3,NA,"year to first flower after fire, 3(4) at location: a_G"
+Woollsia pungens,2664,Benson 1985,repr3,NA,5,3,NA,"year to first flower after fire, 3(5) at location: d_BW"
+Conospermum taxifolium,5352,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: b_BW"
+Eriostemon australasius,5776,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: d_BW"
+Goodenia bellidifolia,3175,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: d_BW"
+Grevillea speciosa,5401,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: b_BW"
+Hibbertia monogyna,2540,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: b_BW"
+Pimelea linifolia,6182,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: c_BW"
+Boronia ledifolia,5744,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: a_BW"
+Boronia ledifolia,5744,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: d_BW"
+Leucopogon microphyllus,2629,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: a_BW"
+Leucopogon microphyllus,2629,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: b_BW"
+Gompholobium grandiflorum,2865,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: a_BW"
+Gompholobium grandiflorum,2865,Benson 1985,repr3,NA,6,NA,NA,"year to first flower after fire, 6 at location: d_BW"
+Grevillea sericea,5399,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: a_BW"
+Grevillea sericea,5399,Benson 1985,repr3,NA,6,4,NA,"year to first flower after fire, 4(6) at location: c_BW"
+Acacia suaveolens,3881,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: d_BW"
+Acacia suaveolens,3881,Benson 1985,repr3,NA,4,NA,NA,"year to first flower after fire, 4 at location: a_G"
+Boronia serrulata,5759,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: d_BW"
+Dillwynia retorta,2850,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: b_BW"
+Philotheca salsolifolia,5831,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: b_BW"
+Xanthosia tridentata,1163,Benson 1985,repr3,NA,6,NA,NA,"year to first flower after fire, 6 at location: c_BW"
+Epacris pulchella,2605,Benson 1985,repr3,NA,6,NA,NA,"year to first flower after fire, 6 at location: b_BW"
+Hakea teretifolia,5427,Benson 1985,repr3,NA,6,NA,NA,"year to first flower after fire, 6 at location: a_BW"
+Hakea teretifolia,5427,Benson 1985,repr3,NA,6,6,NA,"year to first flower after fire, 6(6) at location: b_BW"
+Hakea teretifolia,5427,Benson 1985,repr3,NA,7,NA,NA,"year to first flower after fire, 7 at location: d_BW"
+Petrophile pulchella,5479,Benson 1985,repr3,NA,6,NA,NA,"year to first flower after fire, 6 at location: b_BW"
+Petrophile pulchella,5479,Benson 1985,repr3,NA,9,NA,NA,"year to first flower after fire, 9 at location: d_BW"
+Petrophile pulchella,5479,Benson 1985,repr3,NA,9,8,NA,"year to first flower after fire, 8(9) at location: a_G"
+Banksia ericifolia,5342,Benson 1985,repr3,NA,8,NA,NA,"year to first flower after fire, 8 at location: a_BW"
+Banksia ericifolia,5342,Benson 1985,repr3,NA,8,NA,NA,"year to first flower after fire, 8 at location: b_BW"
+Banksia ericifolia,5342,Benson 1985,repr3,NA,7,NA,NA,"year to first flower after fire, 7 at location: d_BW"
+Grevillea buxifolia,5364,Benson 1985,repr3,NA,8,NA,NA,"year to first flower after fire, 8 at location: a_G"
+Philotheca buxifolia,10577,Benson 1985,repr3,NA,5,5,NA,"year to first flower after fire, 5(5) at location: c_BW"
+Philotheca buxifolia,10577,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: d_BW"
+Philotheca buxifolia,10577,Benson 1985,repr3,NA,6,4,NA,"year to first flower after fire, 4(6) at location: a_G"
+Acacia hispidula,3790,Benson 1985,repr3,NA,5,NA,NA,"year to first flower after fire, 5 at location: a_G"

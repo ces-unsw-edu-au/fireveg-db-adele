@@ -1,0 +1,40 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+NA,12004,Philotheca epilosa,repr3,NSWFFRDv2.1,NA,NA,3,NA,NA,possible
+12320,3725,Acacia burbidgeae,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12420,3807,Acacia latisepala,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2924,8368,Almaleea cambagei,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+13159,5743,Boronia granitica,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13222,9295,Brachyloma saxicola,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+3100,9126,Callistemon pungens,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+14623,5897,Dodonaea hirsuta,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+3353,9517,Eucalyptus caleyi subsp. ovendenii,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+3411,4123,Eucalyptus mckieana,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+3491,4199,Eucalyptus youmanii,surv4,NSWFFRDv2.1,NA,Basal,NA,NA,NA,possible
+15446,8293,Grevillea beadleana,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15863,9602,Hakea macrorrhyncha,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16034,4205,Kunzea bracteolata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17035,9048,Persoonia terminalis subsp. terminalis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17041,9419,Phebalium glandulosum subsp. eglandulosum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16021,13291,Kardomia odontocalyx,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16065,10724,Leionema ambiens,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16079,10736,Leionema rotundifolium,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12324,3727,Acacia buxifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12392,3784,Acacia granitica,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12526,3885,Acacia terminalis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13200,2784,Bossiaea obcordata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13602,4021,Calytrix tetragona,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17311,2660,Styphelia triflora,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14062,5772,Correa reflexa,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14064,5772,Correa reflexa (obligate seeder red flowered),germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14066,5772,Correa reflexa (resprouter green flowered),germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14191,2827,Daviesia ulicifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15473,5381,Grevillea linearifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15964,2875,Hovea lanceolata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16488,2613,Leucopogon biflorus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17423,5841,Zieria laevigata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15397,3247,Gonocarpus tetragynus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15974,2880,Hovea purpurea,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14249,7225,Dillwynia phylicoides,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12579,1094,Actinotus helianthi,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16512,2631,Leucopogon neo-anglicus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16514,2631,Leucopogon neo-anglicus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible

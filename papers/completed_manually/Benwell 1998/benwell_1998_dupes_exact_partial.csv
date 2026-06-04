@@ -1,0 +1,3 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+16629,4261,Melaleuca sieberi,germ1,NSWFFRDv2.1,"{""Benwell 1998""}",Soil-persistent,NA,NA,NA,exact
+17056,8216,Phyllanthus hirtellus,germ1,NSWFFRDv2.1,"{""Benwell 1998""}",Soil-persistent,NA,NA,NA,exact

@@ -1,0 +1,42 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+157195,3834,Acacia myrtifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+157399,3869,Acacia rubida,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,partial
+157474,3881,Acacia suaveolens,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+157526,3885,Acacia terminalis,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+157940,1095,Actinotus minor,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+158255,8364,Almaleea paludosa,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+159939,3986,Baeckea brevifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+163377,3467,Cassytha glabella,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+165744,5556,Cryptandra ericoides,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+166768,2843,Dillwynia floribunda,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+168642,2599,Epacris microphylla,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+168682,2602,Epacris obtusifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+171722,3246,Gonocarpus salsoloides,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+171787,3248,Gonocarpus teucrioides,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+173821,5427,Hakea teretifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",All,NA,NA,NA,partial
+173823,5427,Hakea teretifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+176830,5865,Leptomeria acida,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+177340,2617,Leucopogon esquamatus,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+177432,2629,Leucopogon microphyllus,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+178549,4262,Melaleuca squamea,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+179807,2938,Mirbelia rubiifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+179845,3592,Mitrasacme paludosa,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+180480,5701,Opercularia varia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+181130,5460,Persoonia lanceolata,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+181296,5469,Persoonia pinifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+181391,5479,Petrophile pulchella,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+182491,3417,Prostanthera linearis,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+182542,2756,Pseudanthus orientalis,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+182717,2974,Pultenaea aristata,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+183630,2654,Sprengelia incarnata,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+183845,5485,Symphionema paludosum,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+184302,3105,Viminaria juncea,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,partial
+184546,1163,Xanthosia tridentata,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+166121,6508,Darwinia fascicularis subsp. fascicularis,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+170944,7739,Euphrasia collina subsp. speciosa,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+171706,8649,Gonocarpus micranthus subsp. micranthus,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+172330,5389,Grevillea parviflora,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+177178,4239,Leptospermum squarrosum,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+175514,10728,Leionema diosmeum,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact
+181992,6814,Pimelea linifolia subsp. linifolia,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,partial
+183599,3033,Sphaerolobium vimineum,surv1,NSWFFRDv2.1,"{""Keith 1991""}",None,NA,NA,NA,exact

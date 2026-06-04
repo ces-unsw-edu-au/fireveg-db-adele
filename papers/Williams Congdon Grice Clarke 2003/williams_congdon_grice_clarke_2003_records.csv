@@ -1,0 +1,13 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Indigofera hirsuta,6808,Williams Congdon Grice Clarke 2003,germ8,PY,NA,NA,NA,significantly increased germination after heat shock 80-100 degrees C; mechanism: seed coat cracking/strophiolar plug opening,NA
+Galactia tenuiflora,6497,Williams Congdon Grice Clarke 2003,germ8,ND,NA,NA,NA,no significant increase in germination with exposure to any fire-related cue; germination <25% in all treatments,NA
+Glycine tomentella,7844,Williams Congdon Grice Clarke 2003,germ8,ND,NA,NA,NA,no significant increase in germination with exposure to any fire-related cue; germination <25% in all treatments,NA
+Crotalaria lanceolata subsp. lanceolata,9356,Williams Congdon Grice Clarke 2003,germ8,PY,NA,NA,NA,significantly increased germination after heat shock 80-100 degrees C; mechanism: seed coat cracking/strophiolar plug opening,original name: Crotalaria lanceolata
+Crotalaria montana var. angustifolia,12020,Williams Congdon Grice Clarke 2003,germ8,PY,NA,NA,NA,significantly increased germination after heat shock 80-100 degrees C; mechanism: seed coat cracking/strophiolar plug opening,original name: Crotalaria montana
+Crotalaria pallida var. obovata,9023,Williams Congdon Grice Clarke 2003,germ8,ND,NA,NA,NA,no significant increase in germination with exposure to any fire-related cue,original name: Crotalaria pallida
+Galactia tenuiflora,6497,Williams Congdon Grice Clarke 2003,surv1,All,NA,NA,NA,Table 1 footnote: perennial species capable of sprouting following fire,NA
+Glycine tomentella,7844,Williams Congdon Grice Clarke 2003,surv1,All,NA,NA,NA,Table 1 footnote: perennial species capable of sprouting following fire,NA
+Indigofera hirsuta,6808,Williams Congdon Grice Clarke 2003,surv1,None,NA,NA,NA,Table 1: ephemeral herb that completes its life cycle within a single year; killed by fire,NA
+Crotalaria lanceolata subsp. lanceolata,9356,Williams Congdon Grice Clarke 2003,surv1,None,NA,NA,NA,Table 1: ephemeral herb (exotic); killed by fire,original name: Crotalaria lanceolata
+Crotalaria montana var. angustifolia,12020,Williams Congdon Grice Clarke 2003,surv1,None,NA,NA,NA,Table 1: ephemeral herb that completes its life cycle within a single year; killed by fire,original name: Crotalaria montana
+Crotalaria pallida var. obovata,9023,Williams Congdon Grice Clarke 2003,surv1,None,NA,NA,NA,Table 1: ephemeral herb (exotic); killed by fire,original name: Crotalaria pallida

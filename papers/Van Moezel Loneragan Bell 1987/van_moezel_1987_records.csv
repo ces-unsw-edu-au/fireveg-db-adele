@@ -1,0 +1,30 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Burchardia umbellata,3533,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Burchardia umbellata,3533,Van Moezel Loneragan Bell 1987,repr3a,<2,NA,NA,2,"Juvenile Period, ≤2",NA
+Diuris longifolia,4446,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Diuris longifolia,4446,Van Moezel Loneragan Bell 1987,repr3a,1,1,NA,NA,"Juvenile Period, 1",NA
+Prasophyllum parviflorum,12283,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Prasophyllum parviflorum,12283,Van Moezel Loneragan Bell 1987,repr3a,<2,NA,NA,2,"Juvenile Period, ≤2",NA
+Pterostylis nana,4561,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Angianthus tomentosus,1268,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Angianthus tomentosus,1268,Van Moezel Loneragan Bell 1987,repr3,<2,NA,NA,2,"Juvenile Period, <2",NA
+Arctotheca calendula,1273,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Arctotheca calendula,1273,Van Moezel Loneragan Bell 1987,repr3,1,1,NA,NA,"Juvenile Period, 1",NA
+Lechenaultia biloba,13126,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Lechenaultia biloba,13126,Van Moezel Loneragan Bell 1987,repr3a,<2,NA,NA,2,"Juvenile Period, ≤2",NA
+Cassytha pubescens,3469,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Jacksonia sternbergiana,7729,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Kennedia prostrata,2896,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Podotheca angustifolia,1639,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Podotheca angustifolia,1639,Van Moezel Loneragan Bell 1987,repr3,1,1,NA,NA,"Juvenile Period, 1",NA
+Viminaria juncea,3105,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Banksia spp.,BANK,Van Moezel Loneragan Bell 1987,surv1,Most,NA,NA,NA,"Fire Response, Seed & Sprout",NA
+Banksia spp.,BANK,Van Moezel Loneragan Bell 1987,repr3,<2,NA,NA,2,"Juvenile Period, ≤2",NA
+Laxmannia spp.,LAXM,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Spyridium spp.,SPYR,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",NA
+Spyridium spp.,SPYR,Van Moezel Loneragan Bell 1987,repr3,<2,NA,NA,2,"Juvenile Period, ≤2",NA
+Thelymitra spp.,THEL,Van Moezel Loneragan Bell 1987,surv1,All,NA,NA,NA,"Fire Response, Sprout",NA
+Acacia pulchella var. pulchella,11041,Van Moezel Loneragan Bell 1987,surv1,None,NA,NA,NA,"Fire Response, Seed",original name: Acacia pulchella
+Acacia pulchella var. pulchella,11041,Van Moezel Loneragan Bell 1987,repr3,2-5,NA,2,5,"Juvenile Period, ≤5>2",original name: Acacia pulchella
+Kennedia prostrata,2896,Van Moezel Loneragan Bell 1987,germ1,Soil-persistent,NA,NA,NA,"Seedbank description, text",NA
+Acacia pulchella var. pulchella,11041,Van Moezel Loneragan Bell 1987,germ1,Soil-persistent,NA,NA,NA,"Seedbank description, text",original name: Acacia pulchella

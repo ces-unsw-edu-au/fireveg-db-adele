@@ -1,0 +1,156 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+NA,2345,Chorizandra sphaerocephala,repr3a,NSWFFRDv2.1,NA,NA,1,NA,NA,possible
+NA,6298,Lomandra cylindrica,repr3a,NSWFFRDv2.1,NA,NA,1,NA,NA,possible
+NA,3577,Tricoryne simplex,repr3a,NSWFFRDv2.1,NA,NA,1,NA,NA,possible
+NA,7931,Lomandra filiformis subsp. filiformis,repr3a,NSWFFRDv2.1,NA,NA,1,NA,NA,possible
+12463,3834,Acacia myrtifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+157398,3869,Acacia rubida,surv1,NSWFFRDv2.1,NA,Few,NA,NA,NA,possible
+12504,3869,Acacia rubida,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12520,3881,Acacia suaveolens,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12526,3885,Acacia terminalis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+12581,1095,Actinotus minor,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+158252,8364,Almaleea paludosa,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+12633,8364,Almaleea paludosa,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13049,3986,Baeckea brevifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13055,3995,Baeckea imbricata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13057,3997,Baeckea linifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13088,5345,Banksia oblongifolia,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+13090,5346,Banksia paludosa,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+13098,5347,Banksia robur,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+13110,7219,Bauera microphylla,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13170,5749,Boronia parviflora,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13544,4004,Callistemon citrinus,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+163359,3467,Cassytha glabella,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+13634,3467,Cassytha glabella,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2460,2344,Chorizandra cymbaria,repr2,NSWFFRDv2.1,NA,Exclusive,NA,NA,NA,possible
+2461,2345,Chorizandra sphaerocephala,repr2,NSWFFRDv2.1,NA,Exclusive,NA,NA,NA,possible
+13703,5252,Comesperma defoliatum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+13705,5255,Comesperma retusum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14034,9136,Conospermum ellipticum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14040,5352,Conospermum taxifolium,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+165738,5556,Cryptandra ericoides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+14101,5556,Cryptandra ericoides,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14141,3174,Dampiera stricta,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14153,4029,Darwinia grandiflora,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+166751,2843,Dillwynia floribunda,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+14244,2843,Dillwynia floribunda,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2475,6988,Eleocharis sphacelata,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+14683,2599,Epacris microphylla,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14685,2602,Epacris obtusifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14687,2603,Epacris paludosa,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15331,2442,Gahnia sieberiana,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2480,4466,Glossodia minor,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+171720,3246,Gonocarpus salsoloides,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+15396,3246,Gonocarpus salsoloides,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15397,3247,Gonocarpus tetragynus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15399,3248,Gonocarpus teucrioides,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15481,5388,Grevillea oleoides,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15845,5409,Hakea dactyloides,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+15875,5427,Hakea teretifolia,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+15927,2545,Hibbertia riparia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15934,2550,Hibbertia serpyllifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16005,5433,Isopogon anemonifolius,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16038,4207,Kunzea capitata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16050,5440,Lambertia formosa,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16425,4213,Leptospermum arachnoides,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16429,7970,Leptospermum continentale,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16434,7766,Leptospermum grandifolium,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16438,4221,Leptospermum juniperinum,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16419,5534,Leptocarpus tenax,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2499,5535,Lepyrodia anarthria,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+16479,5541,Lepyrodia scariosa,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+177334,2617,Leucopogon esquamatus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+16496,2617,Leucopogon esquamatus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+177426,2629,Leucopogon microphyllus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+16506,2629,Leucopogon microphyllus,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16544,6298,Lomandra cylindrica,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16562,6312,Lomandra obliqua,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16612,4257,Melaleuca linariifolia,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16637,4262,Melaleuca squamea,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16639,4263,Melaleuca squarrosa,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16643,4266,Melaleuca thymifolia,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+16931,2938,Mirbelia rubiifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+179843,3592,Mitrasacme paludosa,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+16933,3592,Mitrasacme paludosa,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16934,3595,Mitrasacme polymorpha,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16964,5701,Opercularia varia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+181123,5460,Persoonia lanceolata,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+181140,5460,Persoonia lanceolata,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+17011,5460,Persoonia lanceolata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17016,5462,Persoonia levis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17031,5469,Persoonia pinifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17039,5479,Petrophile pulchella,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+2531,4491,Prasophyllum australe,repr2,NSWFFRDv2.1,NA,Exclusive,NA,NA,NA,possible
+182490,3417,Prostanthera linearis,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+182716,2974,Pultenaea aristata,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+17164,2974,Pultenaea aristata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17169,2987,Pultenaea divaricata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2546,2504,Schoenus paludosus,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+17287,2654,Sprengelia incarnata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17293,6122,Stackhousia nuda,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17304,6159,Stylidium lineare,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+183843,5485,Symphionema paludosum,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+17321,5485,Symphionema paludosum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2555,2516,Tetraria capillaris,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+17382,3105,Viminaria juncea,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17387,11190,Viola sieberiana,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17405,1161,Xanthosia dissecta,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17407,1163,Xanthosia tridentata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17412,6323,Xyris juncea,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2573,6323,Xyris juncea,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+17413,6324,Xyris operculata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2574,6324,Xyris operculata,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+17414,6325,Xyris ustulata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2575,6325,Xyris ustulata,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+14147,6508,Darwinia fascicularis subsp. fascicularis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+14076,9687,Corymbia gummifera,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+170941,7739,Euphrasia collina subsp. speciosa,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+171704,8649,Gonocarpus micranthus subsp. micranthus,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+15482,5389,Grevillea parviflora,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+16471,4239,Leptospermum squarrosum,germ1,NSWFFRDv2.1,NA,Canopy,NA,NA,NA,possible
+2549,10603,Sporadanthus gracilis,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+16550,6511,Lomandra filiformis subsp. coriacea,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2507,6511,Lomandra filiformis subsp. coriacea,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+16552,7931,Lomandra filiformis subsp. filiformis,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2508,7931,Lomandra filiformis subsp. filiformis,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+175512,10728,Leionema diosmeum,surv1,NSWFFRDv2.1,NA,None,NA,NA,NA,possible
+16069,10728,Leionema diosmeum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17069,6814,Pimelea linifolia subsp. linifolia,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+17194,11386,Pultenaea tuberculata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+15315,10615,Eurychorda complanata,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+2545,9057,Schoenus lepidosperma subsp. pachylepis,repr2,NSWFFRDv2.1,NA,Facultative,NA,NA,NA,possible
+17285,3033,Sphaerolobium vimineum,germ1,NSWFFRDv2.1,NA,Soil-persistent,NA,NA,NA,possible
+3146,2344,Chorizandra cymbaria,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3147,2345,Chorizandra sphaerocephala,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3204,4417,Cryptostylis subulata,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3209,2347,Cyathochaeta diandra,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3239,4891,Deyeuxia quadriseta,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3284,2557,Drosera binata,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3299,6988,Eleocharis sphacelata,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3305,4947,Entolasia stricta,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3396,4104,Eucalyptus haemastoma,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+3512,2442,Gahnia sieberiana,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3541,3247,Gonocarpus tetragynus,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3580,5388,Grevillea oleoides,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3685,3340,Juncus planifolius,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3708,2465,Lepidosperma filiforme,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3709,2467,Lepidosperma forsythii,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3712,2469,Lepidosperma limicola,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3744,8486,Leptospermum trinervium,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+3718,5534,Leptocarpus tenax,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3760,6406,Lindsaea linearis,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3775,6298,Lomandra cylindrica,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3822,4257,Melaleuca linariifolia,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+3847,7707,Microlaena stipoides var. stipoides,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3935,5462,Persoonia levis,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+4091,8181,Schizaea bifida,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4096,2495,Schoenus ericetorum,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4100,2504,Schoenus paludosus,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4106,8187,Selaginella uliginosa,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4222,6321,Xanthorrhoea resinosa,surv4,NSWFFRDv2.1,NA,Apical,NA,NA,NA,possible
+3182,9687,Corymbia gummifera,surv4,NSWFFRDv2.1,NA,Epicormic,NA,NA,NA,possible
+4123,10603,Sporadanthus gracilis,surv4,NSWFFRDv2.1,NA,Long rhizome or root sucker,NA,NA,NA,possible
+3777,7931,Lomandra filiformis subsp. filiformis,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+3918,3303,Patersonia sericea,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4052,8956,Ptilothrix deusta,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible
+4230,11035,Xyris bracteata,surv4,NSWFFRDv2.1,NA,Short rhizome,NA,NA,NA,possible

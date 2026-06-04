@@ -1,0 +1,151 @@
+"bionet_name","species_code","original_source","trait_code","norm_value","best","lower","upper","raw_value","notes"
+"Eucalyptus macrorhyncha","4120","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus macrorhyncha","4120","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus macrorhyncha","4120","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus mannifera","4122","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus mannifera","4122","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus mannifera","4122","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus rossii","4172","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus rossii","4172","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Eucalyptus rossii","4172","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Exocarpos cupressiformis","5860","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Exocarpos cupressiformis","5860","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Exocarpos cupressiformis","5860","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia genistifolia","3781","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, FSD",NA
+"Acacia genistifolia","3781","Purdie 1977","rect2","Intolerant",NA,NA,NA,"Regrowth class, FSD",NA
+"Cassytha pubescens","3469","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, FSD",NA
+"Cassytha pubescens","3469","Purdie 1977","rect2","Intolerant",NA,NA,NA,"Regrowth class, FSD",NA
+"Dillwynia retorta","2850","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, FSD",NA
+"Dillwynia retorta","2850","Purdie 1977","rect2","Intolerant",NA,NA,NA,"Regrowth class, FSD",NA
+"Pimelea linifolia","6182","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, FSD",NA
+"Pimelea linifolia","6182","Purdie 1977","rect2","Intolerant",NA,NA,NA,"Regrowth class, FSD",NA
+"Astrotricha ledifolia","1203","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Astrotricha ledifolia","1203","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Astrotricha ledifolia","1203","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Billardiera scandens","4671","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Billardiera scandens","4671","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Billardiera scandens","4671","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Brachyloma daphnoides","2586","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Brachyloma daphnoides","2586","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Brachyloma daphnoides","2586","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Hardenbergia violacea","2873","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Hardenbergia violacea","2873","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Hardenbergia violacea","2873","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Hovea heterophylla","11015","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Hovea heterophylla","11015","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Hovea heterophylla","11015","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Leptospermum multicaule","4228","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Leptospermum multicaule","4228","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Leptospermum multicaule","4228","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon virgatus","2639","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon virgatus","2639","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon virgatus","2639","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Melichrus urceolatus","2646","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Melichrus urceolatus","2646","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Melichrus urceolatus","2646","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Monotoca scoparia","2649","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Monotoca scoparia","2649","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Monotoca scoparia","2649","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Pultenaea procumbens","3012","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Pultenaea procumbens","3012","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Pultenaea procumbens","3012","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Stylidium graminifolium","6157","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Stylidium graminifolium","6157","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Stylidium graminifolium","6157","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Caladenia carnea","4373","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Caladenia carnea","4373","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Caladenia cucullata","4376","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Caladenia cucullata","4376","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Caladenia praecox","12068","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Caladenia praecox","12068","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Diuris maculata","4447","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Diuris maculata","4447","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Pterostylis parviflora","4566","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Pterostylis parviflora","4566","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Thelymitra pauciflora","4602","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Thelymitra pauciflora","4602","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Thysanotus patersonii","3573","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Thysanotus patersonii","3573","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Acacia buxifolia","3727","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia buxifolia","3727","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia buxifolia","3727","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia mearnsii","3823","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia mearnsii","3823","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Acacia mearnsii","3823","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Daviesia mimosoides","2824","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Daviesia mimosoides","2824","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Daviesia mimosoides","2824","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Goodenia hederacea","3188","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Goodenia hederacea","3188","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Goodenia hederacea","3188","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia calycina","2529","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia calycina","2529","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia calycina","2529","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia obtusifolia","2542","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia obtusifolia","2542","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Hibbertia obtusifolia","2542","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Indigofera australis","2882","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Indigofera australis","2882","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Indigofera australis","2882","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Microlaena stipoides","5037","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Microlaena stipoides","5037","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Microlaena stipoides","5037","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Oxalis corniculata","4613","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Oxalis corniculata","4613","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Oxalis corniculata","4613","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Dianella revoluta","3542","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GI",NA
+"Dianella revoluta","3542","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, GI",NA
+"Lomandra filiformis","6302","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GI",NA
+"Lomandra filiformis","6302","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, GI",NA
+"Lomandra longifolia","6308","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GI",NA
+"Lomandra longifolia","6308","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, GI",NA
+"Cirsium vulgare","1400","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Daucus glochidiatus","1109","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Poranthera microphylla","7395","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Senecio quadridentatus","1675","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Sonchus asper","1689","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Vulpia bromoides","5239","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Acacia gunnii","3785","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Acacia gunnii","3785","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Acacia gunnii","3785","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Rytidosperma pallidum","14314","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Rytidosperma pallidum","14314","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Rytidosperma pallidum","14314","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Dichelachne micrantha","4898","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Dichelachne micrantha","4898","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Dichelachne micrantha","4898","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Hypochaeris radicata","8788","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Hypochaeris radicata","8788","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Hypochaeris radicata","8788","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Cyanicula caerulea","11228","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Cyanicula caerulea","11228","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Gonocarpus tetragynus","3247","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Gonocarpus tetragynus","3247","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Gonocarpus tetragynus","3247","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Chrysocephalum semipapposum","8562","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Chrysocephalum semipapposum","8562","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Chrysocephalum semipapposum","8562","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Crassula sieberiana","2242","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Euchiton involucratus","9904","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Hypochaeris glabra","1540","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Aira spp.","AIRA","Purdie 1977","surv1","None",NA,NA,NA,"Regrowth class, T",NA
+"Grevillea spp.","GREV","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Grevillea spp.","GREV","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Grevillea spp.","GREV","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon spp.","LEUC","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon spp.","LEUC","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Leucopogon spp.","LEUC","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Poa spp.","POA","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGD",NA
+"Poa spp.","POA","Purdie 1977","surv4","Basal",NA,NA,NA,"Regrowth class, NGD",NA
+"Poa spp.","POA","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGD",NA
+"Genoplesium rufum","9201","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GD",NA
+"Genoplesium rufum","9201","Purdie 1977","surv4","Tuber",NA,NA,NA,"Regrowth class, GD",NA
+"Wahlenbergia spp.","WAHL","Purdie 1977","surv1","Most",NA,NA,NA,"Regrowth class, NGI",NA
+"Wahlenbergia spp.","WAHL","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, NGI",NA
+"Wahlenbergia spp.","WAHL","Purdie 1977","rect2","Tolerant",NA,NA,NA,"Regrowth class, NGI",NA
+"Lomandra multiflora subsp. multiflora","8802","Purdie 1977","surv1","All",NA,NA,NA,"Regrowth class, GI","original name: Lomandra multiflora"
+"Lomandra multiflora subsp. multiflora","8802","Purdie 1977","surv4","Long rhizome or root sucker",NA,NA,NA,"Regrowth class, GI","original name: Lomandra multiflora"
+"Acacia genistifolia","3781","Purdie 1977","germ8","PY",NA,NA,NA,"Part II text — heat-stimulated germination",NA
+"Dillwynia retorta","2850","Purdie 1977","germ8","PY",NA,NA,NA,"Part II text — heat-stimulated germination",NA
+"Daviesia mimosoides","2824","Purdie 1977","germ8","PY",NA,NA,NA,"Part II text — heat-stimulated germination",NA
+"Pultenaea procumbens","3012","Purdie 1977","germ8","PY",NA,NA,NA,"Part II text — heat-stimulated germination",NA

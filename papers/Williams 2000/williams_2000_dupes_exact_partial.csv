@@ -1,0 +1,11 @@
+record_id,species_code,species,trait_code,main_source,original_sources,norm_value,best,lower,upper,match_type
+158154,2012,Allocasuarina littoralis,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,partial
+158213,2017,Allocasuarina torulosa,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+158284,7686,Alphitonia excelsa,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+170816,4191,Eucalyptus tereticornis,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+178139,4243,Lophostemon suaveolens,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+178630,3675,Melastoma affine,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+158288,5553,Alphitonia petriei,surv1,NSWFFRDv2.1,"{""Williams 2000""}",None,NA,NA,NA,exact
+165205,6129,Commersonia bartramia,surv1,NSWFFRDv2.1,"{""Williams 2000""}",All,NA,NA,NA,exact
+2909,3675,Melastoma affine,rect2,NSWFFRDv2.1,"{""Williams 2000""}",Intolerant,NA,NA,NA,partial
+2283,5553,Alphitonia petriei,rect2,NSWFFRDv2.1,"{""Williams 2000""}",Intolerant,NA,NA,NA,exact

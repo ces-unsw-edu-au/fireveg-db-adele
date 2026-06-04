@@ -1,0 +1,11 @@
+bionet_name,species_code,original_source,trait_code,norm_value,best,lower,upper,raw_value,notes
+Grevillea australis,6441,Williams Ashton 1988,surv1,None,NA,NA,NA,Table 3: Dormant buds=-; Root stock=-,NA
+Asterolasia trymalioides,5730,Williams Ashton 1988,surv1,None,NA,NA,NA,Table 3: Dormant buds=-; Root stock=-,NA
+Hovea longifolia,2877,Williams Ashton 1988,surv1,All,NA,NA,NA,Table 3: Dormant buds=+; Root stock=+,NA
+Kunzea muelleri,4209,Williams Ashton 1988,surv1,All,NA,NA,NA,Table 3: Dormant buds=+; Root stock=+,NA
+Phebalium squamulosum,5826,Williams Ashton 1988,surv1,All,NA,NA,NA,Table 3: Dormant buds=+; Root stock=+,NA
+Prostanthera cuneata,3403,Williams Ashton 1988,surv1,All,NA,NA,NA,Table 3: Dormant buds=+; Root stock=?,NA
+Orites lancifolius,5449,Williams Ashton 1988,surv1,All,NA,NA,NA,Table 3: Dormant buds=+; Root stock=?,NA
+Phebalium squamulosum,5826,Williams Ashton 1988,surv5,30-47,NA,30,47,samples of the largest distinct stems from 10 senescent individuals ranged in age from 30 to 47 years,NA
+Prostanthera cuneata,3403,Williams Ashton 1988,surv5,30-50,NA,30,50,stems c. 2-3 cm diameter which supported dense mature foliage have been dated at c. 30-50 years,NA
+Asterolasia trymalioides,5730,Williams Ashton 1988,surv5,>40,NA,40,NA,"at least 40 years old, but are showing no signs of senescence (fenced since 1946)",NA

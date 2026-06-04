@@ -1,0 +1,196 @@
+species,vegetation_type,regen_type,regen_codes,repr3_code
+Acacia aulacocarpa,Rain forest Trees,Vegetative resprouter,,
+Adina racemosa,Rain forest Trees,Vegetative resprouter,,
+Allosyncarpia ternata,Rain forest Trees,Vegetative resprouter,,
+Canarium australianum,Rain forest Trees,Vegetative resprouter,,
+Buchanania arborescens,Rain forest Trees,Vegetative resprouter,,
+Canthium DNA63558,Rain forest Trees,Vegetative resprouter,,
+Carallia brachiata,Rain forest Trees,Vegetative resprouter,,
+Cryptocarya cunninghamii,Rain forest Trees,Vegetative resprouter,,
+Cryptocarya exfoliata,Rain forest Trees,Vegetative resprouter,,
+Diospyros calycantha,Rain forest Trees,Vegetative resprouter,,
+Drypetes deplanchei,Rain forest Trees,Vegetative resprouter,,
+Dysoxylum oppositifolium,Rain forest Trees,Vegetative resprouter,,
+Ficus scobina,Rain forest Trees,Vegetative resprouter,,
+Maranthes corymbosa,Rain forest Trees,Vegetative resprouter,,
+Miliusa traceyi,Rain forest Trees,Vegetative resprouter,,
+Myristica insipida,Rain forest Trees,Vegetative resprouter,,
+Polyalthia australis,Rain forest Trees,Vegetative resprouter,,
+Polyalthia nitidissima,Rain forest Trees,Vegetative resprouter,,
+Pouteria sericea,Rain forest Trees,Vegetative resprouter,,
+Stenocarpus verticis,Rain forest Trees,Vegetative resprouter,,
+Sterculia quadrifida,Rain forest Trees,Vegetative resprouter,,
+Strychnos lucida,Rain forest Trees,Vegetative resprouter,,
+Vitex acuminata,Rain forest Trees,Vegetative resprouter,,
+Vitex glabrata,Rain forest Trees,Vegetative resprouter,,
+Xanthostemon psidioides,Rain forest Trees,Vegetative resprouter,,
+Acacia plectocarpa,Woodland/heath Trees,Obligate seeder,,4
+Acacia torulosa,Woodland/heath Trees,Obligate seeder,,4
+Callitris intratropica,Woodland/heath Trees,Obligate seeder,,4
+Alphitonia excelsa,Woodland/heath Trees,Vegetative resprouter,,
+Banksia dentata,Woodland/heath Trees,Vegetative resprouter,,
+Brachychiton diversifolius,Woodland/heath Trees,Vegetative resprouter,,
+Buchanania obovata,Woodland/heath Trees,Vegetative resprouter,,
+Denhamia obscura,Woodland/heath Trees,Vegetative resprouter,,
+Erythrophleum chlorostachys,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus arnhemensis,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus bleeseri,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus herbertiana,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus kombolgiensis,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus miniata,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus phoenicea,Woodland/heath Trees,Vegetative resprouter,,
+Eucalyptus tetrodonta,Woodland/heath Trees,Vegetative resprouter,,
+Grevillea heliosperma,Woodland/heath Trees,Vegetative resprouter,,
+Grevillea pteridifolia,Woodland/heath Trees,Vegetative resprouter,,
+Gronophyllum ramsayi,Woodland/heath Trees,Vegetative resprouter,,
+Owenia vernicosa,Woodland/heath Trees,Vegetative resprouter,,
+Pandanus spiralis,Woodland/heath Trees,Vegetative resprouter,,
+Planchonella arnhemica,Woodland/heath Trees,Vegetative resprouter,,
+Stenocarpus acacioides,Woodland/heath Trees,Vegetative resprouter,,
+Syzygium eucalyptoides,Woodland/heath Trees,Vegetative resprouter,,
+Syzygium suborbiculare,Woodland/heath Trees,Vegetative resprouter,,
+Terminalia carpentariae,Woodland/heath Trees,Vegetative resprouter,,
+Xanthastemon paradoxus,Woodland/heath Trees,Vegetative resprouter,,
+Antidesma ghesaembilla,Rain forest Shrubs,Vegetative resprouter,,
+Antidesma parvifolium,Rain forest Shrubs,Vegetative resprouter,,
+Beyeria bickertonensis,Rain forest Shrubs,Vegetative resprouter,,
+Breynia cernua,Rain forest Shrubs,Vegetative resprouter,,
+Briedelia tomentosa,Rain forest Shrubs,Vegetative resprouter,,
+Exocarpus latifolius,Rain forest Shrubs,Vegetative resprouter,,
+Flueggea virosa,Rain forest Shrubs,Vegetative resprouter,,
+Glochidion apodogymum,Rain forest Shrubs,Vegetative resprouter,,
+Grewia DNA7426,Rain forest Shrubs,Vegetative resprouter,,
+Helicteres DNA63558,Rain forest Shrubs,Vegetative resprouter,,
+Litsea glutinosa,Rain forest Shrubs,Vegetative resprouter,,
+Maytenus ferdinandi,Rain forest Shrubs,Vegetative resprouter,,
+Memecylon arnhemensis,Rain forest Shrubs,Vegetative resprouter,,
+Memecylon pauciflorum,Rain forest Shrubs,Vegetative resprouter,,
+Notelacea microcarpa,Rain forest Shrubs,Vegetative resprouter,,
+Pavetta brownii,Rain forest Shrubs,Vegetative resprouter,,
+Premna acuminata,Rain forest Shrubs,Vegetative resprouter,,
+Psychotria loncerates,Rain forest Shrubs,Vegetative resprouter,,
+Suregada glomerulata,Rain forest Shrubs,Vegetative resprouter,,
+Tabernaemontana orientalis,Rain forest Shrubs,Vegetative resprouter,,
+Tarenna australis,Rain forest Shrubs,Vegetative resprouter,,
+Alyxia ruscifolia,Rain forest Shrubs,Obligate seeder,,4
+Psychotria daphnoides,Rain forest Shrubs,Obligate seeder,,5
+Trema tomentosa,Rain forest Shrubs,Obligate seeder,,3
+Acacia alleniana,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia difficilis,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia latescens,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia mimula,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia multistipulosa,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia platycarpa,Woodland/heath Shrubs,Vegetative resprouter,,
+Asteromyrtus magnifica,Woodland/heath Shrubs,Vegetative resprouter,,
+Bossiaea bassiaoides,Woodland/heath Shrubs,Vegetative resprouter,,
+Brachychiton megaphyllus,Woodland/heath Shrubs,Vegetative resprouter,,
+Calytrix achueta,Woodland/heath Shrubs,Vegetative resprouter,,
+Calytrix arborescens,Woodland/heath Shrubs,Vegetative resprouter,,
+Calytrix brownii,Woodland/heath Shrubs,Vegetative resprouter,,
+Calytrix exstipulata,Woodland/heath Shrubs,Vegetative resprouter,,
+Calytrix megaphylla,Woodland/heath Shrubs,Vegetative resprouter,,
+Capparis umbonata,Woodland/heath Shrubs,Vegetative resprouter,,
+Clerodendrum floribundum,Woodland/heath Shrubs,Vegetative resprouter,,
+Croton arnhemicus,Woodland/heath Shrubs,Vegetative resprouter,,
+Comesperma aphylla,Woodland/heath Shrubs,Vegetative resprouter,,
+Corynotheca lateriflora,Woodland/heath Shrubs,Vegetative resprouter,,
+Dampiera conospermoides,Woodland/heath Shrubs,Vegetative resprouter,,
+Daviesia reclinata,Woodland/heath Shrubs,Vegetative resprouter,,
+Distichostemon hispidulus,Woodland/heath Shrubs,Vegetative resprouter,,
+Gardenia faucicola,Woodland/heath Shrubs,Vegetative resprouter,,
+Gardenia fucata,Woodland/heath Shrubs,Vegetative resprouter,,
+Gardenia megasperma,Woodland/heath Shrubs,Vegetative resprouter,,
+Gardenia resinosa,Woodland/heath Shrubs,Vegetative resprouter,,
+Gonocarpus leptothecea,Woodland/heath Shrubs,Vegetative resprouter,,
+Goodenia cirrica,Woodland/heath Shrubs,Vegetative resprouter,,
+Grevillea goodii,Woodland/heath Shrubs,Vegetative resprouter,,
+Grevillea pungens,Woodland/heath Shrubs,Vegetative resprouter,,
+Hibbertia arnhemica,Woodland/heath Shrubs,Vegetative resprouter,,
+Hibbertia brownii,Woodland/heath Shrubs,Vegetative resprouter,,
+Homalocalyx ericaeus,Woodland/heath Shrubs,Vegetative resprouter,,
+Jacksonia dilatata s.l.,Woodland/heath Shrubs,Vegetative resprouter,,
+Jacksonia pendula,Woodland/heath Shrubs,Vegetative resprouter,,
+Jacksonia DNA460611,Woodland/heath Shrubs,Vegetative resprouter,,
+Lisistoina inermis,Woodland/heath Shrubs,Vegetative resprouter,,
+Macarthuria apetala,Woodland/heath Shrubs,Vegetative resprouter,,
+Melaleuca cornucupiae,Woodland/heath Shrubs,Vegetative resprouter,,
+Minuria macrorhiza,Woodland/heath Shrubs,Vegetative resprouter,,
+Pachymena sphaerandrum,Woodland/heath Shrubs,Vegetative resprouter,,
+Persoonia falcata,Woodland/heath Shrubs,Vegetative resprouter,,
+Petalostigma pubescens,Woodland/heath Shrubs,Vegetative resprouter,,
+Petalostigma quadriloculare,Woodland/heath Shrubs,Vegetative resprouter,,
+Phyllanthus virgatus,Woodland/heath Shrubs,Vegetative resprouter,,
+Pityrodia jamesii,Woodland/heath Shrubs,Vegetative resprouter,,
+Pityrodia ternifolia,Woodland/heath Shrubs,Vegetative resprouter,,
+Sauropus elachophyllus,Woodland/heath Shrubs,Vegetative resprouter,,
+Scaevola angulata,Woodland/heath Shrubs,Vegetative resprouter,,
+Scaevola browniana,Woodland/heath Shrubs,Vegetative resprouter,,
+Sebastiania chamelaeucean,Woodland/heath Shrubs,Vegetative resprouter,,
+Tephrosia conspicua,Woodland/heath Shrubs,Vegetative resprouter,,
+Thryptomene remota,Woodland/heath Shrubs,Vegetative resprouter,,
+Triumfetta arnhemica,Woodland/heath Shrubs,Vegetative resprouter,,
+Triumfetta silvicula,Woodland/heath Shrubs,Vegetative resprouter,,
+Verticordia cunninghamii,Woodland/heath Shrubs,Vegetative resprouter,,
+Wrightia saligna,Woodland/heath Shrubs,Vegetative resprouter,,
+Acacia brockii,Woodland/heath Shrubs,Obligate seeder,,3
+Acacia cataractae,Woodland/heath Shrubs,Obligate seeder,,3
+Acacia echinuliflora,Woodland/heath Shrubs,Obligate seeder,,4
+Acacia gonocarpa,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia holosericea,Woodland/heath Shrubs,Obligate seeder,,3
+Acacia humifusa,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia linarioides,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia multisilliqua,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia oncinocarpa,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia producta,Woodland/heath Shrubs,Obligate seeder,,1
+Acacia proiantha,Woodland/heath Shrubs,Obligate seeder,,4
+Acacia scopulorum,Woodland/heath Shrubs,Obligate seeder,,4
+Acacia sericiflorae,Woodland/heath Shrubs,Obligate seeder,,4
+Acacia umbellata,Woodland/heath Shrubs,Obligate seeder,,2
+Acacia yirrkalensis,Woodland/heath Shrubs,Obligate seeder,,1
+Boronia kamagiona,Woodland/heath Shrubs,Obligate seeder,,1
+Boronia lanceolata,Woodland/heath Shrubs,Obligate seeder,,1
+Boronia DNA130944,Woodland/heath Shrubs,Obligate seeder,,1
+Boronia DNA131183,Woodland/heath Shrubs,Obligate seeder,,1
+Cajanus acutifolius,Woodland/heath Shrubs,Obligate seeder,,1
+Calycoptepas collinus,Woodland/heath Shrubs,Obligate seeder,,1
+Calytrix decussata,Woodland/heath Shrubs,Obligate seeder,,2
+Corchorus DNA45840,Woodland/heath Shrubs,Obligate seeder,,1
+Cryptandra DNA131164,Woodland/heath Shrubs,Obligate seeder,,1
+Gompholobium subulata,Woodland/heath Shrubs,Obligate seeder,,1
+Grevillea angulata,Woodland/heath Shrubs,Obligate seeder,,1
+Grevillea dryandri,Woodland/heath Shrubs,Obligate seeder,,2
+Grevillea formosa,Woodland/heath Shrubs,Obligate seeder,,4
+Grevillea rubicunda,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia oblongata,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131182,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131185,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131186,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131187,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131192,Woodland/heath Shrubs,Obligate seeder,,1
+Hibbertia DNA131193,Woodland/heath Shrubs,Obligate seeder,,1
+Hibiscus arnhemensis,Woodland/heath Shrubs,Obligate seeder,,1
+Hibiscus brennanii,Woodland/heath Shrubs,Obligate seeder,,1
+Hibiscus leptocladus,Woodland/heath Shrubs,Obligate seeder,,1
+Hibiscus menzeliae,Woodland/heath Shrubs,Obligate seeder,,1
+Hibiscus byrnesii,Woodland/heath Shrubs,Obligate seeder,,1
+Indigofera DNA62619,Woodland/heath Shrubs,Obligate seeder,,1
+Jacksonia DNA445829,Woodland/heath Shrubs,Obligate seeder,,1
+Leptosema villosum,Woodland/heath Shrubs,Obligate seeder,,1
+Leucopogon acuminata,Woodland/heath Shrubs,Obligate seeder,,4
+Olax aphylla,Woodland/heath Shrubs,Obligate seeder,,1
+Phylannthus grandisepalus,Woodland/heath Shrubs,Obligate seeder,,1
+Pitrodia angustisepala,Woodland/heath Shrubs,Obligate seeder,,1
+Regelia punicea,Woodland/heath Shrubs,Obligate seeder,,4
+Solanum asymmetriphyllum,Woodland/heath Shrubs,Obligate seeder,,2
+Solanum clarkeiae,Woodland/heath Shrubs,Obligate seeder,,2
+Olax aphylla,Woodland/heath Shrubs,Obligate seeder,,3
+Pittrodia grandisepala,Woodland/heath Shrubs,Obligate seeder,,1
+Pittrodia angustisepala,Woodland/heath Shrubs,Obligate seeder,,1
+Solanum clarkiae,Woodland/heath Shrubs,Obligate seeder,,1
+Spermacoce DNA131190,Woodland/heath Shrubs,Obligate seeder,,1
+Stemodia lybrifolia,Woodland/heath Shrubs,Obligate seeder,,1
+Templetonia hookeri,Woodland/heath Shrubs,Obligate seeder,,1
+Tephrosia oblongata,Woodland/heath Shrubs,Obligate seeder,,1
+Tephrosia phaeosperma,Woodland/heath Shrubs,Obligate seeder,,1
+Tephrosia spechtii,Woodland/heath Shrubs,Obligate seeder,,1
+Tephrosia DNA26284,Woodland/heath Shrubs,Obligate seeder,,2
