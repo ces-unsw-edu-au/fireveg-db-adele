@@ -146,15 +146,15 @@ fireveg-db-adele/
 
 ### Steps
 
-1. **Refresh `database.csv`** — export a current snapshot from the litrev database using the queries in the pipeline documentation. This is used for duplicate detection.
+1. **Export `database.csv`** — run `export_database.R` to pull a current snapshot from the litrev PostgreSQL database. Requires credentials in `secrets/Renviron.local`. This file is not committed to the repository as it contains unpublished data.
 
-2. **Run all paper scripts**
+2. **Review `TRAIT_LOGIC.md`** — check interpretation consistency across all papers before running scripts.
+
+3. **Run all paper scripts**
    ```r
    source('run_all.R')
    ```
    This runs every paper's R script sequentially and logs errors. Set `RUN_UNPROCESSED_ONLY <- TRUE` to skip papers that already have a records CSV.
-
-3. **Review `TRAIT_LOGIC.md`** — check interpretation consistency across papers before aggregating.
 
 4. **Aggregate outputs**
    ```r
