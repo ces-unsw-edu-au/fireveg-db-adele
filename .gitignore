@@ -14,5 +14,4 @@ to_ingest.csv
 data/*
 !data/bionet_species_with_apcalign_suggested_name.csv
 data/database.csv
-outputs/
 workflow_two.html
