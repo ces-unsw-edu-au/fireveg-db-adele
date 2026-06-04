@@ -8,7 +8,7 @@ For an interactive version open `workflow.html` in a browser.
 
 ---
 
-## What this is
+## What on earth is this?
 
 A pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database (`litrev` schema). 
 
@@ -142,7 +142,7 @@ Check the `check_records()` output in combine.R for any flagged issues.
 - Instruct Claude to read the `PIPELINE.md`, `TRAIT_LOGIC.md`, and other `mapping.md` files to get an understanding of the workflow before creating new mapping for the first time
 
 - Claude can make errors in table transcription, especially with complex layouts — always verify the CSV yourself
-
+- There are often some paper-specific-quirks that might come up. You'll need to manage these at the individual script level with Claude, but it often brings improvements to the system as a whole. Update PIPELINE.md or functions where necessary to account for features that might come up across multiple papers to keep improving the workflow.
 ---
 
 ## Key files explained
