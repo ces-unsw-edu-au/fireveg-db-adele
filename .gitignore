@@ -11,10 +11,6 @@ misc.R
 current_records_from_primary_sources.R
 records_to_be_retired.R
 to_ingest.csv
-data/non_matching*.csv
-data/surv5_traits_from_db.csv
-data/austraits/
-data/bradstock_tozer_keith_97/
-data/trait translation.xlsx
-data/torrington/*.xlsx
+data/*
+!data/bionet_species_with_apcalign_suggested_name.csv
 workflow_two.html
