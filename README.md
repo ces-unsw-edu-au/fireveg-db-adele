@@ -97,9 +97,13 @@ For the full colour-coded version open `workflow.html` in a browser.
 
 ---
 
-## What this does
+## What this is
 
-Plant fire-response traits (resprouting strategy, regenerative organ, seedbank type, juvenile period, etc.) are extracted from scientific papers, standardised to the fireveg trait vocabulary, and prepared for import into a central PostgreSQL database. The pipeline handles taxonomy alignment, duplicate detection, and quality validation across all source papers.
+A pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database (`litrev` schema). Traits covered include resprouting strategy, regenerative organ, seedbank type, juvenile period, and others — see `PIPELINE.md` for the full trait list.
+
+This repository contains the **scripts, mapping files, and output records** for all papers processed so far. The intended use is ongoing: as new papers are identified, they can be added using the same workflow.
+
+The pipeline uses a Claude AI agent to assist with reading PDFs, transcribing tables, and writing R scripts — but every decision is reviewed and approved by a human before any data is processed. **The human review steps are the most important part.**
 
 ---
 
@@ -137,69 +141,90 @@ fireveg-db-adele/
 
 ---
 
-## How to run
+## Getting started
 
 ### Prerequisites
-- R (≥ 4.1)
-- Packages: `tidyverse`, `APCalign`
-- Database credentials in `secrets/Renviron.local` (not committed)
+- R (≥ 4.1) with packages: `tidyverse`, `APCalign`, `DBI`, `RPostgres`
+- Access to the fireveg PostgreSQL database (credentials in `secrets/Renviron.local` — not committed)
+- A Claude Pro subscription or API access (for AI-assisted steps)
 
-### Steps
+### First-time setup
 
-1. **Export `database.csv`** — run `export_database.R` to pull a current snapshot from the litrev PostgreSQL database. Requires credentials in `secrets/Renviron.local`. This file is not committed to the repository as it contains unpublished data.
+1. Clone this repository
+2. Set up `secrets/Renviron.local` with your database credentials (see `PIPELINE.md`)
+3. Run `R/export_database.R` to generate `data/database.csv` — this is a snapshot of existing database records used for duplicate detection. It is not committed because it contains unpublished data; regenerate it whenever you need a fresh snapshot
 
-2. **Review `TRAIT_LOGIC.md`** — check interpretation consistency across all papers before running scripts.
+---
 
-3. **Run all paper scripts**
-   ```r
-   source('run_all.R')
-   ```
-   This runs every paper's R script sequentially and logs errors. Set `RUN_UNPROCESSED_ONLY <- TRUE` to skip papers that already have a records CSV.
+## Running the existing scripts
 
-4. **Aggregate outputs**
-   ```r
-   source('combine.R')
-   ```
-   This validates each paper's records (`check_records()`), binds them all together, and writes the three upload-ready files.
+All papers that have already been processed have R scripts and records CSVs in `papers/`. To regenerate the upload files:
 
-5. **Database import** — hand `all_records.csv` and `all_dupes_exact_partial.csv` to the database administrator. New records are uploaded; duplicate records have `weight` set to 0.
+```r
+source('R/run_all.R')   # re-runs all paper scripts
+source('R/combine.R')   # validates and aggregates into outputs/
+```
+
+The three files in `outputs/` are then ready for the database administrator:
+- `all_records.csv` — new records to upload
+- `all_dupes_exact_partial.csv` — existing records to retire (set weight = 0)
+- `all_dupes_possible.csv` — review manually before deciding
 
 ---
 
 ## Adding a new paper
 
-The full process is documented in `PIPELINE.md`. This pipeline is designed to be run with the assistance of a Claude AI agent (Claude Pro or API), which handles PDF reading, CSV transcription, and R script generation. A human reviews and approves each step.
+This is the main ongoing use of the pipeline. The full process is in `PIPELINE.md` — read that first. The summary below highlights the **human decisions**, which are the critical steps. Claude assists with the mechanical work; you make all the calls.
 
-### Overview
+### Step 1 — Set up the paper folder
 
-1. **Create the paper folder** — `papers/Author Year/`
+Create `papers/Author Year/`, add the PDF. Run `R/update_mapping_db_counts.R` to populate a table of existing database records for this source into the mapping.md header — useful context before you start.
 
-2. **Run `R/update_mapping_db_counts.R`** — populates a record count table in the mapping.md header so you can see what's already in the database for this source before starting.
+### Step 2 — Create mapping.md with Claude *(AI-assisted)*
 
-3. **Create `mapping.md`** using Claude — ask Claude to read the paper PDF and propose:
-   - Which priority traits are extractable
-   - How source values map to the fireveg vocabulary
-   - Any species-level exceptions
-   - Set each trait status to `approved` or `skip`
-   
-   See `PIPELINE.md` for the mapping.md template and the trait vocabulary in `data/fireveg-trait-records-model.xlsx`.
+Ask Claude to read the PDF and produce a `mapping.md` file proposing:
+- Which traits are extractable from this paper
+- How source values map to the fireveg vocabulary (see `PIPELINE.md` for the trait vocabulary)
+- Any species-level exceptions
 
-4. **Transcribe source data to CSV** using Claude — ask Claude to read the PDF and transcribe the relevant table. Cross-check every cell against the paper yourself before proceeding.
+Claude will set all trait statuses to `skip` by default.
 
-5. **Generate the R processing script** using Claude — once mapping.md is approved and the CSV exists, ask Claude to write the script following the template in `PIPELINE.md`. Existing scripts in `papers/` are good examples.
+### Step 3 — Review and approve the mapping *(human)*
 
-6. **Review `TRAIT_LOGIC.md`** — before running scripts, check that interpretation decisions are consistent across all papers.
+**This is the most important step.** Go through each trait section in `mapping.md` and:
+- Change status to `approved` for traits you want to extract — verify the proposed value mapping makes ecological sense
+- Leave as `skip` for traits that aren't extractable or aren't needed
+- Fill in any `???` values Claude couldn't resolve
+- Add, remove, or correct species-level exceptions
+- Check the `**Evidence:**` line — does the mapping follow from what the paper actually says?
 
-7. **Run scripts** — `source('run_all.R')` or run individual paper scripts.
+Refer to `TRAIT_LOGIC.md` to see how the same trait has been mapped across other papers. Inconsistencies should be resolved before approving.
 
-8. **Aggregate** — `source('combine.R')` validates records and writes the upload files to `outputs/`.
+### Step 4 — Transcribe CSV and verify *(AI-assisted, then human)*
 
-### Prompting Claude effectively
+Ask Claude to read the PDF and transcribe the relevant table to CSV. Then **cross-check every cell against the paper yourself.** Transcription errors are the most common source of bad records.
 
-- Share the paper PDF and mapping.md template together when creating a new mapping
-- Ask Claude to flag any ambiguous mappings with `???` rather than guessing
-- Always verify transcribed CSVs against the paper — Claude can make errors, especially with complex tables
-- Use `TRAIT_LOGIC.md` as context when asking Claude to map a trait it has seen before across other papers
+### Step 5 — Generate and review the R script *(AI-assisted, then human)*
+
+Ask Claude to write the processing script using the approved mapping.md and CSV. Claude will follow the template in `PIPELINE.md`. Review the script — particularly the `case_when` logic — to confirm it correctly implements the approved mapping.
+
+### Step 6 — Run and aggregate *(human)*
+
+```r
+source('R/run_all.R')   # or source the individual paper script
+source('R/combine.R')
+```
+
+Check the `check_records()` output in combine.R for any flagged issues before handing outputs to the database administrator.
+
+---
+
+## Tips for working with Claude
+
+- Share the paper PDF, the `mapping.md` template, and `TRAIT_LOGIC.md` together when creating a new mapping
+- Ask Claude to flag ambiguous mappings with `???` rather than guess — you resolve them in the review step
+- Existing `mapping.md` files in `papers/` are good examples of what a completed mapping looks like
+- Claude can make errors in table transcription, especially with complex layouts — always verify the CSV yourself
 
 ---
 
@@ -207,10 +232,11 @@ The full process is documented in `PIPELINE.md`. This pipeline is designed to be
 
 | File | Purpose |
 |---|---|
-| `funx.R` | Core functions used by all scripts — taxonomy matching, duplicate flagging, record validation |
-| `combine.R` | Aggregates all `*_records.csv` files; runs `check_records()` per paper; writes `all_records.csv` |
-| `run_all.R` | Sources all paper scripts in one go; catches and logs errors |
-| `database.csv` | Database snapshot used by `flag_duplicates()` — refresh before running |
-| `PIPELINE.md` | Full pipeline documentation including script template and conventions |
-| `TRAIT_LOGIC.md` | Cross-paper record of how trait values were mapped — intended for expert review before import |
-| `workflow.html` | Visual diagram of the pipeline — open in any browser |
+| `PIPELINE.md` | Full pipeline documentation — read this before adding a new paper |
+| `TRAIT_LOGIC.md` | Cross-paper record of how each trait was mapped — review before approving new mappings and before running scripts |
+| `workflow.html` | Full colour visual diagram — open in any browser |
+| `R/funx.R` | Core functions used by all scripts — taxonomy matching, duplicate flagging, record validation |
+| `R/combine.R` | Aggregates all `*_records.csv` files; runs `check_records()` per paper; writes to `outputs/` |
+| `R/run_all.R` | Sources all paper scripts in one go; catches and logs errors |
+| `R/export_database.R` | Pulls current litrev records into `data/database.csv` for duplicate detection |
+| `data/database.csv` | Not committed — generate with `export_database.R` before running |
