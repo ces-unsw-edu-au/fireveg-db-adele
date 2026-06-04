@@ -1,6 +1,6 @@
 library(readxl)
 
-torrington <- read_csv('data/torrington/fire_and_rare_plants_torrington_state_species_traits.csv')
+torrington <- read_csv('papers/completed_manually/Clarke Fulloon 1999/fire_and_rare_plants_torrington_state_species_traits.csv')
 t1 <- read_excel('data/torrington/torrington_table_14.xlsx')
 t2 <- read_excel('data/torrington/torrington_table_15.xlsx')
 t <- bind_rows(t1, t2)

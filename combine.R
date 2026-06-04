@@ -47,7 +47,7 @@ all_records <- all_records %>%
   mutate(norm_value = if_else(trait_code %in% numerical_traits,
                               NA_character_, norm_value))
 
-write.csv(all_records, 'all_records.csv', row.names = FALSE)
+write.csv(all_records, 'outputs/all_records.csv', row.names = FALSE)
 
 # combine exact/partial dupe files from all paper scripts
 exact_partial_files <- list.files('papers', pattern = '_dupes_exact_partial\\.csv$',
@@ -62,7 +62,7 @@ all_dupes_exact_partial <- map_dfr(exact_partial_files,
                                        across(any_of(c('species_code','record_id')), as.character)
                                      ))
 
-write.csv(all_dupes_exact_partial, 'all_dupes_exact_partial.csv', row.names = FALSE)
+write.csv(all_dupes_exact_partial, 'outputs/all_dupes_exact_partial.csv', row.names = FALSE)
 
 # combine possible dupe files from all paper scripts
 possible_files <- list.files('papers', pattern = '_dupes_possible\\.csv$',
@@ -77,4 +77,4 @@ all_dupes_possible <- map_dfr(possible_files,
                                   across(any_of(c('species_code','record_id')), as.character)
                                 ))
 
-write.csv(all_dupes_possible, 'all_dupes_possible.csv', row.names = FALSE)
+write.csv(all_dupes_possible, 'outputs/all_dupes_possible.csv', row.names = FALSE)
