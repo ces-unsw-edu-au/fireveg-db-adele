@@ -66,6 +66,7 @@ Categorical trait vocabularies and numerical trait definitions are in `data/fire
 Create `papers/{Author Year}/mapping.md` following the template below. For each priority trait:
 - State whether it can be extracted and why/why not
 - Propose the value mapping (raw source value → norm_value)
+- Flag ambiguous mappings with `???` rather than guess
 - List any species-level exceptions
 - Set status to `skip` initially
 
