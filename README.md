@@ -4,7 +4,7 @@ A reproducible pipeline for extracting plant fire-response traits from published
 
 ![Pipeline Workflow](workflow.png)
 
-For an interactive version open `workflow.html` in a browser.
+For an interactive version open [workflow.html](workflow.html) in a browser.
 
 ---
 
