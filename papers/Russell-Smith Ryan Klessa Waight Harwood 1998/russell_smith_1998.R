@@ -182,3 +182,4 @@ write.csv(dupes$possible,
 # for (id in dupes$exact_partial$record_id) {
 #   dbExecute(con, paste0("UPDATE litrev.surv1 SET weight = 0 WHERE record_id = ", id))
 # }
+

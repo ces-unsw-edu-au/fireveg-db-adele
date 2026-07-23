@@ -110,6 +110,10 @@
 
 **Notes:** Table 5 provides a first-flowering year code per species: F1 = first flowered year 1; F2 = first flowered year 2; F3 = first flowered year 3 (Table 5 legend, p. 29). For OSR (obligate seed regenerator) species, flowering post-fire is from seed, so these codes approximate age at first flowering from seed. F3 species flowered in the 3-year-old site; species with no code cannot be classified.
 
+Only OSR species produce repr3 records. OSR is stated by the source — Table 5 is sectioned by regeneration strategy and the classification (following Purdie 1977a, 1977b) defines OSR as regenerating from seed or spores only — so there is no resprout cohort that could be the source of the flowering observation. FRR and ORR species go to repr3a instead; see that section for the reasoning.
+
+`raw_value` records both columns — `First flowering, {code}; Regeneration strategy, {code}` — because the regeneration strategy is what determines whether a first-flowering code becomes repr3 or repr3a.
+
 **Source units:** years
 
 **Value mapping**
@@ -134,6 +138,14 @@
 **Source column:** `First flowering` (Table 5, FRR and ORR species only)
 
 **Notes:** Same first-flowering year codes as repr3 (see above). For FRR and ORR species, post-fire flowering comes from resprouting stems, so these codes represent time from fire to first post-fire reproduction from resprouts. Same F1/F2/F3 mapping applies.
+
+**ORR is stated by the source; FRR is an inference.** Table 5 is sectioned by regeneration strategy, and the ORR section is headed "Obligate regrowth regenerators (by regrowth only)" (p. 29). An ORR species has no post-fire seedling cohort, so a flowering individual is necessarily a resprout — repr3a is stated, not inferred.
+
+FRR species regenerate both by regrowth and from seed, and the paper does not say which cohort the first-flowering observation came from. They are assigned to repr3a on the inference that only the resprout cohort can flower on the observed timescale: the FRR group includes all eucalypts, e.g. *Eucalyptus obliqua* coded `St1, L1 S1 F2` — regrowth from stems and lignotubers in year 1, germinated from seed in year 1, first flowered in year 2. A eucalypt seedling does not flower two years after germinating, so the F2 observation must be the resprouting cohort. Assigning FRR to repr3 would record "flowers from seed at 2 years" for a eucalypt, which is affirmatively wrong. Flagged for expert review in TRAIT_LOGIC.md.
+
+**Evidence:** Table 5 legend (p. 29): "S1=germinated from seed year 1; … L1=regrowth from lignotubers year 1; St1=regrowth from stems year 1 … F1=first flowered year 1; F2=first flowered year 2; F3=first flowered year 3"; ORR section heading, p. 29: "Obligate regrowth regenerators (by regrowth only)".
+
+`raw_value` records both columns — `First flowering, {code}; Regeneration strategy, {code}` — so that the FRR/ORR evidence for routing the value to repr3a rather than repr3 is visible on the record.
 
 **Source units:** years
 

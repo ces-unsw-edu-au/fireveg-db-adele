@@ -225,9 +225,13 @@ Numerical trait. norm_value preserves bounds: `"<4"` not `"4"` etc.
 | Paper | Source | Mapping logic | Status |
 |---|---|---|---|
 | Russell-Smith Ryan Klessa Waight Harwood 1998 | Appendix codes 1–5 | Direct integer-to-integer and code-to-year mapping | approved |
-| Van Moezel Loneragan Bell 1987 | Appendix Juvenile Period column | Values and ≤/< bounds normalised to < notation | approved |
-| Wark 1997 | Table 5 codes F1/F2/F3 | F1 → 1; F2 → 2; F3 → 3 | approved |
+| Van Moezel Loneragan Bell 1987 | Appendix Juvenile Period column, `Seed` and `Seed & Sprout` species only | Values and ≤/< bounds normalised to < notation | approved |
+| Wark 1997 | Table 5 codes F1/F2/F3, OSR species only | F1 → 1; F2 → 2; F3 → 3 | approved |
 | Tierney 2006 | Text (~3–4 years) | Insufficient precision; single fire event | skip |
+
+### Notes
+
+- **repr3 vs repr3a routing.** Where a paper reports a single time-to-first-flowering measure for all species, the species' regeneration mode decides which trait it becomes: seed-only regenerators → repr3, resprouters → repr3a. `raw_value` on these records carries both the flowering value and the regeneration-mode value that routed it, so the decision is auditable from the record alone.
 
 ---
 
@@ -243,9 +247,15 @@ Same numerical conventions as repr3.
 
 | Paper | Source | Mapping logic | Status |
 |---|---|---|---|
-| Van Moezel Loneragan Bell 1987 | Appendix Juvenile Period column | Same as repr3 but for resprouter species | approved |
-| Wark 1997 | Table 5 codes F1/F2/F3 | Same as repr3 | approved |
+| Van Moezel Loneragan Bell 1987 | Appendix Juvenile Period column, `Sprout` and `Sprout & Seed` species only | Same as repr3 but for resprouter species | approved |
+| Wark 1997 | Table 5 codes F1/F2/F3, ORR and FRR species only | Same as repr3 | approved |
 | Purdie Slatyer 1976 | Text | Flowering in first growing season noted but not expressed numerically | skip |
+
+### Flags for expert review
+
+- **Wark 1997: FRR species assigned to repr3a is an inference, not stated by the source.** Table 5's ORR section is headed "Obligate regrowth regenerators (by regrowth only)", so ORR → repr3a is stated — those species have no post-fire seedling cohort and a flowering individual must be a resprout. FRR (facultative regrowth regenerator) species regenerate both by regrowth *and* from seed, and the paper does not say which cohort was observed flowering. They are assigned to repr3a because only the resprout cohort can flower on the observed timescale: the FRR group includes all eucalypts, e.g. *Eucalyptus obliqua* coded `St1, L1 S1 F2` — germinated from seed in year 1, first flowered in year 2. A eucalypt seedling does not flower at 2 years, so the observation is the resprouting cohort. Routing FRR to repr3 instead would assert "flowers from seed at 2 years" for a eucalypt. 56 records depend on this inference. The alternative is to exclude FRR from both traits.
+
+- **Van Moezel Loneragan Bell 1987: combined-class species routed on first-listed mode.** Appendix 1 uses both `Sprout & Seed` and `Seed & Sprout`, and the header describes the column as the "most preferred fire response mode" — so the first-listed mode is read as dominant and decides the trait. 9 records (of 15 combined-class species) depend on this reading. Single-mode species (`Seed` → repr3, `Sprout` → repr3a) are unaffected; the Discussion explicitly treats sprouting species' juvenile period as a sprouter measure.
 
 ---
 

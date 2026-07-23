@@ -85,12 +85,17 @@ data_long <- data %>%
   filter(!is.na(norm_value))
 
 # raw_value
+# repr3 vs repr3a is decided by the regeneration strategy (OSR = flowering from
+# seed; FRR/ORR = flowering from resprouts), so the strategy code is carried in
+# raw_value alongside the first-flowering code that supplies the value itself.
 data_long <- data_long %>%
   mutate(
     raw_value = case_when(
       trait_code == 'surv1'  ~ paste0('Regeneration strategy, ', regen_strategy),
-      trait_code == 'repr3'  ~ paste0('First flowering, ', first_flowering),
-      trait_code == 'repr3a' ~ paste0('First flowering, ', first_flowering)
+      trait_code == 'repr3'  ~ paste0('First flowering, ', first_flowering,
+                                      '; Regeneration strategy, ', regen_strategy),
+      trait_code == 'repr3a' ~ paste0('First flowering, ', first_flowering,
+                                      '; Regeneration strategy, ', regen_strategy)
     )
   )
 
@@ -132,7 +137,7 @@ surv4_data <- data %>%
     notes = coalesce(notes, NA_character_)
   ) %>%
   filter(!is.na(norm_value)) %>%
-  select(bionet_name, species_code, original_source, trait_code,
+  select(original_name, bionet_name, species_code, original_source, trait_code,
          norm_value, best, lower, upper, raw_value, notes)
 
 # repr2 exceptions-only
@@ -146,19 +151,33 @@ repr2_exceptions <- match_bionet_taxonomy(repr2_exceptions, 'original_name')
 repr2_exceptions <- repr2_exceptions %>%
   mutate(original_source = 'Wark 1997',
          best = NA_real_, lower = NA_real_, upper = NA_real_, notes = coalesce(notes, NA_character_)) %>%
-  select(bionet_name, species_code, original_source, trait_code,
+  select(original_name, bionet_name, species_code, original_source, trait_code,
          norm_value, best, lower, upper, raw_value, notes)
 
 # Combine all records
 records <- bind_rows(
   data_long %>%
     mutate(notes = coalesce(notes, NA_character_)) %>%
-    filter(!is.na(species_code)) %>%
-    select(bionet_name, species_code, original_source, trait_code,
+    select(original_name, bionet_name, species_code, original_source, trait_code,
            norm_value, best, lower, upper, raw_value, notes),
   surv4_data,
   repr2_exceptions
 )
+
+# Report species that failed Bionet matching, then drop them.
+# The filter must run AFTER bind_rows so it covers the surv4 and repr2 branches
+# as well as data_long — non-vascular species (see transcription note 3) come
+# through the surv4 branch.
+report_unmatched(records)
+records <- records %>%
+  filter(!is.na(species_code)) %>%
+  select(-original_name)
+
+# Several source names collapse to the same accepted Bionet name with identical
+# values (e.g. Drosera peltata ssp. auriculata / macrantha / peltata all resolve
+# to Drosera peltata; the Danthonia spp. to Rytidosperma indutum). These produce
+# byte-identical rows, not genuine multi-value records, so collapse them here.
+records <- records %>% distinct()
 
 # Save and flag duplicates
 write_csv(records, 'papers/Wark 1997/wark_1997_records.csv')

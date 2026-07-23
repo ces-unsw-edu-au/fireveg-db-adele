@@ -1,11 +1,12 @@
 library(tidyverse)
 library(APCalign)
+source('R/funx.R')
 # combine tabular data from source
-benson_85_data <- read.csv('papers/completed_manually/Benson 1985/benson_1985_T3.csv',
+benson_85_data <- read.csv('data/glenorie_brisbane_waters/benson_1985_T3.csv',
                            na.strings = "") %>%
-  left_join(read.csv('papers/completed_manually/Benson 1985/benson_1985_T1.csv') %>% select(-Family),
+  left_join(read.csv('data/glenorie_brisbane_waters/benson_1985_T1.csv') %>% select(-Family),
             by = 'species') %>%
-  left_join(read.csv('papers/completed_manually/Benson 1985/benson_1985_F1.csv'),
+  left_join(read.csv('data/glenorie_brisbane_waters/benson_1985_F1.csv'),
             by = 'species')
 
 

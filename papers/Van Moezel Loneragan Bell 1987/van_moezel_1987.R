@@ -122,12 +122,17 @@ data_long <- data %>%
   filter(!is.na(norm_value))
 
 # Construct raw_value
+# repr3 vs repr3a is decided by the Fire Response class (Seed / Seed & Sprout =
+# juvenile period from seed; Sprout / Sprout & Seed = from resprouts), so the
+# Fire Response value is carried in raw_value alongside the Juvenile Period.
 data_long <- data_long %>%
   mutate(
     raw_value = case_when(
       trait_code == 'surv1'  ~ paste0('Fire Response, ', fire_response),
-      trait_code == 'repr3'  ~ paste0('Juvenile Period, ', juvenile_period),
-      trait_code == 'repr3a' ~ paste0('Juvenile Period, ', juvenile_period),
+      trait_code == 'repr3'  ~ paste0('Juvenile Period, ', juvenile_period,
+                                      '; Fire Response, ', fire_response),
+      trait_code == 'repr3a' ~ paste0('Juvenile Period, ', juvenile_period,
+                                      '; Fire Response, ', fire_response),
       trait_code == 'repr2'  ~ paste0('Juvenile Period annotation, ', annotation)
     )
   )
@@ -190,7 +195,7 @@ records <- records %>%
 write_csv(records, 'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_records.csv')
 
 # Flag duplicates
-#database <- read.csv('data/database.csv')
+database <- read.csv('data/database.csv')
 dupes <- flag_duplicates(records, database)
 write_csv(dupes$exact_partial, 'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_dupes_exact_partial.csv')
 write_csv(dupes$possible,      'papers/Van Moezel Loneragan Bell 1987/van_moezel_1987_dupes_possible.csv')
@@ -206,3 +211,4 @@ write_csv(dupes$possible,      'papers/Van Moezel Loneragan Bell 1987/van_moezel
 #   dbExecute(con, paste0("UPDATE litrev.{trait} SET weight = 0 WHERE record_id = ", id))
 # }
 # dbDisconnect(con)
+

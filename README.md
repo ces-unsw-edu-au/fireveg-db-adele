@@ -1,6 +1,6 @@
 # Fireveg Trait Import Pipeline
 
-A reproducible pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database (`litrev` schema).
+A reproducible pipeline for extracting plant fire-response traits from published literature and importing them into the fireveg PostgreSQL database.
 
 The pipeline uses a Claude AI agent to assist with reading PDFs, transcribing tables, and automate writing R scripts — but every decision is reviewed and approved by a human before any data is processed. 
 
@@ -118,7 +118,7 @@ If you are adding several papers at one time, you can batch run all the R script
 ```r
 source('R/run_all.R')
 ```
-Make sure you still review the scripts in batch running
+Make sure you still review the transcription notes at in each script when batch running
 
 ### Step 7 — Aggregate the records *(human)*
 

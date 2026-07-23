@@ -59,6 +59,12 @@
 
 **Source units:** years; ranges stored as `lower-upper` (e.g. `2-4`) where both bounds are known; upper-bound-only values stored as `<N` (e.g. `<5`)
 
+`raw_value` records both columns — `Juvenile Period, {value}; Fire Response, {value}` — because the Fire Response class is what determines whether a Juvenile Period becomes repr3 or repr3a.
+
+**Combined classes.** Appendix 1 uses four Fire Response values: `Seed`, `Sprout`, `Seed & Sprout`, `Sprout & Seed`. Both orderings genuinely appear in the source (e.g. *Banksia attenuata* = `Sprout & Seed`, *Banksia sphaerocarpa* = `Seed & Sprout`) and the order is meaningful: the Appendix 1 header describes the column as the **most preferred** fire response mode, so the first-listed mode is the dominant one. Combined-class species are therefore routed on their first-listed mode — `Seed & Sprout` → repr3, `Sprout & Seed` → repr3a. 15 species carry a combined class (matching the "Both" column of the summary table); 9 of them have a Juvenile Period value.
+
+**Evidence:** Appendix 1 header: "Annotated information where known includes edaphic preference, most preferred fire response mode, the juvenile period between fire and flower production". Discussion: "The common belief that plants regenerating from seed have a longer juvenile period than sprouting species was unfounded in these results" — the paper treats the juvenile period of sprouting species as a sprouter measure, confirming that for `Sprout` species the recorded flowering is from resprouts.
+
 **Value mapping**
 
 | Raw value | norm_value |
@@ -94,6 +100,8 @@
 **Notes:** Same Juvenile Period column as repr3 (see notes above for value interpretation). For Sprout and Sprout & Seed species, this represents time from fire to first post-fire flowering from resprouts. Same banding and range-format approach applies. Species with a blank Juvenile Period column cannot be coded.
 
 **Source units:** years; ranges stored as `lower-upper` (e.g. `2-4`) where both bounds are known; upper-bound-only values stored as `<N` (e.g. `<5`)
+
+`raw_value` records both columns — `Juvenile Period, {value}; Fire Response, {value}` — so that the Sprout / Sprout & Seed evidence for routing the value to repr3a rather than repr3 is visible on the record.
 
 **Value mapping** (same as repr3)
 
